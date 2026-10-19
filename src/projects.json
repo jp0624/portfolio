@@ -3,7 +3,7 @@
     "id": "sinkingship",
     "title": "Sinking Ship Entertainment",
     "category": "Creative web",
-    "description": "An immersive corporate website that brings an entertainment studio to life through animated scenes and rich navigation.",
+    "description": "Led and built interactive web experiences at Sinking Ship Entertainment. This corporate site combines PixiJS, HTML5 canvas and advanced CSS to bring the studio’s world to life.",
     "skills": [
       "PixiJS",
       "JavaScript",
@@ -25,7 +25,9 @@
     ],
     "image": "screenshots/sinkingship.jpg",
     "imageNote": "Live website snapshot",
-    "featured": true
+    "featured": true,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
     "id": "notes-dashboard",
@@ -55,7 +57,36 @@
     ],
     "image": "screenshots/notes-dashboard.jpg",
     "imageNote": "Live website snapshot",
-    "featured": true
+    "featured": true,
+    "liveNote": "",
+    "alternateLive": ""
+  },
+  {
+    "id": "pearson",
+    "title": "Toronto Pearson · Careers",
+    "category": "Business systems",
+    "description": "A corporate careers and job-board experience for Toronto Pearson. Built with React and SCSS integrated with Sitecore, combining structured content with an approachable job-discovery interface.",
+    "skills": [
+      "React",
+      "Sitecore",
+      "SCSS",
+      "Corporate UX"
+    ],
+    "languages": [
+      "JavaScript",
+      "SCSS"
+    ],
+    "live": "https://jobs.torontopearson.com/en/",
+    "status": "Client work",
+    "repo": "",
+    "sourceFiles": 0,
+    "reviewedAt": "2026-10-19",
+    "evidence": [],
+    "image": "screenshots/pearson.jpg",
+    "imageNote": "Live website snapshot",
+    "featured": true,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
     "id": "realestate",
@@ -83,32 +114,69 @@
     ],
     "image": "screenshots/realestate.jpg",
     "imageNote": "Live website snapshot",
-    "featured": true
+    "featured": true,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
-    "id": "pearson",
-    "title": "Toronto Pearson · Careers",
-    "category": "Business systems",
-    "description": "Corporate careers and job-board experience for Toronto Pearson, built with React, Sitecore and SCSS.",
+    "id": "oddsquad",
+    "title": "Odd Squad",
+    "category": "Creative web",
+    "description": "An interactive companion experience for the TV series, with agent areas, games and playful visual storytelling.",
     "skills": [
-      "React",
-      "Sitecore",
-      "SCSS",
-      "Corporate UX"
+      "JavaScript",
+      "Advanced CSS",
+      "Interaction design"
     ],
     "languages": [
       "JavaScript",
+      "CSS",
+      "HTML",
+      "PHP"
+    ],
+    "live": "https://www.oddsquadtv.com/oddsquad/agents/",
+    "status": "Client work",
+    "repo": "https://github.com/jp0624/oddsquad",
+    "sourceFiles": 2407,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/oddsquad/tree/main"
+    ],
+    "image": "screenshots/oddsquad.jpg",
+    "imageNote": "Live website snapshot",
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
+  },
+  {
+    "id": "le-chat",
+    "title": "Le-Chat · Agent Website",
+    "category": "Creative web",
+    "description": "A real estate website proof of concept with property carousels, search controls and branded agent presentation.",
+    "skills": [
+      "React",
+      "Firebase",
+      "TypeScript",
       "SCSS"
     ],
-    "live": "https://jobs.torontopearson.com/en/",
-    "status": "Client work",
-    "repo": "",
-    "sourceFiles": 0,
+    "languages": [
+      "TypeScript",
+      "SCSS",
+      "HTML"
+    ],
+    "live": "https://lechatrealestate.vercel.app/",
+    "status": "Proof of concept",
+    "repo": "https://github.com/jp0624/le-chat",
+    "sourceFiles": 128,
     "reviewedAt": "2026-10-19",
-    "evidence": [],
-    "image": "screenshots/pearson.jpg",
+    "evidence": [
+      "https://github.com/jp0624/le-chat/tree/main"
+    ],
+    "image": "screenshots/le-chat.jpg",
     "imageNote": "Live website snapshot",
-    "featured": true
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
     "id": "robots-vue-vite",
@@ -137,7 +205,38 @@
     ],
     "image": "screenshots/robots-vue-vite.jpg",
     "imageNote": "Live website snapshot",
-    "featured": true
+    "featured": true,
+    "liveNote": "",
+    "alternateLive": ""
+  },
+  {
+    "id": "management-dashboard-nextjs",
+    "title": "Target Management",
+    "category": "Business systems",
+    "description": "A Next.js dashboard with pipeline filters, charts, target editing and a change-history interface.",
+    "skills": [
+      "Next.js",
+      "Chart.js",
+      "Tailwind CSS",
+      "Docker"
+    ],
+    "languages": [
+      "TypeScript",
+      "CSS"
+    ],
+    "live": "https://management-dashboard-nextjs.vercel.app/",
+    "status": "Assessment",
+    "repo": "https://github.com/jp0624/management-dashboard-nextjs",
+    "sourceFiles": 48,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/management-dashboard-nextjs/tree/main"
+    ],
+    "image": "screenshots/management-dashboard-nextjs-v2.jpg",
+    "imageNote": "Live website snapshot",
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
     "id": "lidar-point-cloud-viewer",
@@ -166,7 +265,9 @@
     ],
     "image": "screenshots/lidar-point-cloud-viewer.svg",
     "imageNote": "Repository snapshot",
-    "featured": true
+    "featured": true,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
     "id": "showscenes",
@@ -186,7 +287,7 @@
       "HTML",
       "CSS"
     ],
-    "live": "",
+    "live": "https://movie-app-nu-virid.vercel.app/",
     "status": "Application",
     "repo": "https://github.com/jp0624/showscenes",
     "sourceFiles": 84,
@@ -196,63 +297,9 @@
     ],
     "image": "screenshots/showscenes.svg",
     "imageNote": "Repository snapshot",
-    "featured": true
-  },
-  {
-    "id": "oddsquad",
-    "title": "Odd Squad",
-    "category": "Creative web",
-    "description": "An interactive companion experience for the TV series, with agent areas, games and playful visual storytelling.",
-    "skills": [
-      "JavaScript",
-      "Advanced CSS",
-      "Interaction design"
-    ],
-    "languages": [
-      "JavaScript",
-      "CSS",
-      "HTML",
-      "PHP"
-    ],
-    "live": "https://www.oddsquadtv.com/oddsquad/agents/",
-    "status": "Client work",
-    "repo": "https://github.com/jp0624/oddsquad",
-    "sourceFiles": 2407,
-    "reviewedAt": "2026-10-19",
-    "evidence": [
-      "https://github.com/jp0624/oddsquad/tree/main"
-    ],
-    "image": "screenshots/oddsquad.jpg",
-    "imageNote": "Live website snapshot",
-    "featured": false
-  },
-  {
-    "id": "le-chat",
-    "title": "Le-Chat · Agent Website",
-    "category": "Creative web",
-    "description": "A real estate website proof of concept with property carousels, search controls and branded agent presentation.",
-    "skills": [
-      "React",
-      "Firebase",
-      "TypeScript",
-      "SCSS"
-    ],
-    "languages": [
-      "TypeScript",
-      "SCSS",
-      "HTML"
-    ],
-    "live": "https://lechatrealestate.vercel.app/",
-    "status": "Proof of concept",
-    "repo": "https://github.com/jp0624/le-chat",
-    "sourceFiles": 128,
-    "reviewedAt": "2026-10-19",
-    "evidence": [
-      "https://github.com/jp0624/le-chat/tree/main"
-    ],
-    "image": "screenshots/le-chat.jpg",
-    "imageNote": "Live website snapshot",
-    "featured": false
+    "featured": true,
+    "liveNote": "Checked 19 October 2026: this deployment returns DEPLOYMENT_NOT_FOUND. The repository remains available.",
+    "alternateLive": ""
   },
   {
     "id": "vue-crm",
@@ -283,13 +330,15 @@
     ],
     "image": "screenshots/vue-crm.svg",
     "imageNote": "Repository snapshot",
-    "featured": false
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
     "id": "lessonfactory",
     "title": "Lesson Factory",
     "category": "Business systems",
-    "description": "An Angular learning application with lesson and course structures, localization data and a companion Express API.",
+    "description": "Led the design and development of Lesson Factory: a custom lesson management system for creating, deploying and delivering training content. Coordinated planning, design and development while contributing across Angular interfaces, Node/Express APIs and data integration.",
     "skills": [
       "Angular",
       "RxJS",
@@ -304,7 +353,7 @@
       "CSS",
       "JavaScript"
     ],
-    "live": "",
+    "live": "https://alertdriving.vercel.app/",
     "status": "Application",
     "repo": "https://github.com/jp0624/lessonfactory",
     "sourceFiles": 492,
@@ -314,7 +363,9 @@
     ],
     "image": "screenshots/lessonfactory.svg",
     "imageNote": "Repository snapshot",
-    "featured": false
+    "featured": false,
+    "liveNote": "Checked 19 October 2026: this deployment returns DEPLOYMENT_NOT_FOUND. The repository and project summary remain available.",
+    "alternateLive": ""
   },
   {
     "id": "lessonfactory-be",
@@ -340,7 +391,9 @@
     ],
     "image": "screenshots/lessonfactory-be.svg",
     "imageNote": "Repository snapshot",
-    "featured": false
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
     "id": "dams",
@@ -370,7 +423,9 @@
     ],
     "image": "screenshots/dams.svg",
     "imageNote": "Repository snapshot",
-    "featured": false
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
     "id": "dams-be",
@@ -398,7 +453,9 @@
     ],
     "image": "screenshots/dams-be.svg",
     "imageNote": "Repository snapshot",
-    "featured": false
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
     "id": "lechat-realestate",
@@ -427,7 +484,9 @@
     ],
     "image": "screenshots/lechat-realestate.svg",
     "imageNote": "Repository snapshot",
-    "featured": false
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
     "id": "playground",
@@ -455,7 +514,9 @@
     ],
     "image": "screenshots/playground.svg",
     "imageNote": "Repository snapshot",
-    "featured": false
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
     "id": "js-helpers",
@@ -483,7 +544,9 @@
     ],
     "image": "screenshots/js-helpers.svg",
     "imageNote": "Repository snapshot",
-    "featured": false
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
     "id": "echo",
@@ -501,7 +564,7 @@
       "CSS",
       "HTML"
     ],
-    "live": "",
+    "live": "https://www.echobite.ca/",
     "status": "Prototype",
     "repo": "https://github.com/jp0624/echo",
     "sourceFiles": 22,
@@ -509,9 +572,11 @@
     "evidence": [
       "https://github.com/jp0624/echo/tree/main"
     ],
-    "image": "screenshots/echo.svg",
-    "imageNote": "Repository snapshot",
-    "featured": false
+    "image": "screenshots/echo-v2.jpg",
+    "imageNote": "Live website snapshot",
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
     "id": "phone-case",
@@ -528,7 +593,7 @@
       "TypeScript",
       "CSS"
     ],
-    "live": "",
+    "live": "https://jp-phone-case.vercel.app/",
     "status": "Prototype",
     "repo": "https://github.com/jp0624/phone-case",
     "sourceFiles": 33,
@@ -536,9 +601,11 @@
     "evidence": [
       "https://github.com/jp0624/phone-case/tree/main"
     ],
-    "image": "screenshots/phone-case.svg",
-    "imageNote": "Repository snapshot",
-    "featured": false
+    "image": "screenshots/phone-case-v2.jpg",
+    "imageNote": "Live website snapshot",
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
     "id": "gpt-prompts",
@@ -566,13 +633,15 @@
     ],
     "image": "screenshots/gpt-prompts.svg",
     "imageNote": "Repository snapshot",
-    "featured": false
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
     "id": "dbd",
-    "title": "Wishlist · Angular Study",
+    "title": "Dead by Daylight · Angular Study",
     "category": "Creative web",
-    "description": "An Angular 18 presentation prototype with header, navigation and hero components, plus server rendering configuration.",
+    "description": "An unofficial Angular 18 presentation study recreating a game-brand landing experience, with navigation, large hero imagery and responsive SCSS. Presented as a prototype, not an official client engagement.",
     "skills": [
       "Angular",
       "TypeScript",
@@ -584,7 +653,7 @@
       "HTML",
       "JavaScript"
     ],
-    "live": "",
+    "live": "https://jp-dbd.vercel.app/",
     "status": "Prototype",
     "repo": "https://github.com/jp0624/dbd",
     "sourceFiles": 61,
@@ -592,9 +661,11 @@
     "evidence": [
       "https://github.com/jp0624/dbd/tree/main"
     ],
-    "image": "screenshots/dbd.svg",
-    "imageNote": "Repository snapshot",
-    "featured": false
+    "image": "screenshots/dbd-v2.jpg",
+    "imageNote": "Live website snapshot",
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
     "id": "suiteportal",
@@ -623,7 +694,9 @@
     ],
     "image": "screenshots/suiteportal.svg",
     "imageNote": "Repository snapshot",
-    "featured": false
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
     "id": "node-redis-react",
@@ -653,7 +726,9 @@
     ],
     "image": "screenshots/node-redis-react.svg",
     "imageNote": "Repository snapshot",
-    "featured": false
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
     "id": "docker-next-firebase-auth",
@@ -670,7 +745,7 @@
       "TypeScript",
       "CSS"
     ],
-    "live": "",
+    "live": "https://docker-next-firebase-auth.vercel.app/",
     "status": "Starter",
     "repo": "https://github.com/jp0624/docker-next-firebase-auth",
     "sourceFiles": 45,
@@ -678,36 +753,11 @@
     "evidence": [
       "https://github.com/jp0624/docker-next-firebase-auth/tree/main"
     ],
-    "image": "screenshots/docker-next-firebase-auth.svg",
-    "imageNote": "Repository snapshot",
-    "featured": false
-  },
-  {
-    "id": "management-dashboard-nextjs",
-    "title": "Target Management",
-    "category": "Business systems",
-    "description": "A Next.js dashboard with pipeline filters, charts, target editing and a change-history interface.",
-    "skills": [
-      "Next.js",
-      "Chart.js",
-      "Tailwind CSS",
-      "Docker"
-    ],
-    "languages": [
-      "TypeScript",
-      "CSS"
-    ],
-    "live": "",
-    "status": "Assessment",
-    "repo": "https://github.com/jp0624/management-dashboard-nextjs",
-    "sourceFiles": 48,
-    "reviewedAt": "2026-10-19",
-    "evidence": [
-      "https://github.com/jp0624/management-dashboard-nextjs/tree/main"
-    ],
-    "image": "screenshots/management-dashboard-nextjs.svg",
-    "imageNote": "Repository snapshot",
-    "featured": false
+    "image": "screenshots/docker-next-firebase-auth-v2.jpg",
+    "imageNote": "Live website snapshot",
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
     "id": "air-call",
@@ -726,7 +776,7 @@
       "JavaScript",
       "HTML"
     ],
-    "live": "",
+    "live": "https://15e27db3.vercel.app/",
     "status": "Assessment",
     "repo": "https://github.com/jp0624/air-call",
     "sourceFiles": 33,
@@ -736,7 +786,9 @@
     ],
     "image": "screenshots/air-call.svg",
     "imageNote": "Repository snapshot",
-    "featured": false
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
     "id": "sportsbooks",
@@ -764,7 +816,9 @@
     ],
     "image": "screenshots/sportsbooks.svg",
     "imageNote": "Repository snapshot",
-    "featured": false
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
     "id": "jpchess",
@@ -784,7 +838,7 @@
       "CSS",
       "HTML"
     ],
-    "live": "",
+    "live": "https://jpchess.vercel.app/",
     "status": "Application",
     "repo": "https://github.com/jp0624/jpchess",
     "sourceFiles": 36,
@@ -794,7 +848,9 @@
     ],
     "image": "screenshots/jpchess.svg",
     "imageNote": "Repository snapshot",
-    "featured": false
+    "featured": false,
+    "liveNote": "Checked 19 October 2026: the supplied deployment shows the default Vite starter, rather than the chess application. Explore the repository for the chess implementation.",
+    "alternateLive": ""
   },
   {
     "id": "local-events-frontend",
@@ -822,7 +878,9 @@
     ],
     "image": "screenshots/local-events-frontend.svg",
     "imageNote": "Repository snapshot",
-    "featured": false
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
   },
   {
     "id": "local-events-backend",
@@ -852,6 +910,88 @@
     ],
     "image": "screenshots/local-events-backend.svg",
     "imageNote": "Repository snapshot",
-    "featured": false
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
+  },
+  {
+    "id": "evivids",
+    "title": "eVivids · Digital Practice",
+    "category": "Creative web",
+    "description": "A React and TypeScript web presence with a multistep contact interface. Alongside this site, my eVivids role spans technical leadership and digital product delivery.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "EmailJS",
+      "SCSS"
+    ],
+    "languages": [
+      "TypeScript",
+      "SCSS"
+    ],
+    "live": "https://www.evivids.com/",
+    "status": "Prototype",
+    "repo": "",
+    "sourceFiles": 0,
+    "reviewedAt": "2026-10-19",
+    "evidence": [],
+    "image": "screenshots/evivids-v2.jpg",
+    "imageNote": "Live website snapshot",
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
+  },
+  {
+    "id": "dayt",
+    "title": "DAYT · Brand Presence",
+    "category": "Creative web",
+    "description": "A compact React and TypeScript brand landing page with a bold gradient and distinctive identity treatment.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Brand presentation"
+    ],
+    "languages": [
+      "TypeScript",
+      "CSS"
+    ],
+    "live": "https://www.dayt.ca/",
+    "status": "Prototype",
+    "repo": "",
+    "sourceFiles": 0,
+    "reviewedAt": "2026-10-19",
+    "evidence": [],
+    "image": "screenshots/dayt-v2.jpg",
+    "imageNote": "Live website snapshot",
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": ""
+  },
+  {
+    "id": "availability",
+    "title": "Availability API",
+    "category": "Backend & infrastructure",
+    "description": "A small availability service built with Express and deployed as Vercel Node functions. Two supplied deployments are linked for reference.",
+    "skills": [
+      "Node.js",
+      "Express",
+      "Vercel Functions",
+      "API development"
+    ],
+    "languages": [
+      "JavaScript"
+    ],
+    "live": "https://jp-availability.vercel.app/",
+    "status": "Proof of concept",
+    "repo": "",
+    "sourceFiles": 0,
+    "reviewedAt": "2026-10-19",
+    "evidence": [],
+    "image": "screenshots/availability.svg",
+    "imageNote": "Deployment reference",
+    "featured": false,
+    "liveNote": "",
+    "alternateLive": "https://availability-one.vercel.app/"
   }
 ]

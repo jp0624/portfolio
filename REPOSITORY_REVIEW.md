@@ -299,3 +299,11 @@ Seven private repositories were inventoried and their trees reviewed but are omi
 ## Local Events · Content Engine
 
 Headless Drupal 11, PHP 8.3, MariaDB, DDEV/Docker and JSON:API, verified in README and apps/backend-drupal/composer.json. Presented as work in progress; not executed in this review.
+
+## Resume and deployment update — 19 October 2026
+
+The supplied ATS resume, detailed resume and cover letter provide the professional timeline, education, technical skills, selected client experience and leadership narrative. The newly attached copies match the earlier documents byte-for-byte. Dates retain overlaps as supplied. No team sizes, delivery metrics or results were invented.
+
+All supplied deployment URLs were added. The legacy `15e27db3` repository URL resolves to `air-call`; its live URL remains `https://15e27db3.vercel.app/`. Three additional public-facing entries (eVivids, DAYT and Availability) were authorized by the user's supplied links. Their private repository source and snapshots are not republished; only public website captures and short stack summaries are shown.
+
+Observed limitations: ShowScenes and Lesson Factory return `DEPLOYMENT_NOT_FOUND`; JP Chess shows a default Vite starter. The catalogue retains these supplied links and provides visible notes in the project dialogs. Demo code is described independently from deployment health. DBD is an unofficial Angular study, not asserted client work. Availability's alternate deployment is linked in its dialog.
