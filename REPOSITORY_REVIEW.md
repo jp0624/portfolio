@@ -306,4 +306,7 @@ The supplied ATS resume, detailed resume and cover letter provide the profession
 
 All supplied deployment URLs were added. The legacy `15e27db3` repository URL resolves to `air-call`; its live URL remains `https://15e27db3.vercel.app/`. Three additional public-facing entries (eVivids, DAYT and Availability) were authorized by the user's supplied links. Their private repository source and snapshots are not republished; only public website captures and short stack summaries are shown.
 
-Observed limitations: ShowScenes and Lesson Factory return `DEPLOYMENT_NOT_FOUND`; JP Chess shows a default Vite starter. The catalogue retains these supplied links and provides visible notes in the project dialogs. Demo code is described independently from deployment health. DBD is an unofficial Angular study, not asserted client work. Availability's alternate deployment is linked in its dialog.
+
+## Vercel app repair
+
+Project cards link directly to running applications. Package manifest covers have been replaced by live captures or typographic technical covers. JP Chess, ShowScenes, JS Helpers and Lesson Factory have repaired production builds and runtime loading. The LiDAR viewer and Sportsbooks have dedicated Vercel deployments. Lesson Factory uses clearly labelled sample text because original media and training services are absent. JP Chess Extreme is disabled while its engine assets are missing. The LiDAR scene requires WebGL 2. Source-only projects are not represented as deployed applications.

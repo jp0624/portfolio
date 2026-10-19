@@ -18,8 +18,8 @@ test('search finds hidden projects; modal exposes supplied link and deployment w
  await user.type(screen.getByRole('textbox',{name:'Search projects'}),'jp chess');
  const trigger=screen.getByRole('button',{name:'Explore JP Chess'});await user.click(trigger);
  const dialog=screen.getByRole('dialog');expect(dialog.hasAttribute('open')).toBe(true);
- expect(within(dialog).getByText(/default Vite starter/)).toBeTruthy();
- expect(within(dialog).getByRole('link',{name:/Open deployment/}).getAttribute('href')).toBe('https://jpchess.vercel.app/');
+ expect(within(dialog).getByText(/Extreme engine is disabled/)).toBeTruthy();
+ expect(within(dialog).getByRole('link',{name:/View live app/}).getAttribute('href')).toBe('https://jpchess.vercel.app/');
  fireEvent(dialog,new Event('cancel',{cancelable:true}));expect(dialog.hasAttribute('open')).toBe(false);expect(document.activeElement).toBe(trigger);
 });
 test('category and language controls combine and reset an empty result',async()=>{

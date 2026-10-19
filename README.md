@@ -19,7 +19,7 @@ npm run preview
 - Search project titles, descriptions, technologies, languages and skills. Multiple words narrow the results.
 - Combine category and language filters; sort featured, alphabetical or by category.
 - Open project detail dialogs with languages, relevant skills, repository and demo links.
-- Browse actual screenshots captured from public project websites, alongside clearly labelled repository snapshots for projects without a captured live demo.
+- Browse actual screenshots captured from public project websites, alongside clearly labelled technical covers for projects without a captured live demo.
 - Explore branding, logo, website and business-card originals in Google Drive, Ventus in Figma, and the 2014 design archive.
 - Responsive layouts, semantic landmarks, labelled controls, keyboard focus styles, native modal focus handling, Escape-to-close, reduced-motion support and lazy-loaded images.
 - No runtime GitHub API calls, credentials, backend or environment variables required.
@@ -32,7 +32,6 @@ npm run preview
 
 ## Screenshots
 
-The initial eight public website captures are bundled locally: Sinking Ship, Fieldnotes, Pearson, property search, Le-Chat agent website, CRM, Odd Squad and Robbie's simulation. Captured 19 October 2026. The CRM remained in its loading state in the capture browser, noted in its caption. Other cards show repository manifest/structure snapshots, not fabricated running interfaces. Branding covers are typographic editorial labels; original files open externally. Website imagery and client marks belong to their respective owners.
 
 ## Deployment
 
@@ -52,7 +51,7 @@ Google Fonts are optional enhancements; system fonts provide fallbacks. No analy
 
 ## Profile and visual refresh
 
-The profile, career timeline, education, selected client experience and skills now use John's supplied resume and cover letter. The catalogue contains 33 projects, including user-authorized public websites for eVivids, DAYT and Availability. All supplied deployment links are retained; project dialogs call out observed deployment failures or starter pages.
+The profile, career timeline, education, selected client experience and skills now use John's supplied resume and cover letter. The catalogue contains 33 projects, including user-authorized public websites for eVivids, DAYT and Availability. All supplied deployment links are retained; project dialogs document demo-specific requirements.
 
 Tailwind CSS 4 is integrated with `@tailwindcss/vite` and imported in `src/styles.css`. Literal utility classes in `src/Profile.tsx` and `src/App.tsx` handle grids, spacing, responsive breakpoints, typography, borders and new component layouts; custom CSS handles editorial styling and motion. This is not an unused Tailwind installation.
 
@@ -64,4 +63,7 @@ The AI-assisted portrait and technical artwork are optimized local WebP files. S
 
 Eight automated tests pass: four catalogue/filter checks plus four React interaction tests for career rendering, progressive project display, searching hidden projects, deployment notes, modal close/focus restoration, combined filters/reset, theme persistence and reduced-motion rendering. Native dialog methods and media/observer APIs are shimmed in jsdom; this is not browser visual QA. Strict TypeScript and the Vite production build also pass.
 
-The refresh includes 15 actual live-site captures in total. Broken deployments retain source snapshots. `src/Profile.tsx` contains profile/career/skills components; `src/App.tsx` contains navigation, filtering, project cards, theme and dialogs; `src/main.tsx` mounts the application.
+
+## Vercel app repair
+
+Project cards link directly to running applications. Package manifest covers have been replaced by live captures or typographic technical covers. JP Chess, ShowScenes, JS Helpers and Lesson Factory have repaired production builds and runtime loading. The LiDAR viewer and Sportsbooks have dedicated Vercel deployments. Lesson Factory uses clearly labelled sample text because original media and training services are absent. JP Chess Extreme is disabled while its engine assets are missing. The LiDAR scene requires WebGL 2. Source-only projects are not represented as deployed applications.

@@ -255,7 +255,7 @@
       "JavaScript",
       "HTML"
     ],
-    "live": "",
+    "live": "https://jp-lidar-viewer.vercel.app/",
     "status": "Simulation",
     "repo": "https://github.com/jp0624/lidar-point-cloud-viewer",
     "sourceFiles": 31,
@@ -263,10 +263,10 @@
     "evidence": [
       "https://github.com/jp0624/lidar-point-cloud-viewer/tree/main"
     ],
-    "image": "screenshots/lidar-point-cloud-viewer.svg",
-    "imageNote": "Repository snapshot",
+    "image": "screenshots/lidar-working.jpg",
+    "imageNote": "Live capture · WebGL unavailable in preview browser",
     "featured": true,
-    "liveNote": "",
+    "liveNote": "The 3D simulation needs WebGL 2 and hardware acceleration. The preview browser cannot render WebGL.",
     "alternateLive": ""
   },
   {
@@ -295,10 +295,10 @@
     "evidence": [
       "https://github.com/jp0624/showscenes/tree/main"
     ],
-    "image": "screenshots/showscenes.svg",
-    "imageNote": "Repository snapshot",
+    "image": "screenshots/showscenes-styled.jpg",
+    "imageNote": "Live website snapshot",
     "featured": true,
-    "liveNote": "Checked 19 October 2026: this deployment returns DEPLOYMENT_NOT_FOUND. The repository remains available.",
+    "liveNote": "",
     "alternateLive": ""
   },
   {
@@ -329,7 +329,7 @@
       "https://github.com/jp0624/vue-crm/tree/main"
     ],
     "image": "screenshots/vue-crm.svg",
-    "imageNote": "Repository snapshot",
+    "imageNote": "Technical project cover",
     "featured": false,
     "liveNote": "",
     "alternateLive": ""
@@ -361,10 +361,10 @@
     "evidence": [
       "https://github.com/jp0624/lessonfactory/tree/main"
     ],
-    "image": "screenshots/lessonfactory.svg",
-    "imageNote": "Repository snapshot",
+    "image": "screenshots/lessonfactory-working.jpg",
+    "imageNote": "Live website snapshot",
     "featured": false,
-    "liveNote": "Checked 19 October 2026: this deployment returns DEPLOYMENT_NOT_FOUND. The repository and project summary remain available.",
+    "liveNote": "Public demo uses sample text. Original course media and training records require the separate training service.",
     "alternateLive": ""
   },
   {
@@ -390,7 +390,7 @@
       "https://github.com/jp0624/lessonfactory-be/tree/main"
     ],
     "image": "screenshots/lessonfactory-be.svg",
-    "imageNote": "Repository snapshot",
+    "imageNote": "Technical project cover",
     "featured": false,
     "liveNote": "",
     "alternateLive": ""
@@ -422,7 +422,7 @@
       "https://github.com/jp0624/dams/tree/main"
     ],
     "image": "screenshots/dams.svg",
-    "imageNote": "Repository snapshot",
+    "imageNote": "Technical project cover",
     "featured": false,
     "liveNote": "",
     "alternateLive": ""
@@ -452,7 +452,7 @@
       "https://github.com/jp0624/dams-be/tree/main"
     ],
     "image": "screenshots/dams-be.svg",
-    "imageNote": "Repository snapshot",
+    "imageNote": "Technical project cover",
     "featured": false,
     "liveNote": "",
     "alternateLive": ""
@@ -483,7 +483,7 @@
       "https://github.com/jp0624/lechat-realestate/tree/main"
     ],
     "image": "screenshots/lechat-realestate.svg",
-    "imageNote": "Repository snapshot",
+    "imageNote": "Technical project cover",
     "featured": false,
     "liveNote": "",
     "alternateLive": ""
@@ -513,7 +513,7 @@
       "https://github.com/jp0624/playground/tree/main"
     ],
     "image": "screenshots/playground.svg",
-    "imageNote": "Repository snapshot",
+    "imageNote": "Technical project cover",
     "featured": false,
     "liveNote": "",
     "alternateLive": ""
@@ -542,8 +542,8 @@
     "evidence": [
       "https://github.com/jp0624/js-helpers/tree/main"
     ],
-    "image": "screenshots/js-helpers.svg",
-    "imageNote": "Repository snapshot",
+    "image": "screenshots/js-helpers-working.jpg",
+    "imageNote": "Live website snapshot",
     "featured": false,
     "liveNote": "",
     "alternateLive": ""
@@ -632,7 +632,7 @@
       "https://github.com/jp0624/gpt-prompts/tree/main"
     ],
     "image": "screenshots/gpt-prompts.svg",
-    "imageNote": "Repository snapshot",
+    "imageNote": "Technical project cover",
     "featured": false,
     "liveNote": "",
     "alternateLive": ""
@@ -693,7 +693,7 @@
       "https://github.com/jp0624/suiteportal/tree/main"
     ],
     "image": "screenshots/suiteportal.svg",
-    "imageNote": "Repository snapshot",
+    "imageNote": "Technical project cover",
     "featured": false,
     "liveNote": "",
     "alternateLive": ""
@@ -725,7 +725,7 @@
       "https://github.com/jp0624/node-redis-react/tree/main"
     ],
     "image": "screenshots/node-redis-react.svg",
-    "imageNote": "Repository snapshot",
+    "imageNote": "Technical project cover",
     "featured": false,
     "liveNote": "",
     "alternateLive": ""
@@ -785,7 +785,7 @@
       "https://github.com/jp0624/air-call/tree/main"
     ],
     "image": "screenshots/air-call.svg",
-    "imageNote": "Repository snapshot",
+    "imageNote": "Technical project cover",
     "featured": false,
     "liveNote": "",
     "alternateLive": ""
@@ -806,7 +806,7 @@
       "JavaScript",
       "CSS"
     ],
-    "live": "",
+    "live": "https://jp-sportsbooks.vercel.app/",
     "status": "Application",
     "repo": "https://github.com/jp0624/sportsbooks",
     "sourceFiles": 44,
@@ -814,10 +814,10 @@
     "evidence": [
       "https://github.com/jp0624/sportsbooks/tree/main"
     ],
-    "image": "screenshots/sportsbooks.svg",
-    "imageNote": "Repository snapshot",
+    "image": "screenshots/sportsbooks-working.jpg",
+    "imageNote": "Live website snapshot",
     "featured": false,
-    "liveNote": "",
+    "liveNote": "Calculation prototype using editable sample odds.",
     "alternateLive": ""
   },
   {
@@ -846,10 +846,10 @@
     "evidence": [
       "https://github.com/jp0624/jpchess/tree/main"
     ],
-    "image": "screenshots/jpchess.svg",
-    "imageNote": "Repository snapshot",
+    "image": "screenshots/jpchess-working.jpg",
+    "imageNote": "Live website snapshot",
     "featured": false,
-    "liveNote": "Checked 19 October 2026: the supplied deployment shows the default Vite starter, rather than the chess application. Explore the repository for the chess implementation.",
+    "liveNote": "Local play and built-in AI are available. The Extreme engine is disabled because its WebAssembly assets are missing from the repository.",
     "alternateLive": ""
   },
   {
@@ -877,7 +877,7 @@
       "https://github.com/jp0624/local-events-frontend/tree/main"
     ],
     "image": "screenshots/local-events-frontend.svg",
-    "imageNote": "Repository snapshot",
+    "imageNote": "Technical project cover",
     "featured": false,
     "liveNote": "",
     "alternateLive": ""
@@ -909,7 +909,7 @@
       "https://github.com/jp0624/local-events-backend/blob/main/apps/backend-drupal/composer.json"
     ],
     "image": "screenshots/local-events-backend.svg",
-    "imageNote": "Repository snapshot",
+    "imageNote": "Technical project cover",
     "featured": false,
     "liveNote": "",
     "alternateLive": ""
