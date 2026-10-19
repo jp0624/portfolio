@@ -1,0 +1,857 @@
+[
+  {
+    "id": "sinkingship",
+    "title": "Sinking Ship Entertainment",
+    "category": "Creative web",
+    "description": "An immersive corporate website that brings an entertainment studio to life through animated scenes and rich navigation.",
+    "skills": [
+      "PixiJS",
+      "JavaScript",
+      "Advanced CSS"
+    ],
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "PHP"
+    ],
+    "live": "https://sinkingship.vercel.app/",
+    "status": "Client work",
+    "repo": "https://github.com/jp0624/sinkingship",
+    "sourceFiles": 878,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/sinkingship/tree/main"
+    ],
+    "image": "screenshots/sinkingship.jpg",
+    "imageNote": "Live website snapshot",
+    "featured": true
+  },
+  {
+    "id": "notes-dashboard",
+    "title": "Fieldnotes",
+    "category": "Product apps",
+    "description": "A polished notes workspace with API-backed CRUD, optimistic updates and rollback, searchable categories, image uploads and persistent themes.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "MSW",
+      "Vitest"
+    ],
+    "languages": [
+      "TypeScript",
+      "HTML",
+      "JavaScript",
+      "CSS"
+    ],
+    "live": "https://notes-dashboard-int.vercel.app/",
+    "status": "Assessment",
+    "repo": "https://github.com/jp0624/notes-dashboard",
+    "sourceFiles": 36,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/notes-dashboard/tree/main"
+    ],
+    "image": "screenshots/notes-dashboard.jpg",
+    "imageNote": "Live website snapshot",
+    "featured": true
+  },
+  {
+    "id": "realestate",
+    "title": "Le-Chat · Property Search",
+    "category": "Product apps",
+    "description": "A Toronto property discovery proof of concept combining map markers, listing cards and property comments.",
+    "skills": [
+      "React",
+      "Firebase",
+      "Google Maps",
+      "TypeScript"
+    ],
+    "languages": [
+      "TypeScript",
+      "SCSS",
+      "HTML"
+    ],
+    "live": "https://jp-realestate.vercel.app/",
+    "status": "Proof of concept",
+    "repo": "https://github.com/jp0624/realestate",
+    "sourceFiles": 60,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/realestate/tree/main"
+    ],
+    "image": "screenshots/realestate.jpg",
+    "imageNote": "Live website snapshot",
+    "featured": true
+  },
+  {
+    "id": "pearson",
+    "title": "Toronto Pearson · Careers",
+    "category": "Business systems",
+    "description": "Corporate careers and job-board experience for Toronto Pearson, built with React, Sitecore and SCSS.",
+    "skills": [
+      "React",
+      "Sitecore",
+      "SCSS",
+      "Corporate UX"
+    ],
+    "languages": [
+      "JavaScript",
+      "SCSS"
+    ],
+    "live": "https://jobs.torontopearson.com/en/",
+    "status": "Client work",
+    "repo": "",
+    "sourceFiles": 0,
+    "reviewedAt": "2026-10-19",
+    "evidence": [],
+    "image": "screenshots/pearson.jpg",
+    "imageNote": "Live website snapshot",
+    "featured": true
+  },
+  {
+    "id": "robots-vue-vite",
+    "title": "Robbie’s Delivery Simulation",
+    "category": "Simulation & 3D",
+    "description": "A step-by-step robot delivery simulation with an expanding grid, collision indicators and live delivery statistics.",
+    "skills": [
+      "Vue 3",
+      "TypeScript",
+      "Simulation logic",
+      "Tailwind CSS"
+    ],
+    "languages": [
+      "Vue",
+      "TypeScript",
+      "HTML",
+      "CSS"
+    ],
+    "live": "https://robots-vue-vite.vercel.app/",
+    "status": "Simulation",
+    "repo": "https://github.com/jp0624/robots-vue-vite",
+    "sourceFiles": 28,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/robots-vue-vite/tree/main"
+    ],
+    "image": "screenshots/robots-vue-vite.jpg",
+    "imageNote": "Live website snapshot",
+    "featured": true
+  },
+  {
+    "id": "lidar-point-cloud-viewer",
+    "title": "LIDAR · Intersection Simulator",
+    "category": "Simulation & 3D",
+    "description": "A real-time intersection simulation combining moving vehicles, traffic signals, scene controls and synthetic point-cloud visualization.",
+    "skills": [
+      "React",
+      "Three.js",
+      "React Three Fiber",
+      "TypeScript"
+    ],
+    "languages": [
+      "TypeScript",
+      "CSS",
+      "JavaScript",
+      "HTML"
+    ],
+    "live": "",
+    "status": "Simulation",
+    "repo": "https://github.com/jp0624/lidar-point-cloud-viewer",
+    "sourceFiles": 31,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/lidar-point-cloud-viewer/tree/main"
+    ],
+    "image": "screenshots/lidar-point-cloud-viewer.svg",
+    "imageNote": "Repository snapshot",
+    "featured": true
+  },
+  {
+    "id": "showscenes",
+    "title": "ShowScenes · Cinema Discovery",
+    "category": "Product apps",
+    "description": "A movie and TV discovery application with TMDB integration, search, media detail views, recommendations and persistent favorites.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "React Router",
+      "TMDB API",
+      "Tailwind CSS"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "live": "",
+    "status": "Application",
+    "repo": "https://github.com/jp0624/showscenes",
+    "sourceFiles": 84,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/showscenes/tree/main"
+    ],
+    "image": "screenshots/showscenes.svg",
+    "imageNote": "Repository snapshot",
+    "featured": true
+  },
+  {
+    "id": "oddsquad",
+    "title": "Odd Squad",
+    "category": "Creative web",
+    "description": "An interactive companion experience for the TV series, with agent areas, games and playful visual storytelling.",
+    "skills": [
+      "JavaScript",
+      "Advanced CSS",
+      "Interaction design"
+    ],
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML",
+      "PHP"
+    ],
+    "live": "https://www.oddsquadtv.com/oddsquad/agents/",
+    "status": "Client work",
+    "repo": "https://github.com/jp0624/oddsquad",
+    "sourceFiles": 2407,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/oddsquad/tree/main"
+    ],
+    "image": "screenshots/oddsquad.jpg",
+    "imageNote": "Live website snapshot",
+    "featured": false
+  },
+  {
+    "id": "le-chat",
+    "title": "Le-Chat · Agent Website",
+    "category": "Creative web",
+    "description": "A real estate website proof of concept with property carousels, search controls and branded agent presentation.",
+    "skills": [
+      "React",
+      "Firebase",
+      "TypeScript",
+      "SCSS"
+    ],
+    "languages": [
+      "TypeScript",
+      "SCSS",
+      "HTML"
+    ],
+    "live": "https://lechatrealestate.vercel.app/",
+    "status": "Proof of concept",
+    "repo": "https://github.com/jp0624/le-chat",
+    "sourceFiles": 128,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/le-chat/tree/main"
+    ],
+    "image": "screenshots/le-chat.jpg",
+    "imageNote": "Live website snapshot",
+    "featured": false
+  },
+  {
+    "id": "vue-crm",
+    "title": "Le-Chat · CRM",
+    "category": "Product apps",
+    "description": "A lightweight client management proof of concept with a Firebase-connected client list and modal editing interface.",
+    "skills": [
+      "Vue 3",
+      "Firebase",
+      "TypeScript",
+      "SCSS"
+    ],
+    "languages": [
+      "Vue",
+      "SCSS",
+      "TypeScript",
+      "HTML",
+      "JavaScript",
+      "CSS"
+    ],
+    "live": "https://jp-crm.vercel.app/",
+    "status": "Proof of concept",
+    "repo": "https://github.com/jp0624/vue-crm",
+    "sourceFiles": 60,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/vue-crm/tree/main"
+    ],
+    "image": "screenshots/vue-crm.svg",
+    "imageNote": "Repository snapshot",
+    "featured": false
+  },
+  {
+    "id": "lessonfactory",
+    "title": "Lesson Factory",
+    "category": "Business systems",
+    "description": "An Angular learning application with lesson and course structures, localization data and a companion Express API.",
+    "skills": [
+      "Angular",
+      "RxJS",
+      "TypeScript",
+      "SCSS"
+    ],
+    "languages": [
+      "TypeScript",
+      "SQL",
+      "SCSS",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "live": "",
+    "status": "Application",
+    "repo": "https://github.com/jp0624/lessonfactory",
+    "sourceFiles": 492,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/lessonfactory/tree/main"
+    ],
+    "image": "screenshots/lessonfactory.svg",
+    "imageNote": "Repository snapshot",
+    "featured": false
+  },
+  {
+    "id": "lessonfactory-be",
+    "title": "Lesson Factory API",
+    "category": "Backend & infrastructure",
+    "description": "Express backend for the Lesson Factory application, with lesson routes, file upload middleware and MySQL access.",
+    "skills": [
+      "Node.js",
+      "Express",
+      "MySQL",
+      "REST APIs"
+    ],
+    "languages": [
+      "JavaScript"
+    ],
+    "live": "",
+    "status": "Backend",
+    "repo": "https://github.com/jp0624/lessonfactory-be",
+    "sourceFiles": 15,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/lessonfactory-be/tree/main"
+    ],
+    "image": "screenshots/lessonfactory-be.svg",
+    "imageNote": "Repository snapshot",
+    "featured": false
+  },
+  {
+    "id": "dams",
+    "title": "DAMS · Administration",
+    "category": "Business systems",
+    "description": "An Angular administration interface with reusable forms, data tables, authorization guards and content management modules.",
+    "skills": [
+      "Angular",
+      "Angular Material",
+      "Keycloak",
+      "RxJS"
+    ],
+    "languages": [
+      "TypeScript",
+      "HTML",
+      "SCSS",
+      "CSS",
+      "JavaScript"
+    ],
+    "live": "",
+    "status": "Application",
+    "repo": "https://github.com/jp0624/dams",
+    "sourceFiles": 657,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/dams/tree/main"
+    ],
+    "image": "screenshots/dams.svg",
+    "imageNote": "Repository snapshot",
+    "featured": false
+  },
+  {
+    "id": "dams-be",
+    "title": "DAMS · Backend",
+    "category": "Backend & infrastructure",
+    "description": "An administration API with content models, Keycloak integration, SQL and MongoDB dependencies, and spreadsheet import/export tooling.",
+    "skills": [
+      "Node.js",
+      "Express",
+      "MySQL",
+      "MongoDB",
+      "Keycloak"
+    ],
+    "languages": [
+      "JavaScript",
+      "SQL"
+    ],
+    "live": "",
+    "status": "Backend",
+    "repo": "https://github.com/jp0624/dams-be",
+    "sourceFiles": 97,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/dams-be/tree/main"
+    ],
+    "image": "screenshots/dams-be.svg",
+    "imageNote": "Repository snapshot",
+    "featured": false
+  },
+  {
+    "id": "lechat-realestate",
+    "title": "Le-Chat · Contentful Edition",
+    "category": "Creative web",
+    "description": "An earlier real estate presentation built with React, Contentful-driven content and a Swiper carousel.",
+    "skills": [
+      "React",
+      "Contentful",
+      "SCSS",
+      "Swiper"
+    ],
+    "languages": [
+      "JavaScript",
+      "SCSS",
+      "HTML",
+      "CSS"
+    ],
+    "live": "",
+    "status": "Prototype",
+    "repo": "https://github.com/jp0624/lechat-realestate",
+    "sourceFiles": 30,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/lechat-realestate/tree/main"
+    ],
+    "image": "screenshots/lechat-realestate.svg",
+    "imageNote": "Repository snapshot",
+    "featured": false
+  },
+  {
+    "id": "playground",
+    "title": "Frontend Playground",
+    "category": "Developer tools",
+    "description": "A Webpack starter workspace with ES6 compilation, Sass, PostCSS and linting configuration.",
+    "skills": [
+      "JavaScript",
+      "Webpack",
+      "Sass",
+      "Babel"
+    ],
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "SCSS"
+    ],
+    "live": "",
+    "status": "Starter",
+    "repo": "https://github.com/jp0624/playground",
+    "sourceFiles": 19,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/playground/tree/main"
+    ],
+    "image": "screenshots/playground.svg",
+    "imageNote": "Repository snapshot",
+    "featured": false
+  },
+  {
+    "id": "js-helpers",
+    "title": "JavaScript Field Guide",
+    "category": "Developer tools",
+    "description": "A browsable collection of JavaScript learning examples, organized through JSON content and React components.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "SCSS"
+    ],
+    "languages": [
+      "TypeScript",
+      "SCSS",
+      "HTML"
+    ],
+    "live": "https://js-helpers.vercel.app/",
+    "status": "Learning tool",
+    "repo": "https://github.com/jp0624/js-helpers",
+    "sourceFiles": 157,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/js-helpers/tree/main"
+    ],
+    "image": "screenshots/js-helpers.svg",
+    "imageNote": "Repository snapshot",
+    "featured": false
+  },
+  {
+    "id": "echo",
+    "title": "Echo Byte · Brand Study",
+    "category": "Creative web",
+    "description": "A compact React brand presentation featuring a custom SVG wordmark.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "SVG",
+      "CSS"
+    ],
+    "languages": [
+      "TypeScript",
+      "CSS",
+      "HTML"
+    ],
+    "live": "",
+    "status": "Prototype",
+    "repo": "https://github.com/jp0624/echo",
+    "sourceFiles": 22,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/echo/tree/main"
+    ],
+    "image": "screenshots/echo.svg",
+    "imageNote": "Repository snapshot",
+    "featured": false
+  },
+  {
+    "id": "phone-case",
+    "title": "Case Shop",
+    "category": "Creative web",
+    "description": "A Next.js phone-case storefront landing page exploring responsive product presentation and reusable visual components.",
+    "skills": [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "TypeScript"
+    ],
+    "languages": [
+      "TypeScript",
+      "CSS"
+    ],
+    "live": "",
+    "status": "Prototype",
+    "repo": "https://github.com/jp0624/phone-case",
+    "sourceFiles": 33,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/phone-case/tree/main"
+    ],
+    "image": "screenshots/phone-case.svg",
+    "imageNote": "Repository snapshot",
+    "featured": false
+  },
+  {
+    "id": "gpt-prompts",
+    "title": "GPT Prompts · Foundation",
+    "category": "Developer tools",
+    "description": "A Next.js project foundation with authentication routing, a MongoDB user model and prompt UI components. The feed is still a placeholder.",
+    "skills": [
+      "Next.js",
+      "NextAuth",
+      "MongoDB",
+      "JavaScript"
+    ],
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "TypeScript"
+    ],
+    "live": "",
+    "status": "Starter",
+    "repo": "https://github.com/jp0624/gpt-prompts",
+    "sourceFiles": 28,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/gpt-prompts/tree/main"
+    ],
+    "image": "screenshots/gpt-prompts.svg",
+    "imageNote": "Repository snapshot",
+    "featured": false
+  },
+  {
+    "id": "dbd",
+    "title": "Wishlist · Angular Study",
+    "category": "Creative web",
+    "description": "An Angular 18 presentation prototype with header, navigation and hero components, plus server rendering configuration.",
+    "skills": [
+      "Angular",
+      "TypeScript",
+      "SCSS"
+    ],
+    "languages": [
+      "TypeScript",
+      "SCSS",
+      "HTML",
+      "JavaScript"
+    ],
+    "live": "",
+    "status": "Prototype",
+    "repo": "https://github.com/jp0624/dbd",
+    "sourceFiles": 61,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/dbd/tree/main"
+    ],
+    "image": "screenshots/dbd.svg",
+    "imageNote": "Repository snapshot",
+    "featured": false
+  },
+  {
+    "id": "suiteportal",
+    "title": "SuitePortal",
+    "category": "Business systems",
+    "description": "An Nx monorepo pairing an Angular portal with NestJS maintenance-request endpoints and shared TypeScript interfaces.",
+    "skills": [
+      "Angular",
+      "NestJS",
+      "Nx",
+      "TypeScript"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "SCSS",
+      "HTML"
+    ],
+    "live": "",
+    "status": "Assessment",
+    "repo": "https://github.com/jp0624/suiteportal",
+    "sourceFiles": 98,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/suiteportal/tree/main"
+    ],
+    "image": "screenshots/suiteportal.svg",
+    "imageNote": "Repository snapshot",
+    "featured": false
+  },
+  {
+    "id": "node-redis-react",
+    "title": "Cached Content API",
+    "category": "Backend & infrastructure",
+    "description": "A React client and Express API demonstrating Redis-backed post caching with a one-hour TTL and layout selection.",
+    "skills": [
+      "React",
+      "Node.js",
+      "Express",
+      "Redis"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "CSS",
+      "SCSS",
+      "HTML"
+    ],
+    "live": "",
+    "status": "Proof of concept",
+    "repo": "https://github.com/jp0624/node-redis-react",
+    "sourceFiles": 35,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/node-redis-react/tree/main"
+    ],
+    "image": "screenshots/node-redis-react.svg",
+    "imageNote": "Repository snapshot",
+    "featured": false
+  },
+  {
+    "id": "docker-next-firebase-auth",
+    "title": "Authentication Starter",
+    "category": "Backend & infrastructure",
+    "description": "A Dockerized Next.js authentication example with Firebase registration, login, profile and password-reset interfaces.",
+    "skills": [
+      "Next.js",
+      "Firebase Auth",
+      "Docker",
+      "Tailwind CSS"
+    ],
+    "languages": [
+      "TypeScript",
+      "CSS"
+    ],
+    "live": "",
+    "status": "Starter",
+    "repo": "https://github.com/jp0624/docker-next-firebase-auth",
+    "sourceFiles": 45,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/docker-next-firebase-auth/tree/main"
+    ],
+    "image": "screenshots/docker-next-firebase-auth.svg",
+    "imageNote": "Repository snapshot",
+    "featured": false
+  },
+  {
+    "id": "management-dashboard-nextjs",
+    "title": "Target Management",
+    "category": "Business systems",
+    "description": "A Next.js dashboard with pipeline filters, charts, target editing and a change-history interface.",
+    "skills": [
+      "Next.js",
+      "Chart.js",
+      "Tailwind CSS",
+      "Docker"
+    ],
+    "languages": [
+      "TypeScript",
+      "CSS"
+    ],
+    "live": "",
+    "status": "Assessment",
+    "repo": "https://github.com/jp0624/management-dashboard-nextjs",
+    "sourceFiles": 48,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/management-dashboard-nextjs/tree/main"
+    ],
+    "image": "screenshots/management-dashboard-nextjs.svg",
+    "imageNote": "Repository snapshot",
+    "featured": false
+  },
+  {
+    "id": "air-call",
+    "title": "Aircall · Activity Feed",
+    "category": "Product apps",
+    "description": "A React call activity interface with call details, archived calls and individual or bulk archive actions through a REST API.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Context API",
+      "REST APIs"
+    ],
+    "languages": [
+      "TypeScript",
+      "SCSS",
+      "JavaScript",
+      "HTML"
+    ],
+    "live": "",
+    "status": "Assessment",
+    "repo": "https://github.com/jp0624/air-call",
+    "sourceFiles": 33,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/air-call/tree/main"
+    ],
+    "image": "screenshots/air-call.svg",
+    "imageNote": "Repository snapshot",
+    "featured": false
+  },
+  {
+    "id": "sportsbooks",
+    "title": "SportsBooks · Odds Calculator",
+    "category": "Product apps",
+    "description": "A typed odds comparison tool that calculates implied probabilities and potential arbitrage allocations from manually entered odds.",
+    "skills": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Numerical logic"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "CSS"
+    ],
+    "live": "",
+    "status": "Application",
+    "repo": "https://github.com/jp0624/sportsbooks",
+    "sourceFiles": 44,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/sportsbooks/tree/main"
+    ],
+    "image": "screenshots/sportsbooks.svg",
+    "imageNote": "Repository snapshot",
+    "featured": false
+  },
+  {
+    "id": "jpchess",
+    "title": "JP Chess",
+    "category": "Simulation & 3D",
+    "description": "A React chess application with drag-and-drop play, move history, material evaluation and multiple AI strategies.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Minimax",
+      "Web Workers",
+      "Stockfish"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "live": "",
+    "status": "Application",
+    "repo": "https://github.com/jp0624/jpchess",
+    "sourceFiles": 36,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/jpchess/tree/main"
+    ],
+    "image": "screenshots/jpchess.svg",
+    "imageNote": "Repository snapshot",
+    "featured": false
+  },
+  {
+    "id": "local-events-frontend",
+    "title": "Local Events & Experiences",
+    "category": "Product apps",
+    "description": "A Next.js App Router frontend that consumes headless Drupal content through JSON:API, with event, organizer and venue routes.",
+    "skills": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Drupal",
+      "JSON:API"
+    ],
+    "languages": [
+      "TypeScript",
+      "CSS"
+    ],
+    "live": "",
+    "status": "Work in progress",
+    "repo": "https://github.com/jp0624/local-events-frontend",
+    "sourceFiles": 35,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/local-events-frontend/tree/main"
+    ],
+    "image": "screenshots/local-events-frontend.svg",
+    "imageNote": "Repository snapshot",
+    "featured": false
+  },
+  {
+    "id": "local-events-backend",
+    "title": "Local Events · Content Engine",
+    "category": "Backend & infrastructure",
+    "description": "A headless Drupal 11 content engine for the Local Events platform, with JSON:API, Composer-managed modules and a DDEV/Docker development environment.",
+    "skills": [
+      "Drupal",
+      "PHP",
+      "JSON:API",
+      "DDEV",
+      "Docker",
+      "MariaDB"
+    ],
+    "languages": [
+      "PHP",
+      "YAML"
+    ],
+    "live": "",
+    "status": "Work in progress",
+    "repo": "https://github.com/jp0624/local-events-backend",
+    "sourceFiles": 0,
+    "reviewedAt": "2026-10-19",
+    "evidence": [
+      "https://github.com/jp0624/local-events-backend/blob/main/README.md",
+      "https://github.com/jp0624/local-events-backend/blob/main/apps/backend-drupal/composer.json"
+    ],
+    "image": "screenshots/local-events-backend.svg",
+    "imageNote": "Repository snapshot",
+    "featured": false
+  }
+]
