@@ -26,7 +26,7 @@ npm run preview
 
 ## Content and editing
 
-`src/projects.json` is the editable project catalogue. Each entry contains a category, description, stack/skills, language labels, status, source evidence, image and optional live URL. Images live in `public/screenshots/`. Design links are in `src/main.tsx`.
+`src/projects.json` is the editable project catalogue. Each entry contains a category, description, stack/skills, language labels, status, source evidence, image and optional live URL. Images live in `public/screenshots/`. Design links are in `src/App.tsx`.
 
 `REPOSITORY_REVIEW.md` records review coverage and limitations. All 38 accessible repositories were inventoried. Private repository source is excluded from public content; user-authorized public demos may be represented. Empty repositories are not presented as finished projects. Starter projects are explicitly labelled. Language labels are inferred from first-party file extensions rather than GitHub Linguist percentages. Stacks for supplied client work come from John; skills describe the work involved rather than a certification or proficiency score.
 
@@ -67,3 +67,7 @@ Eight automated tests pass: four catalogue/filter checks plus four React interac
 ## Vercel app repair
 
 Project cards link directly to running applications. Package manifest covers have been replaced by live captures or typographic technical covers. JP Chess, ShowScenes, JS Helpers and Lesson Factory have repaired production builds and runtime loading. The LiDAR viewer and Sportsbooks have dedicated Vercel deployments. Lesson Factory uses clearly labelled sample text because original media and training services are absent. JP Chess Extreme is disabled while its engine assets are missing. The LiDAR scene requires WebGL 2. Source-only projects are not represented as deployed applications.
+
+## Design and client experience
+
+The design cards show the supplied Le-Chat artwork and the Ventus brand sheet. Client and brand experience is grouped by industry using the resume. The layout uses the version before the motion ribbon, with the modal-centering fix retained.

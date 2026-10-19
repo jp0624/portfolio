@@ -824,7 +824,7 @@
     "id": "jpchess",
     "title": "JP Chess",
     "category": "Simulation & 3D",
-    "description": "A React chess application with drag-and-drop play, move history, material evaluation and multiple AI strategies.",
+    "description": "A React chess application with local and computer play, selectable promotions, move suggestions, captured pieces and Stockfish analysis.",
     "skills": [
       "React",
       "TypeScript",
@@ -849,7 +849,7 @@
     "image": "screenshots/jpchess-working.jpg",
     "imageNote": "Live website snapshot",
     "featured": false,
-    "liveNote": "Local play and built-in AI are available. The Extreme engine is disabled because its WebAssembly assets are missing from the repository.",
+    "liveNote": "Local two-player games or four computer levels, including Stockfish. Click or drag pieces; choose a promotion, undo moves and review the game history.",
     "alternateLive": ""
   },
   {

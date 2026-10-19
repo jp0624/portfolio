@@ -20,4 +20,8 @@ Product Inc. (`https://www.product.inc/`) and its Awwwards entry informed the ed
 
 ## Vercel app repair
 
-Project cards link directly to running applications. Package manifest covers have been replaced by live captures or typographic technical covers. JP Chess, ShowScenes, JS Helpers and Lesson Factory have repaired production builds and runtime loading. The LiDAR viewer and Sportsbooks have dedicated Vercel deployments. Lesson Factory uses clearly labelled sample text because original media and training services are absent. JP Chess Extreme is disabled while its engine assets are missing. The LiDAR scene requires WebGL 2. Source-only projects are not represented as deployed applications.
+Project cards link directly to running applications. Package manifest covers have been replaced by live captures or typographic technical covers. JP Chess, ShowScenes, JS Helpers and Lesson Factory have repaired production builds and runtime loading. The LiDAR viewer and Sportsbooks have dedicated Vercel deployments. Lesson Factory uses clearly labelled sample text because original media and training services are absent. JP Chess includes the Stockfish lite single-thread engine in Extreme mode. The LiDAR scene requires WebGL 2. Source-only projects are not represented as deployed applications.
+
+## Design originals
+
+The design previews in `public/design` come from the supplied Le-Chat Google Drive files and Ventus Figma node `102:2`. They show the user’s original work, not generated substitutes. Links on each card open the source.
