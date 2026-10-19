@@ -32,5 +32,7 @@ test('category and language controls combine and reset an empty result',async()=
 test('theme persists and reduced motion makes reveal blocks visible',async()=>{
  const user=userEvent.setup();render(<App/>);await user.click(screen.getByRole('button',{name:'Switch to dark theme'}));
  expect(document.documentElement.dataset.theme).toBe('dark');expect(localStorage.getItem('jp-theme')).toBe('dark');
+ await user.click(screen.getByRole('button',{name:'Pause motion'}));expect(document.documentElement.dataset.motion).toBe('paused');
+ await user.click(screen.getByRole('button',{name:'Resume motion'}));expect(document.documentElement.dataset.motion).toBe('playing');
  expect([...document.querySelectorAll('.reveal')].every(el=>el.classList.contains('is-visible'))).toBe(true);
 });

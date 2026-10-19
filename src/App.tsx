@@ -4,7 +4,7 @@ import projects from './projects.json';
 import {filterProjects} from './project-utils.mjs';
 import './styles.css';
 import {Hero, TechnicalScene, Career, Skills} from './Profile';
-import {useScrollScene, Reveal} from './Motion';
+import {useScrollScene, Reveal, MotionRibbon} from './Motion';
 type Project = typeof projects[number];
 const categories=['All work',...new Set(projects.map(p=>p.category))];
 const languages=[...new Set(projects.flatMap(p=>p.languages))].sort();
@@ -14,6 +14,8 @@ export function App(){
  useScrollScene();
  const [theme,setTheme]=useState(()=>{try{return localStorage.getItem('jp-theme')||'light'}catch{return 'light'}});
  const [visible,setVisible]=useState(8);
+ const [motionPaused,setMotionPaused]=useState(false);
+ useEffect(()=>{document.documentElement.dataset.motion=motionPaused?'paused':'playing'},[motionPaused]);
  useEffect(()=>{document.documentElement.dataset.theme=theme;try{localStorage.setItem('jp-theme',theme)}catch{}},[theme]);
  const [query,setQuery]=useState(''),[category,setCategory]=useState('All work'),[language,setLanguage]=useState('All languages'),[sort,setSort]=useState('Featured'),[selected,setSelected]=useState<Project|null>(null);
  useEffect(()=>setVisible(8),[query,category,language]);
@@ -21,8 +23,8 @@ export function App(){
  useEffect(()=>{if(selected){dialog.current?.showModal();document.body.style.overflow='hidden'}else{dialog.current?.close();document.body.style.overflow='';trigger.current?.focus()}return()=>{document.body.style.overflow=''}},[selected]);
  const filtered=filterProjects(projects,{query,category,language,sort}) as Project[];
  const clear=()=>{setQuery('');setCategory('All work');setLanguage('All languages')};
- return <><a className="skip" href="#work">Skip to projects</a><div className="scroll-progress" aria-hidden="true"/><header className="header sticky top-0 z-40 backdrop-blur-xl"><a className="wordmark" href="#">john parker<span>®</span></a><nav aria-label="Main navigation"><a href="#work">Work <span>{projects.length.toString().padStart(2,'0')}</span></a><a href="#about">About</a><a href="#experience">Experience</a><a href="#design">Design</a></nav><button className="theme-toggle" aria-label={`Switch to ${theme==='light'?'dark':'light'} theme`} onClick={()=>setTheme(theme==='light'?'dark':'light')}>{theme==='light'?'◐':'☀'}</button></header>
- <main><Hero/><TechnicalScene/>
+ return <><a className="skip" href="#work">Skip to projects</a><div className="scroll-progress" aria-hidden="true"/><header className="header sticky top-0 z-40 backdrop-blur-xl"><a className="wordmark" href="#">john parker<span>®</span></a><nav aria-label="Main navigation"><a href="#work">Work <span>{projects.length.toString().padStart(2,'0')}</span></a><a href="#about">About</a><a href="#experience">Experience</a><a href="#design">Design</a></nav><button className="motion-toggle" aria-label={motionPaused?'Resume motion':'Pause motion'} aria-pressed={motionPaused} onClick={()=>setMotionPaused(!motionPaused)}>{motionPaused?'▶':'Ⅱ'}</button><button className="theme-toggle" aria-label={`Switch to ${theme==='light'?'dark':'light'} theme`} onClick={()=>setTheme(theme==='light'?'dark':'light')}>{theme==='light'?'◐':'☀'}</button></header>
+ <main><Hero/><MotionRibbon/><TechnicalScene/>
  <section id="work" className="work"><div className="section-heading"><div><p className="eyebrow">01 / THE PROJECT INDEX</p><h2>A few ideas.<br/>A lot of making.</h2></div><p>Client work, personal explorations and<br/>technical challenges. Every project has a story.</p></div>
  <div className="filters"><div className="tabs" role="group" aria-label="Project categories">{categories.map(c=><button key={c} aria-pressed={category===c} className={category===c?'active':''} onClick={()=>setCategory(c)}>{c}{c==='All work'&&<span>{projects.length}</span>}</button>)}</div><div className="filter-row"><label className="search"><Search size={18}/><input aria-label="Search projects" value={query} onChange={e=>setQuery(e.target.value)} placeholder="Search projects, technologies, skills…"/>{query&&<button aria-label="Clear search" onClick={()=>setQuery('')}><X size={16}/></button>}</label><label className="select"><SlidersHorizontal size={15}/><span className="sr-only">Filter by language</span><select value={language} onChange={e=>setLanguage(e.target.value)}><option>All languages</option>{languages.map(l=><option key={l}>{l}</option>)}</select></label><label className="select"><span className="sr-only">Sort projects</span><select value={sort} onChange={e=>setSort(e.target.value)}><option>Featured</option><option>A–Z</option><option>Category</option></select></label></div></div>
  <div className="results"><span aria-live="polite">{filtered.length} projects{category!=='All work'?` / ${category}`:''}</span><span>OPEN A LIVE APP OR EXPLORE PROJECT DETAILS ↗</span></div>
