@@ -846,7 +846,7 @@
     "evidence": [
       "https://github.com/jp0624/jpchess/tree/main"
     ],
-    "image": "screenshots/jpchess-working.jpg",
+    "image": "screenshots/jpchess.webp",
     "imageNote": "Live website snapshot",
     "featured": false,
     "liveNote": "Local two-player games or four computer levels, including Stockfish. Click or drag pieces; choose a promotion, undo moves and review the game history.",
