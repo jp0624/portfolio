@@ -13,12 +13,12 @@ test('profile renders career and education; reveal-all expands the project catal
  await user.click(screen.getByRole('button',{name:'Explore all 33 projects'}));
  expect(screen.getAllByRole('button',{name:/^Explore /}).filter(x=>x.classList.contains('project-image'))).toHaveLength(33);
 });
-test('search finds hidden projects; modal exposes supplied link and deployment warning',async()=>{
+test('search finds hidden projects; modal exposes supplied link and current deployment details',async()=>{
  const user=userEvent.setup();render(<App/>);
  await user.type(screen.getByRole('textbox',{name:'Search projects'}),'jp chess');
  const trigger=screen.getByRole('button',{name:'Explore JP Chess'});await user.click(trigger);
  const dialog=screen.getByRole('dialog');expect(dialog.hasAttribute('open')).toBe(true);
- expect(within(dialog).getByText(/Extreme engine is disabled/)).toBeTruthy();
+ expect(within(dialog).getByText(/four computer levels, including Stockfish/)).toBeTruthy();
  expect(within(dialog).getByRole('link',{name:/View live app/}).getAttribute('href')).toBe('https://jpchess.vercel.app/');
  fireEvent(dialog,new Event('cancel',{cancelable:true}));expect(dialog.hasAttribute('open')).toBe(false);expect(document.activeElement).toBe(trigger);
 });
