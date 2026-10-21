@@ -37,3 +37,5 @@ Fresh 1440 × 900 browser captures from the live deployments, with page fonts an
 The three project entries use dated filenames to avoid stale cached thumbnails. Card previews and project-detail dialogs share these image references.
 
 - `public/screenshots/sportsbooks-dark-2026-10-21.jpg`: captured from https://jp-sportsbooks.vercel.app/home on 2026-10-21 at 1440 × 900, using the app’s dark theme.
+
+- `public/screenshots/target-management-dark-2026-10-21.jpg`: captured from https://management-dashboard-nextjs.vercel.app/dashboard on 2026-10-21 at 1440 × 900 with dark mode enabled.
