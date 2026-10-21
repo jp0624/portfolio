@@ -35,3 +35,5 @@ Fresh 1440 × 900 browser captures from the live deployments, with page fonts an
 - `public/screenshots/management-dashboard-nextjs-2026-10-21.jpg`: https://management-dashboard-nextjs.vercel.app/dashboard — updated dashboard, theme toggle, and technical artwork.
 
 The three project entries use dated filenames to avoid stale cached thumbnails. Card previews and project-detail dialogs share these image references.
+
+- `public/screenshots/sportsbooks-dark-2026-10-21.jpg`: captured from https://jp-sportsbooks.vercel.app/home on 2026-10-21 at 1440 × 900, using the app’s dark theme.
