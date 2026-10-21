@@ -39,3 +39,9 @@ The three project entries use dated filenames to avoid stale cached thumbnails. 
 - `public/screenshots/sportsbooks-dark-2026-10-21.jpg`: captured from https://jp-sportsbooks.vercel.app/home on 2026-10-21 at 1440 × 900, using the app’s dark theme.
 
 - `public/screenshots/target-management-dark-2026-10-21.jpg`: captured from https://management-dashboard-nextjs.vercel.app/dashboard on 2026-10-21 at 1440 × 900 with dark mode enabled.
+
+
+## Editorial section background — 2026-10-21
+
+- `public/images/editorial-systems.webp`: generated with the built-in image-generation tool, optimized to WebP, used as a decorative background for hero, About and Contact. It is abstract artwork, not a project screenshot.
+- Prompt: “Premium editorial 3D architectural still life: brushed silver and translucent frosted glass precision structures, restrained cobalt-blue edges, fine machined grids, layered planes and elegant computing-inspired curves. Warm off-white studio, cool grey shadows. Detail on the right third, luminous negative space on the left for copy. Quiet, tactile, realistic materials. No text, logos, UI, people, neon or busy circuit boards. Coherent across wide crops and dark overlays.”

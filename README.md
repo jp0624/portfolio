@@ -19,7 +19,7 @@ npm run preview
 - Search project titles, descriptions, technologies, languages and skills. Multiple words narrow the results.
 - Combine category and language filters; sort featured, alphabetical or by category.
 - Open project detail dialogs with languages, relevant skills, repository and demo links.
-- Browse actual screenshots captured from public project websites, alongside clearly labelled technical covers for projects without a captured live demo.
+- Browse every live showcase with a real website snapshot, followed by compact, image-free cards grouped by category for other projects.
 - Explore branding, logo, website and business-card originals in Google Drive, Ventus in Figma, and the 2014 design archive.
 - Responsive layouts, semantic landmarks, labelled controls, keyboard focus styles, native modal focus handling, Escape-to-close, reduced-motion support and lazy-loaded images.
 - No runtime GitHub API calls, credentials, backend or environment variables required.
@@ -55,13 +55,13 @@ The profile, career timeline, education, selected client experience and skills n
 
 Tailwind CSS 4 is integrated with `@tailwindcss/vite` and imported in `src/styles.css`. Literal utility classes in `src/Profile.tsx` and `src/App.tsx` handle grids, spacing, responsive breakpoints, typography, borders and new component layouts; custom CSS handles editorial styling and motion. This is not an unused Tailwind installation.
 
-`src/Motion.tsx` implements requestAnimationFrame-throttled scroll parallax for the portrait and technical artwork, viewport reveal transitions and a reading-progress line. It uses passive listeners, bounds transforms, cleans up observers/listeners, and responds to reduced-motion preference changes. Light/dark theme selection persists locally. Initial project display is limited to eight with an explicit reveal-all control; search/category/language work across the entire catalogue.
+`src/Motion.tsx` implements requestAnimationFrame-throttled scroll parallax for the portrait and technical artwork, viewport reveal transitions and a reading-progress line. It uses passive listeners, bounds transforms, cleans up observers/listeners, and responds to reduced-motion preference changes. Light/dark theme selection persists locally. All 20 projects with both a live link and a real screenshot are visible immediately. The remaining 13 appear below in compact category groups. Search/category/language controls apply to both sections. The hero’s accented Explore all projects link jumps to the complete index.
 
 The AI-assisted portrait and technical artwork are optimized local WebP files. See `ASSETS.md` for prompts and provenance. The original photo and private uploaded documents are not published.
 
 ### Refresh validation
 
-Eight automated tests pass: four catalogue/filter checks plus four React interaction tests for career rendering, progressive project display, searching hidden projects, deployment notes, modal close/focus restoration, combined filters/reset, theme persistence and reduced-motion rendering. Native dialog methods and media/observer APIs are shimmed in jsdom; this is not browser visual QA. Strict TypeScript and the Vite production build also pass.
+Nine automated tests pass: five catalogue/filter checks plus four React interaction tests for complete showcase rendering, categorized compact cards, image-free details, deployment notes, modal close/focus restoration, combined filters/reset, theme persistence and reduced-motion rendering. Native dialog methods and media/observer APIs are shimmed in jsdom; this is not browser visual QA. Strict TypeScript and the Vite production build also pass.
 
 
 ## Vercel app repair
@@ -71,3 +71,8 @@ Project cards link directly to running applications. Package manifest covers hav
 ## Design and client experience
 
 The design cards show the supplied Le-Chat artwork and the Ventus brand sheet. Client and brand experience is grouped by industry using the resume. The layout uses the version before the motion ribbon, with the modal-centering fix retained.
+
+
+## Full-width editorial sections
+
+The hero, technical scene, About and Contact backgrounds span the viewport, while their content stays aligned within a 1440px grid. Hero, About and Contact share optimized silver/glass/cobalt artwork, with different crops and theme-aware overlays. The existing technical sculpture remains in its own section. Browser checks cover both themes, catalogue interactions, and full-width bounds without horizontal overflow at 320, 390, 768, 1440 and 1920px.

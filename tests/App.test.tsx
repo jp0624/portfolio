@@ -4,14 +4,19 @@ import {render,screen,fireEvent,within} from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import {App} from '../src/App';
 
-test('profile renders career and education; reveal-all expands the project catalogue', async()=>{
+test('shows every live snapshot and groups the remaining projects without images', async()=>{
  const user=userEvent.setup();render(<App/>);
  expect(screen.getByRole('heading',{name:'John Parker.'})).toBeTruthy();
  expect(screen.getByRole('heading',{name:'Corel'})).toBeTruthy();
- expect(screen.getByRole('heading',{name:'University of Toronto'})).toBeTruthy();
- expect(screen.getAllByRole('button',{name:/^Explore /}).filter(x=>x.classList.contains('project-image'))).toHaveLength(8);
- await user.click(screen.getByRole('button',{name:'Explore all 33 projects'}));
- expect(screen.getAllByRole('button',{name:/^Explore /}).filter(x=>x.classList.contains('project-image'))).toHaveLength(33);
+ expect(document.querySelectorAll('.project-image')).toHaveLength(20);
+ expect(document.querySelectorAll('.compact-card')).toHaveLength(13);
+ expect(document.querySelectorAll('.compact-card img')).toHaveLength(0);
+ expect(screen.getByRole('link',{name:'Explore all projects'}).getAttribute('href')).toBe('#work');
+ const archive=screen.getByRole('region',{name:'Behind the interfaces.'});
+ expect(within(archive).getByRole('region',{name:'Backend & infrastructure additional projects'})).toBeTruthy();
+ await user.click(within(archive).getByRole('button',{name:'Explore Le-Chat · CRM'}));
+ expect(screen.getByRole('dialog').querySelector('img')).toBeNull();
+ expect(within(screen.getByRole('dialog')).getByRole('link',{name:/View live app/})).toBeTruthy();
 });
 test('search finds hidden projects; modal exposes supplied link and current deployment details',async()=>{
  const user=userEvent.setup();render(<App/>);
@@ -34,4 +39,5 @@ test('theme persists and reduced motion makes reveal blocks visible',async()=>{
  expect(document.documentElement.dataset.theme).toBe('dark');expect(localStorage.getItem('jp-theme')).toBe('dark');
  expect([...document.querySelectorAll('.reveal')].every(el=>el.classList.contains('is-visible'))).toBe(true);
 });
+
 

@@ -5,3 +5,9 @@ export function filterProjects(projects,{query='',category='All work',language='
  if(sort==='Category')result.sort((a,b)=>a.category.localeCompare(b.category)||a.title.localeCompare(b.title));
  return result;
 }
+
+
+/** Illustrated project covers are not live-site snapshots. */
+export function hasLiveSnapshot(project) {
+ return Boolean(project.live?.trim() && project.image && /\.(jpe?g|png|webp|avif)$/i.test(project.image) && /^Live (website snapshot|capture)/i.test(project.imageNote || ""));
+}
