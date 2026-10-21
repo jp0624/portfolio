@@ -45,3 +45,7 @@ The three project entries use dated filenames to avoid stale cached thumbnails. 
 
 - `public/images/editorial-systems.webp`: generated with the built-in image-generation tool, optimized to WebP, used as a decorative background for hero, About and Contact. It is abstract artwork, not a project screenshot.
 - Prompt: “Premium editorial 3D architectural still life: brushed silver and translucent frosted glass precision structures, restrained cobalt-blue edges, fine machined grids, layered planes and elegant computing-inspired curves. Warm off-white studio, cool grey shadows. Detail on the right third, luminous negative space on the left for copy. Quiet, tactile, realistic materials. No text, logos, UI, people, neon or busy circuit boards. Coherent across wide crops and dark overlays.”
+
+## 2014 portfolio gallery
+
+`public/archive/2014-page-01.webp` through `2014-page-41.webp` are complete page renders of John's original 41-page portfolio, from https://jp-clients.s3.amazonaws.com/_docs/portfolio_12-02-14-opt.pdf (the destination of the existing 2014 archive link). Rendered at 918 × 1188 and optimized to WebP; original page compositions and project imagery are preserved. Labels describe the visible brands or grouped work. The gallery distinguishes historical portfolio pages from current live-site screenshots and links to the original PDF page. No new imagery was generated for these previews.

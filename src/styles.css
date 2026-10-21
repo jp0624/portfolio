@@ -98,3 +98,19 @@ select{color-scheme:light}select option,select optgroup{background:#f3f2ee;color
 [data-theme=dark] [data-category='Simulation & 3D']{--category-color:#ddbb80;--category-tint:#ddbb8014}
 [data-theme=dark] [data-category='Developer tools']{--category-color:#d7a2b4;--category-tint:#d7a2b414}
 @media(max-width:560px){.header-inner{padding:18px 5%;gap:10px}}
+.archive-gallery{margin-top:45px;padding-top:30px;border-top:1px solid var(--line)}
+.archive-gallery .archive-heading h3{font-family:Manrope,Arial,sans-serif;font-size:clamp(24px,2.5vw,34px);letter-spacing:-1px;line-height:1.2;margin:10px 0 0}
+.archive-count{font-size:11px;color:var(--muted);margin:0 0 18px}
+.archive-gallery-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 20px}
+.archive-preview{position:relative;background:#e2e4e4;border:1px solid var(--line);border-radius:7px;overflow:hidden;aspect-ratio:1.15;display:flex;justify-content:center;padding:12px}
+.archive-preview img{height:100%;width:100%;object-fit:contain;transition:transform .25s ease}
+.archive-gallery-card a:hover img{transform:scale(1.025)}
+.archive-preview>span{position:absolute;right:10px;bottom:10px;display:flex;gap:6px;align-items:center;font-size:9px;background:#f3f2eef2;color:#222628;padding:5px 8px;border-radius:4px}
+.archive-caption{display:flex;justify-content:space-between;gap:10px;font-size:9px;color:var(--muted);margin-top:10px}
+.archive-gallery-card h4{display:flex;align-items:start;justify-content:space-between;gap:10px;font-size:13px;font-weight:550;line-height:1.5;margin:5px 0 0}
+.archive-gallery-card h4 svg{flex-shrink:0;margin-top:3px}
+.archive-more{margin-top:26px;text-align:center}
+[data-theme=dark] .archive-preview{background:#20282f}
+@media(max-width:900px){.archive-gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.archive-gallery-grid{grid-template-columns:1fr}.archive-preview{aspect-ratio:1.2}.archive-gallery{margin-top:32px}}
+@media(prefers-reduced-motion:reduce){.archive-gallery-card a:hover img{transform:none}}
