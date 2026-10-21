@@ -112,7 +112,7 @@
     "evidence": [
       "https://github.com/jp0624/realestate/tree/main"
     ],
-    "image": "screenshots/realestate.jpg",
+    "image": "screenshots/realestate-2026-10-21.jpg",
     "imageNote": "Live website snapshot",
     "featured": true,
     "liveNote": "",
@@ -172,7 +172,7 @@
     "evidence": [
       "https://github.com/jp0624/le-chat/tree/main"
     ],
-    "image": "screenshots/le-chat.jpg",
+    "image": "screenshots/le-chat-2026-10-21.jpg",
     "imageNote": "Live website snapshot",
     "featured": false,
     "liveNote": "",
@@ -232,7 +232,7 @@
     "evidence": [
       "https://github.com/jp0624/management-dashboard-nextjs/tree/main"
     ],
-    "image": "screenshots/management-dashboard-nextjs-v2.jpg",
+    "image": "screenshots/management-dashboard-nextjs-2026-10-21.jpg",
     "imageNote": "Live website snapshot",
     "featured": false,
     "liveNote": "",

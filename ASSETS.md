@@ -25,3 +25,13 @@ Project cards link directly to running applications. Package manifest covers hav
 ## Design originals
 
 The design previews in `public/design` come from the supplied Le-Chat Google Drive files and Ventus Figma node `102:2`. They show the user’s original work, not generated substitutes. Links on each card open the source.
+
+## Snapshot refresh — 21 October 2026
+
+Fresh 1440 × 900 browser captures from the live deployments, with page fonts and visible images loaded:
+
+- `public/screenshots/realestate-2026-10-21.jpg`: https://jp-realestate.vercel.app/ — current property search and listing photography.
+- `public/screenshots/le-chat-2026-10-21.jpg`: https://lechatrealestate.vercel.app/ — current agent website homepage.
+- `public/screenshots/management-dashboard-nextjs-2026-10-21.jpg`: https://management-dashboard-nextjs.vercel.app/dashboard — updated dashboard, theme toggle, and technical artwork.
+
+The three project entries use dated filenames to avoid stale cached thumbnails. Card previews and project-detail dialogs share these image references.
