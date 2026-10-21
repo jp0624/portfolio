@@ -55,13 +55,13 @@ The profile, career timeline, education, selected client experience and skills n
 
 Tailwind CSS 4 is integrated with `@tailwindcss/vite` and imported in `src/styles.css`. Literal utility classes in `src/Profile.tsx` and `src/App.tsx` handle grids, spacing, responsive breakpoints, typography, borders and new component layouts; custom CSS handles editorial styling and motion. This is not an unused Tailwind installation.
 
-`src/Motion.tsx` implements requestAnimationFrame-throttled scroll parallax for the portrait and technical artwork, viewport reveal transitions and a reading-progress line. It uses passive listeners, bounds transforms, cleans up observers/listeners, and responds to reduced-motion preference changes. Light/dark theme selection persists locally. All 20 projects with both a live link and a real screenshot are visible immediately. The remaining 13 appear below in compact category groups. Search/category/language controls apply to both sections. The hero’s accented Explore all projects link jumps to the complete index.
+`src/Motion.tsx` implements requestAnimationFrame-throttled scroll parallax for the portrait and technical artwork, viewport reveal transitions and a reading-progress line. It uses passive listeners, bounds transforms, cleans up observers/listeners, and responds to reduced-motion preference changes. Light/dark theme selection persists locally. All 18 projects with both a live link and a real screenshot are visible immediately. The remaining 15 appear below in compact category groups. Search/category/language controls apply to both sections. The hero’s accented Explore all projects link jumps to the complete index.
 
 The AI-assisted portrait and technical artwork are optimized local WebP files. See `ASSETS.md` for prompts and provenance. The original photo and private uploaded documents are not published.
 
 ### Refresh validation
 
-Nine automated tests pass: five catalogue/filter checks plus four React interaction tests for complete showcase rendering, categorized compact cards, image-free details, deployment notes, modal close/focus restoration, combined filters/reset, theme persistence and reduced-motion rendering. Native dialog methods and media/observer APIs are shimmed in jsdom; this is not browser visual QA. Strict TypeScript and the Vite production build also pass.
+Ten automated tests pass: six catalogue/filter checks plus four React interaction tests for complete showcase rendering, categorized compact cards, image-free details, deployment notes, modal close/focus restoration, combined filters/reset, theme persistence and reduced-motion rendering. Native dialog methods and media/observer APIs are shimmed in jsdom; this is not browser visual QA. Strict TypeScript and the Vite production build also pass.
 
 
 ## Vercel app repair
@@ -76,3 +76,5 @@ The design cards show the supplied Le-Chat artwork and the Ventus brand sheet. C
 ## Full-width editorial sections
 
 The hero, technical scene, About and Contact backgrounds span the viewport, while their content stays aligned within a 1440px grid. Hero, About and Contact share optimized silver/glass/cobalt artwork, with different crops and theme-aware overlays. The existing technical sculpture remains in its own section. Browser checks cover both themes, catalogue interactions, and full-width bounds without horizontal overflow at 320, 390, 768, 1440 and 1920px.
+
+Stage-one refinements: dark is the default for new visitors; saved light preferences persist. Header and Skills have full-width surfaces. Native select options have explicit theme colors. Categories use muted color accents with text labels. Lesson Factory and Dead by Daylight are explicitly placed in the compact archive via `presentation: compact`. Background parallax is capped at 28px on desktop and 12px on mobile, uses passive scroll listeners and one animation frame per scroll update, and stops for reduced-motion preferences. Compact descriptions show two lines; project details retain the full text.

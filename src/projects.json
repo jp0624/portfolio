@@ -365,7 +365,8 @@
     "imageNote": "Live website snapshot",
     "featured": false,
     "liveNote": "Public demo uses sample text. Original course media and training records require the separate training service.",
-    "alternateLive": ""
+    "alternateLive": "",
+    "presentation": "compact"
   },
   {
     "id": "lessonfactory-be",
@@ -665,7 +666,8 @@
     "imageNote": "Live website snapshot",
     "featured": false,
     "liveNote": "",
-    "alternateLive": ""
+    "alternateLive": "",
+    "presentation": "compact"
   },
   {
     "id": "suiteportal",

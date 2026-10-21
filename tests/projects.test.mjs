@@ -11,5 +11,7 @@ test('showcases require a live link and a real screenshot',()=>{
  assert.equal(hasLiveSnapshot({live:'',image:'shot.jpg',imageNote:'Live website snapshot'}),false);
  assert.equal(hasLiveSnapshot({live:'https://example.com',image:'cover.svg',imageNote:'Technical project cover'}),false);
  assert.equal(hasLiveSnapshot({live:'https://example.com',image:'',imageNote:'Live website snapshot'}),false);
- assert.equal(projects.filter(hasLiveSnapshot).length,20);
+ assert.equal(projects.filter(hasLiveSnapshot).length,18);
 });
+
+test("explicit compact placement overrides a live screenshot",()=>{for(const id of ["lessonfactory","dbd"])assert.equal(hasLiveSnapshot(projects.find(p=>p.id===id)),false)});

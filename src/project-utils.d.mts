@@ -1,4 +1,4 @@
 export function filterProjects<T>(projects:T[],filters:{query?:string;category?:string;language?:string;sort?:string}):T[];
 
 
-export function hasLiveSnapshot(project:{live?:string;image?:string;imageNote?:string}):boolean;
+export function hasLiveSnapshot(project:{presentation?:string;live?:string;image?:string;imageNote?:string}):boolean;

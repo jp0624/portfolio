@@ -53,3 +53,48 @@ main>section:not(.new-hero):not(.technical-scene):not(.about):not(.contact){max-
 @media(min-width:1600px){.section-inner{padding-inline:72px}}
 @media(max-width:800px){.about-content{gap:7%;grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.about-content{grid-template-columns:1fr;gap:35px}.about,.contact{padding-block:55px}.archive-heading{display:block}.archive-heading>p{margin-top:18px}.project-archive{margin-top:50px;padding-top:36px}.compact-card{padding:20px}.new-hero.section-art{background-position:65% center}}
+
+/* Art drifts gently behind stationary copy; overscan keeps all edges covered. */
+.section-art{overflow:hidden}
+.section-art::before{inset:-32px 0;transform:translate3d(0,var(--parallax-y,0px),0);will-change:transform}
+.project-archive{margin-top:48px;padding-top:28px}
+.archive-heading{margin-bottom:20px}
+.archive-heading h2{font-size:clamp(25px,2.4vw,32px);margin-top:8px;letter-spacing:-1px}
+.archive-category{margin-top:20px}
+.archive-category>h3{margin-bottom:10px;font-size:12px}
+.archive-category>.grid{gap:10px}
+.compact-card{padding:15px 16px;border-radius:7px}
+.compact-heading{margin-bottom:5px}
+.compact-heading>svg{width:15px;height:15px}
+.compact-card h4{font-size:16px;margin-bottom:7px}
+.compact-card>p{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:12px;line-height:1.6;margin-bottom:10px}
+.compact-card .tags{gap:4px}
+.compact-card .tags span{padding:2px 6px;font-size:9px}
+.compact-card .card-actions{margin-top:10px;gap:14px}
+.compact-card .card-actions a,.compact-details{min-height:28px;align-items:center;padding-bottom:0}
+@media(min-width:1100px){.archive-category>.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:560px){.project-archive{margin-top:36px;padding-top:24px}.archive-heading>p{margin-top:10px}.compact-card{padding:14px 16px}}
+@media(prefers-reduced-motion:reduce){.section-art::before{transform:none!important;will-change:auto}}
+/* Full-width surfaces with aligned inner content. */
+.header{max-width:none;width:100%;padding:0;border-inline:0;display:block}
+.header-inner{max-width:1440px;margin-inline:auto;padding:24px 5%;display:flex;align-items:center;justify-content:space-between;gap:15px}
+main>.skills-section{max-width:none!important;width:100%}
+select{color-scheme:light}select option,select optgroup{background:#f3f2ee;color:#222628}
+[data-theme=dark] select{color-scheme:dark;color:#e8e9e7;background-color:#20282f}
+[data-theme=dark] select option,[data-theme=dark] select optgroup{background:#20282f;color:#e8e9e7}
+[data-category]{--category-color:#376293;--category-tint:#37629312}
+[data-category='Creative web']{--category-color:#805a9e;--category-tint:#805a9e12}
+[data-category='Product apps']{--category-color:#3266a5;--category-tint:#3266a512}
+[data-category='Business systems']{--category-color:#26766c;--category-tint:#26766c12}
+[data-category='Simulation & 3D']{--category-color:#99651e;--category-tint:#99651e12}
+[data-category='Backend & infrastructure']{--category-color:#5f6a83;--category-tint:#5f6a8312}
+[data-category='Developer tools']{--category-color:#9b5467;--category-tint:#9b546712}
+.card-meta>span:first-child,.compact-status{color:var(--category-color);background:var(--category-tint);border:1px solid color-mix(in srgb,var(--category-color) 25%,transparent);border-radius:4px;padding:3px 7px;font-weight:600}
+.compact-card{border-top:2px solid color-mix(in srgb,var(--category-color) 65%,var(--line))}
+[data-theme=dark] [data-category]{--category-color:#a1b8d9;--category-tint:#a1b8d914}
+[data-theme=dark] [data-category='Creative web']{--category-color:#c2a4e1;--category-tint:#c2a4e114}
+[data-theme=dark] [data-category='Product apps']{--category-color:#9abded;--category-tint:#9abded14}
+[data-theme=dark] [data-category='Business systems']{--category-color:#88c8ba;--category-tint:#88c8ba14}
+[data-theme=dark] [data-category='Simulation & 3D']{--category-color:#ddbb80;--category-tint:#ddbb8014}
+[data-theme=dark] [data-category='Developer tools']{--category-color:#d7a2b4;--category-tint:#d7a2b414}
+@media(max-width:560px){.header-inner{padding:18px 5%;gap:10px}}

@@ -8,8 +8,8 @@ test('shows every live snapshot and groups the remaining projects without images
  const user=userEvent.setup();render(<App/>);
  expect(screen.getByRole('heading',{name:'John Parker.'})).toBeTruthy();
  expect(screen.getByRole('heading',{name:'Corel'})).toBeTruthy();
- expect(document.querySelectorAll('.project-image')).toHaveLength(20);
- expect(document.querySelectorAll('.compact-card')).toHaveLength(13);
+ expect(document.querySelectorAll('.project-image')).toHaveLength(18);
+ expect(document.querySelectorAll('.compact-card')).toHaveLength(15);
  expect(document.querySelectorAll('.compact-card img')).toHaveLength(0);
  expect(screen.getByRole('link',{name:'Explore all projects'}).getAttribute('href')).toBe('#work');
  const archive=screen.getByRole('region',{name:'Behind the interfaces.'});
@@ -35,7 +35,7 @@ test('category and language controls combine and reset an empty result',async()=
  expect(screen.getByRole('button',{name:'Explore Sinking Ship Entertainment'})).toBeTruthy();
 });
 test('theme persists and reduced motion makes reveal blocks visible',async()=>{
- const user=userEvent.setup();render(<App/>);await user.click(screen.getByRole('button',{name:'Switch to dark theme'}));
+ const user=userEvent.setup();render(<App/>);expect(document.documentElement.dataset.theme).toBe('dark');await user.click(screen.getByRole('button',{name:'Switch to light theme'}));await user.click(screen.getByRole('button',{name:'Switch to dark theme'}));
  expect(document.documentElement.dataset.theme).toBe('dark');expect(localStorage.getItem('jp-theme')).toBe('dark');
  expect([...document.querySelectorAll('.reveal')].every(el=>el.classList.contains('is-visible'))).toBe(true);
 });

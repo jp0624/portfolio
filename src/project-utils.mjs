@@ -9,5 +9,5 @@ export function filterProjects(projects,{query='',category='All work',language='
 
 /** Illustrated project covers are not live-site snapshots. */
 export function hasLiveSnapshot(project) {
- return Boolean(project.live?.trim() && project.image && /\.(jpe?g|png|webp|avif)$/i.test(project.image) && /^Live (website snapshot|capture)/i.test(project.imageNote || ""));
+ return Boolean(project.presentation !== 'compact' && project.live?.trim() && project.image && /\.(jpe?g|png|webp|avif)$/i.test(project.image) && /^Live (website snapshot|capture)/i.test(project.imageNote || ""));
 }
