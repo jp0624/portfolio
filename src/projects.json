@@ -859,6 +859,37 @@
     "presentation": "compact"
   },
   {
+    "id": "after-hours-dodgeball",
+    "title": "After Hours \u00b7 5v5 Dodgeball",
+    "category": "Simulation & 3D",
+    "description": "A full-screen first-person dodgeball game: you and four AI teammates face five opponents. Features charged projectile throws, timed catches, teammate returns, radar, warmup, touch controls and best-of-three matches.",
+    "skills": [
+      "Three.js",
+      "JavaScript",
+      "3D rendering",
+      "Game physics",
+      "Vite"
+    ],
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "live": "https://jp-after-hours-dodgeball.vercel.app/",
+    "status": "Original game",
+    "repo": "https://github.com/jp0624/after-hours-dodgeball",
+    "sourceFiles": 10,
+    "reviewedAt": "2026-10-22",
+    "evidence": [
+      "https://github.com/jp0624/after-hours-dodgeball/tree/main"
+    ],
+    "image": "screenshots/after-hours-dodgeball-2026-10-22.jpg",
+    "imageNote": "Live website snapshot \u00b7 Gameplay / Compatibility 3D renderer",
+    "featured": true,
+    "liveNote": "Single-player 5v5 AI simulation. WebGL has an automatic SVG 3D fallback; screenshot shows the compatibility renderer.",
+    "alternateLive": ""
+  },
+  {
     "id": "suiteportal",
     "title": "SuitePortal",
     "category": "Business systems",

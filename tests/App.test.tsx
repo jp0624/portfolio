@@ -8,7 +8,7 @@ test('shows every live snapshot and groups the remaining projects without images
  const user=userEvent.setup();render(<App/>);
  expect(screen.getByRole('heading',{name:'John Parker.'})).toBeTruthy();
  expect(screen.getByRole('heading',{name:'Corel'})).toBeTruthy();
- expect(document.querySelectorAll('.project-image')).toHaveLength(24);
+ expect(document.querySelectorAll('.project-image')).toHaveLength(25);
  expect(document.querySelectorAll('.compact-card')).toHaveLength(13);
  expect(document.querySelectorAll('.compact-card img')).toHaveLength(0);
  expect(screen.getByRole('link',{name:'Explore all projects'}).getAttribute('href')).toBe('#work');
