@@ -291,12 +291,12 @@
     "status": "Application",
     "repo": "https://github.com/jp0624/showscenes",
     "sourceFiles": 84,
-    "reviewedAt": "2026-10-19",
+    "reviewedAt": "2026-10-22",
     "evidence": [
       "https://github.com/jp0624/showscenes/tree/main"
     ],
-    "image": "screenshots/showscenes-styled.jpg",
-    "imageNote": "Live website snapshot",
+    "image": "screenshots/showscenes-dark-2026-10-22.jpg",
+    "imageNote": "Live website snapshot · Dark theme",
     "featured": true,
     "liveNote": "",
     "alternateLive": ""
@@ -796,7 +796,7 @@
     "id": "sportsbooks",
     "title": "SportsBooks · Odds Calculator",
     "category": "Product apps",
-    "description": "A typed odds comparison tool that calculates implied probabilities and potential arbitrage allocations from manually entered odds.",
+    "description": "An odds comparison workspace with all 124 NHL, NBA, NFL and MLB teams, dated sample fixtures, a marked calendar and stake allocation tools.",
     "skills": [
       "Next.js",
       "TypeScript",
@@ -812,14 +812,14 @@
     "status": "Application",
     "repo": "https://github.com/jp0624/sportsbooks",
     "sourceFiles": 44,
-    "reviewedAt": "2026-10-19",
+    "reviewedAt": "2026-10-22",
     "evidence": [
       "https://github.com/jp0624/sportsbooks/tree/main"
     ],
-    "image": "screenshots/sportsbooks-dark-2026-10-21.jpg",
-    "imageNote": "Live website snapshot",
+    "image": "screenshots/sportsbooks-dark-2026-10-22.jpg",
+    "imageNote": "Live website snapshot · Dark theme",
     "featured": false,
-    "liveNote": "Calculation prototype using editable sample odds.",
+    "liveNote": "Generated sample fixtures and manually editable odds; not official schedules or live prices.",
     "alternateLive": ""
   },
   {
@@ -974,7 +974,7 @@
     "id": "availability",
     "title": "Availability API",
     "category": "Backend & infrastructure",
-    "description": "A small availability service built with Express and deployed as Vercel Node functions. Two supplied deployments are linked for reference.",
+    "description": "A responsive scheduling demo with an Express availability API, validated time slots, browser-persisted reservations and cancellation.",
     "skills": [
       "Node.js",
       "Express",
@@ -985,15 +985,17 @@
       "JavaScript"
     ],
     "live": "https://jp-availability.vercel.app/",
-    "status": "Proof of concept",
-    "repo": "",
-    "sourceFiles": 0,
-    "reviewedAt": "2026-10-19",
-    "evidence": [],
-    "image": "screenshots/availability.svg",
-    "imageNote": "Deployment reference",
+    "status": "Interactive demo",
+    "repo": "https://github.com/jp0624/availability",
+    "sourceFiles": 12,
+    "reviewedAt": "2026-10-22",
+    "evidence": [
+      "https://github.com/jp0624/availability/tree/main"
+    ],
+    "image": "screenshots/availability-dark-2026-10-22.jpg",
+    "imageNote": "Live website snapshot · Dark theme",
     "featured": false,
-    "liveNote": "",
-    "alternateLive": "https://availability-one.vercel.app/"
+    "liveNote": "Demo reservations are stored in this browser; no shared database or real appointments.",
+    "alternateLive": ""
   }
 ]
