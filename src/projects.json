@@ -108,12 +108,12 @@
     "status": "Proof of concept",
     "repo": "https://github.com/jp0624/realestate",
     "sourceFiles": 60,
-    "reviewedAt": "2026-10-19",
+    "reviewedAt": "2026-10-22",
     "evidence": [
       "https://github.com/jp0624/realestate/tree/main"
     ],
-    "image": "screenshots/realestate-2026-10-21.jpg",
-    "imageNote": "Live website snapshot",
+    "image": "screenshots/realestate-dark-red-2026-10-22.jpg",
+    "imageNote": "Live website snapshot · Dark/red theme",
     "featured": true,
     "liveNote": "",
     "alternateLive": ""
@@ -917,4 +917,3 @@
     "alternateLive": ""
   }
 ]
-
