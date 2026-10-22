@@ -3,7 +3,7 @@
     "id": "sinkingship",
     "title": "Sinking Ship Entertainment",
     "category": "Creative web",
-    "description": "Led and built interactive web experiences at Sinking Ship Entertainment. This corporate site combines PixiJS, HTML5 canvas and advanced CSS to bring the studio\u2019s world to life.",
+    "description": "Led and built interactive web experiences at Sinking Ship Entertainment. This corporate site combines PixiJS, HTML5 canvas and advanced CSS to bring the studio’s world to life.",
     "skills": [
       "PixiJS",
       "JavaScript",
@@ -63,7 +63,7 @@
   },
   {
     "id": "agent-bench",
-    "title": "Agent Bench \u00b7 Evaluation Studio",
+    "title": "Agent Bench · Evaluation Studio",
     "category": "Developer tools",
     "description": "A coding-task evaluation studio with 12 inspectable tasks, measured reference-agent runs, assertion-level failure analysis, portable reports and regression comparisons.",
     "skills": [
@@ -87,14 +87,14 @@
       "https://github.com/jp0624/agent-bench/tree/main"
     ],
     "image": "screenshots/agent-bench-dark-2026-10-22.jpg",
-    "imageNote": "Live website snapshot \u00b7 Dark theme",
+    "imageNote": "Live website snapshot · Dark theme",
     "featured": true,
     "liveNote": "Runs fixed reference implementations with measured assertions. Imports external records; no live LLM provider is called.",
     "alternateLive": ""
   },
   {
     "id": "beat-bugs",
-    "title": "Beat Bugs \u00b7 Backyard Orchestra",
+    "title": "Beat Bugs · Backyard Orchestra",
     "category": "Creative web",
     "description": "A React rhythm game with five synthesized insect instruments, a 16-step looping sequencer, tempo and mute/solo controls, three rhythm quests, and locally saved compositions.",
     "skills": [
@@ -118,36 +118,40 @@
       "https://github.com/jp0624/beat-bugs/tree/main"
     ],
     "image": "screenshots/beat-bugs-2026-10-22.jpg",
-    "imageNote": "Live website snapshot \u00b7 Midnight garden",
+    "imageNote": "Live website snapshot · Midnight garden",
     "featured": true,
     "liveNote": "",
     "alternateLive": ""
   },
   {
-    "id": "pearson",
-    "title": "Toronto Pearson \u00b7 Careers",
-    "category": "Business systems",
-    "description": "A corporate careers and job-board experience for Toronto Pearson. Built with React and SCSS integrated with Sitecore, combining structured content with an approachable job-discovery interface.",
+    "id": "after-hours-dodgeball",
+    "title": "After Hours · 5v5 Dodgeball",
+    "category": "Simulation & 3D",
+    "description": "A full-screen first-person dodgeball game: you and four AI teammates face five opponents. Features charged projectile throws, timed catches, teammate returns, radar, warmup, touch controls and best-of-three matches.",
     "skills": [
-      "React",
-      "Sitecore",
-      "SCSS",
-      "Corporate UX"
+      "Three.js",
+      "JavaScript",
+      "3D rendering",
+      "Game physics",
+      "Vite"
     ],
     "languages": [
       "JavaScript",
-      "SCSS"
+      "HTML",
+      "CSS"
     ],
-    "live": "https://jobs.torontopearson.com/en/",
-    "status": "Client work",
-    "repo": "",
-    "sourceFiles": 0,
-    "reviewedAt": "2026-10-19",
-    "evidence": [],
-    "image": "screenshots/pearson.jpg",
-    "imageNote": "Live website snapshot",
+    "live": "https://jp-after-hours-dodgeball.vercel.app/",
+    "status": "Original game",
+    "repo": "https://github.com/jp0624/after-hours-dodgeball",
+    "sourceFiles": 10,
+    "reviewedAt": "2026-10-22",
+    "evidence": [
+      "https://github.com/jp0624/after-hours-dodgeball/tree/main"
+    ],
+    "image": "screenshots/after-hours-dodgeball-2026-10-22.jpg",
+    "imageNote": "Live website snapshot · Home screen",
     "featured": true,
-    "liveNote": "",
+    "liveNote": "Single-player 5v5 AI simulation with right-mouse charge/release throws. WebGL has an automatic SVG 3D fallback.",
     "alternateLive": ""
   },
   {
@@ -175,7 +179,7 @@
       "https://github.com/jp0624/realestate/tree/main"
     ],
     "image": "screenshots/realestate-dark-red-2026-10-22.jpg",
-    "imageNote": "Live website snapshot \u00b7 Dark/red theme",
+    "imageNote": "Live website snapshot · Dark/red theme",
     "featured": true,
     "liveNote": "",
     "alternateLive": ""
@@ -212,7 +216,7 @@
   },
   {
     "id": "signal-room",
-    "title": "Signal Room \u00b7 Incident Command",
+    "title": "Signal Room · Incident Command",
     "category": "Business systems",
     "description": "An Angular incident-response workspace with eight connected services, scenario replay, commander assignment, gated recovery steps and an exportable operator audit trail.",
     "skills": [
@@ -236,7 +240,7 @@
       "https://github.com/jp0624/signal-room/tree/main"
     ],
     "image": "screenshots/signal-room-dark-2026-10-22.jpg",
-    "imageNote": "Live website snapshot \u00b7 Dark theme",
+    "imageNote": "Live website snapshot · Dark theme",
     "featured": true,
     "liveNote": "Browser-local incident simulation with synthetic telemetry. Records local decisions and exports reports; no live infrastructure or external notifications.",
     "alternateLive": ""
@@ -273,7 +277,7 @@
   },
   {
     "id": "robots-vue-vite",
-    "title": "Robbie\u2019s Delivery Simulation",
+    "title": "Robbie’s Delivery Simulation",
     "category": "Simulation & 3D",
     "description": "A step-by-step robot delivery simulation with an expanding grid, collision indicators and live delivery statistics.",
     "skills": [
@@ -304,7 +308,7 @@
   },
   {
     "id": "tiny-machines",
-    "title": "Tiny Machines \u00b7 Invention Workshop",
+    "title": "Tiny Machines · Invention Workshop",
     "category": "Simulation & 3D",
     "description": "A colourful physics workshop with three ball-delivery missions, editable ramps, pinned motor gears and directional fans. Includes fixed-step Matter.js simulation, free build, precise controls, undo/redo and saved inventions.",
     "skills": [
@@ -328,7 +332,7 @@
       "https://github.com/jp0624/tiny-machines/tree/main"
     ],
     "image": "screenshots/tiny-machines-2026-10-22.jpg",
-    "imageNote": "Live website snapshot \u00b7 Colourful invention workshop",
+    "imageNote": "Live website snapshot · Colourful invention workshop",
     "featured": true,
     "liveNote": "Fictional physics for play; not an engineering model.",
     "alternateLive": ""
@@ -364,7 +368,7 @@
   },
   {
     "id": "lidar-point-cloud-viewer",
-    "title": "LIDAR \u00b7 Intersection Simulator",
+    "title": "LIDAR · Intersection Simulator",
     "category": "Simulation & 3D",
     "description": "A real-time intersection simulation combining moving vehicles, traffic signals, scene controls and synthetic point-cloud visualization.",
     "skills": [
@@ -388,14 +392,14 @@
       "https://github.com/jp0624/lidar-point-cloud-viewer/tree/main"
     ],
     "image": "screenshots/lidar-working.jpg",
-    "imageNote": "Live capture \u00b7 WebGL unavailable in preview browser",
+    "imageNote": "Live capture · WebGL unavailable in preview browser",
     "featured": true,
     "liveNote": "The 3D simulation needs WebGL 2 and hardware acceleration. The preview browser cannot render WebGL.",
     "alternateLive": ""
   },
   {
     "id": "cloud-critters",
-    "title": "Cloud Critters \u00b7 Weather Playground",
+    "title": "Cloud Critters · Weather Playground",
     "category": "Creative web",
     "description": "An original illustrated weather playground where children mix sunshine, wind, rain and snow, meet three reactive creatures, solve six missions and collect locally saved discoveries.",
     "skills": [
@@ -419,14 +423,14 @@
       "https://github.com/jp0624/cloud-critters/tree/main"
     ],
     "image": "screenshots/cloud-critters-2026-10-22.jpg",
-    "imageNote": "Live website snapshot \u00b7 Original illustrated theme",
+    "imageNote": "Live website snapshot · Original illustrated theme",
     "featured": true,
     "liveNote": "",
     "alternateLive": ""
   },
   {
     "id": "showscenes",
-    "title": "ShowScenes \u00b7 Cinema Discovery",
+    "title": "ShowScenes · Cinema Discovery",
     "category": "Product apps",
     "description": "A movie and TV discovery application with TMDB integration, search, media detail views, recommendations and persistent favorites.",
     "skills": [
@@ -451,14 +455,14 @@
       "https://github.com/jp0624/showscenes/tree/main"
     ],
     "image": "screenshots/showscenes-dark-2026-10-22.jpg",
-    "imageNote": "Live website snapshot \u00b7 Dark theme",
+    "imageNote": "Live website snapshot · Dark theme",
     "featured": true,
     "liveNote": "",
     "alternateLive": ""
   },
   {
     "id": "shadow-theatre",
-    "title": "Shadow Theatre \u00b7 Puppet Stories",
+    "title": "Shadow Theatre · Puppet Stories",
     "category": "Creative web",
     "description": "A colourful paper-puppet studio with editable shape-built characters, articulated poses, movable light and perspective shadows. Record stage motion, scene changes and captions, scrub playback, and save custom performances locally.",
     "skills": [
@@ -482,14 +486,14 @@
       "https://github.com/jp0624/shadow-theatre/tree/main"
     ],
     "image": "screenshots/shadow-theatre-2026-10-22.jpg",
-    "imageNote": "Live website snapshot \u00b7 Paper jungle theatre",
+    "imageNote": "Live website snapshot · Paper jungle theatre",
     "featured": true,
     "liveNote": "Performance recording captures stage movement, light, scenery and captions, without microphone access.",
     "alternateLive": ""
   },
   {
     "id": "vue-crm",
-    "title": "Le-Chat \u00b7 CRM",
+    "title": "Le-Chat · CRM",
     "category": "Product apps",
     "description": "A lightweight client management proof of concept with a Firebase-connected client list and modal editing interface.",
     "skills": [
@@ -584,7 +588,7 @@
   },
   {
     "id": "monster-mail",
-    "title": "Monster Mail \u00b7 Delivery Adventure",
+    "title": "Monster Mail · Delivery Adventure",
     "category": "Creative web",
     "description": "A Vue delivery adventure with nine parcels across three monster neighbourhoods, clue-based addresses, seal matching, shortest-path route planning, keyboard movement and persistent best scores.",
     "skills": [
@@ -608,14 +612,14 @@
       "https://github.com/jp0624/monster-mail/tree/main"
     ],
     "image": "screenshots/monster-mail-2026-10-22.jpg",
-    "imageNote": "Live website snapshot \u00b7 Postal adventure",
+    "imageNote": "Live website snapshot · Postal adventure",
     "featured": true,
     "liveNote": "",
     "alternateLive": ""
   },
   {
     "id": "dams",
-    "title": "DAMS \u00b7 Administration",
+    "title": "DAMS · Administration",
     "category": "Business systems",
     "description": "An Angular administration interface with reusable forms, data tables, authorization guards and content management modules.",
     "skills": [
@@ -647,7 +651,7 @@
   },
   {
     "id": "dams-be",
-    "title": "DAMS \u00b7 Backend",
+    "title": "DAMS · Backend",
     "category": "Backend & infrastructure",
     "description": "An administration API with content models, Keycloak integration, SQL and MongoDB dependencies, and spreadsheet import/export tooling.",
     "skills": [
@@ -677,7 +681,7 @@
   },
   {
     "id": "lechat-realestate",
-    "title": "Le-Chat \u00b7 Contentful Edition",
+    "title": "Le-Chat · Contentful Edition",
     "category": "Creative web",
     "description": "An earlier real estate presentation built with React, Contentful-driven content and a Swiper carousel.",
     "skills": [
@@ -763,7 +767,7 @@
       "https://github.com/jp0624/js-helpers/tree/main"
     ],
     "image": "screenshots/js-helpers-light-orange-2026-10-22.jpg",
-    "imageNote": "Live website snapshot \u00b7 Light theme",
+    "imageNote": "Live website snapshot · Light theme",
     "featured": false,
     "liveNote": "All 250 new examples executed successfully; original React fragments remain available in the archive.",
     "alternateLive": ""
@@ -792,14 +796,14 @@
       "https://github.com/jp0624/phone-case/tree/main"
     ],
     "image": "screenshots/phone-case-dark-2026-10-22.jpg",
-    "imageNote": "Live website snapshot \u00b7 Dark theme",
+    "imageNote": "Live website snapshot · Dark theme",
     "featured": false,
     "liveNote": "Concept previews only; no checkout or physical orders.",
     "alternateLive": ""
   },
   {
     "id": "pocket-planet",
-    "title": "Pocket Planet \u00b7 Build a Little World",
+    "title": "Pocket Planet · Build a Little World",
     "category": "Simulation & 3D",
     "description": "A rotating Canvas world builder with editable spherical terrain, forests, connected rivers, reactive creatures, three ecosystem missions, unlimited free build, undo/redo and saved worlds.",
     "skills": [
@@ -823,14 +827,14 @@
       "https://github.com/jp0624/pocket-planet/tree/main"
     ],
     "image": "screenshots/pocket-planet-2026-10-22.jpg",
-    "imageNote": "Live website snapshot \u00b7 Worldkeeper theme",
+    "imageNote": "Live website snapshot · Worldkeeper theme",
     "featured": true,
     "liveNote": "Fictional ecosystem rules for play, not a scientific climate model.",
     "alternateLive": ""
   },
   {
     "id": "gpt-prompts",
-    "title": "GPT Prompts \u00b7 Foundation",
+    "title": "GPT Prompts · Foundation",
     "category": "Developer tools",
     "description": "A Next.js project foundation with authentication routing, a MongoDB user model and prompt UI components. The feed is still a placeholder.",
     "skills": [
@@ -860,7 +864,7 @@
   },
   {
     "id": "dbd",
-    "title": "Dead by Daylight \u00b7 Angular Study",
+    "title": "Dead by Daylight · Angular Study",
     "category": "Creative web",
     "description": "An unofficial Angular 18 presentation study recreating a game-brand landing experience, with navigation, large hero imagery and responsive SCSS. Presented as a prototype, not an official client engagement.",
     "skills": [
@@ -890,34 +894,30 @@
     "presentation": "compact"
   },
   {
-    "id": "after-hours-dodgeball",
-    "title": "After Hours \u00b7 5v5 Dodgeball",
-    "category": "Simulation & 3D",
-    "description": "A full-screen first-person dodgeball game: you and four AI teammates face five opponents. Features charged projectile throws, timed catches, teammate returns, radar, warmup, touch controls and best-of-three matches.",
+    "id": "pearson",
+    "title": "Toronto Pearson · Careers",
+    "category": "Business systems",
+    "description": "A corporate careers and job-board experience for Toronto Pearson. Built with React and SCSS integrated with Sitecore, combining structured content with an approachable job-discovery interface.",
     "skills": [
-      "Three.js",
-      "JavaScript",
-      "3D rendering",
-      "Game physics",
-      "Vite"
+      "React",
+      "Sitecore",
+      "SCSS",
+      "Corporate UX"
     ],
     "languages": [
       "JavaScript",
-      "HTML",
-      "CSS"
+      "SCSS"
     ],
-    "live": "https://jp-after-hours-dodgeball.vercel.app/",
-    "status": "Original game",
-    "repo": "https://github.com/jp0624/after-hours-dodgeball",
-    "sourceFiles": 10,
-    "reviewedAt": "2026-10-22",
-    "evidence": [
-      "https://github.com/jp0624/after-hours-dodgeball/tree/main"
-    ],
-    "image": "screenshots/after-hours-dodgeball-2026-10-22.jpg",
-    "imageNote": "Live website snapshot \u00b7 Home screen",
+    "live": "https://jobs.torontopearson.com/en/",
+    "status": "Client work",
+    "repo": "",
+    "sourceFiles": 0,
+    "reviewedAt": "2026-10-19",
+    "evidence": [],
+    "image": "screenshots/pearson.jpg",
+    "imageNote": "Live website snapshot",
     "featured": true,
-    "liveNote": "Single-player 5v5 AI simulation with right-mouse charge/release throws. WebGL has an automatic SVG 3D fallback.",
+    "liveNote": "",
     "alternateLive": ""
   },
   {
@@ -1014,7 +1014,7 @@
   },
   {
     "id": "air-call",
-    "title": "Aircall \u00b7 Activity Feed",
+    "title": "Aircall · Activity Feed",
     "category": "Product apps",
     "description": "A responsive telecom-style call workspace with searchable activity, call details, individual and bulk archive/restore, persistent demo data and an optional REST API connection.",
     "skills": [
@@ -1045,7 +1045,7 @@
   },
   {
     "id": "sportsbooks",
-    "title": "SportsBooks \u00b7 Odds Calculator",
+    "title": "SportsBooks · Odds Calculator",
     "category": "Product apps",
     "description": "An odds comparison workspace with all 124 NHL, NBA, NFL and MLB teams, dated sample fixtures, a marked calendar and stake allocation tools.",
     "skills": [
@@ -1068,7 +1068,7 @@
       "https://github.com/jp0624/sportsbooks/tree/main"
     ],
     "image": "screenshots/sportsbooks-hero-dark-2026-10-22.jpg",
-    "imageNote": "Live website snapshot \u00b7 Dark theme",
+    "imageNote": "Live website snapshot · Dark theme",
     "featured": false,
     "liveNote": "Generated sample fixtures and manually editable odds; not official schedules or live prices.",
     "alternateLive": ""
@@ -1137,7 +1137,7 @@
   },
   {
     "id": "local-events-backend",
-    "title": "Local Events \u00b7 Content Engine",
+    "title": "Local Events · Content Engine",
     "category": "Backend & infrastructure",
     "description": "A headless Drupal 11 content engine for the Local Events platform, with JSON:API, Composer-managed modules and a DDEV/Docker development environment.",
     "skills": [
@@ -1190,7 +1190,7 @@
       "https://github.com/jp0624/availability/tree/main"
     ],
     "image": "screenshots/meeting-availability-light-hero-2026-10-22.jpg",
-    "imageNote": "Live website snapshot \u00b7 Light theme",
+    "imageNote": "Live website snapshot · Light theme",
     "featured": false,
     "liveNote": "Demo meeting details and reservations are stored in this browser; times use Toronto/Eastern (EST/EDT). No shared database or real appointments.",
     "alternateLive": ""
