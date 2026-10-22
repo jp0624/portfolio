@@ -892,7 +892,7 @@
     "id": "availability",
     "title": "Meeting Availability",
     "category": "Backend & infrastructure",
-    "description": "A responsive scheduling demo with an Express availability API, validated time slots, browser-persisted reservations and cancellation.",
+    "description": "A responsive meeting planner with Eastern-time availability, name and email fields, optional notes, browser-persisted reservations and cancellation.",
     "skills": [
       "Node.js",
       "Express",
@@ -910,10 +910,10 @@
     "evidence": [
       "https://github.com/jp0624/availability/tree/main"
     ],
-    "image": "screenshots/availability-mustard-2026-10-22.jpg",
-    "imageNote": "Live website snapshot · Mustard dark theme",
+    "image": "screenshots/meeting-availability-details-2026-10-22.jpg",
+    "imageNote": "Live website snapshot · Sample meeting details",
     "featured": false,
-    "liveNote": "Demo reservations are stored in this browser; no shared database or real appointments.",
+    "liveNote": "Demo meeting details and reservations are stored in this browser; times use Toronto/Eastern (EST/EDT). No shared database or real appointments.",
     "alternateLive": ""
   }
 ]
