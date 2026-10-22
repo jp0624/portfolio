@@ -737,31 +737,31 @@
     "id": "air-call",
     "title": "Aircall · Activity Feed",
     "category": "Product apps",
-    "description": "A React call activity interface with call details, archived calls and individual or bulk archive actions through a REST API.",
+    "description": "A responsive telecom-style call workspace with searchable activity, call details, individual and bulk archive/restore, persistent demo data and an optional REST API connection.",
     "skills": [
       "React",
       "TypeScript",
+      "Tailwind CSS",
       "Context API",
       "REST APIs"
     ],
     "languages": [
       "TypeScript",
-      "SCSS",
-      "JavaScript",
+      "CSS",
       "HTML"
     ],
     "live": "https://15e27db3.vercel.app/",
-    "status": "Assessment",
+    "status": "Interactive demo",
     "repo": "https://github.com/jp0624/air-call",
-    "sourceFiles": 33,
-    "reviewedAt": "2026-10-19",
+    "sourceFiles": 6,
+    "reviewedAt": "2026-10-22",
     "evidence": [
       "https://github.com/jp0624/air-call/tree/main"
     ],
-    "image": "screenshots/air-call.svg",
-    "imageNote": "Technical project cover",
+    "image": "screenshots/air-call-telecom-2026-10-22.jpg",
+    "imageNote": "Live website snapshot",
     "featured": false,
-    "liveNote": "",
+    "liveNote": "Fictional demo calls are saved in this browser. The optional original exercise API may be unavailable; no real phone calls or recordings are connected.",
     "alternateLive": ""
   },
   {
