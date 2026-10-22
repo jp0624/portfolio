@@ -941,8 +941,8 @@
     "evidence": [
       "https://github.com/jp0624/availability/tree/main"
     ],
-    "image": "screenshots/meeting-availability-details-2026-10-22.jpg",
-    "imageNote": "Live website snapshot · Sample meeting details",
+    "image": "screenshots/meeting-availability-light-hero-2026-10-22.jpg",
+    "imageNote": "Live website snapshot · Light theme",
     "featured": false,
     "liveNote": "Demo meeting details and reservations are stored in this browser; times use Toronto/Eastern (EST/EDT). No shared database or real appointments.",
     "alternateLive": ""
