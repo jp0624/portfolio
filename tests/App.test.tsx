@@ -8,8 +8,8 @@ test('shows every live snapshot and groups the remaining projects without images
  const user=userEvent.setup();render(<App/>);
  expect(screen.getByRole('heading',{name:'John Parker.'})).toBeTruthy();
  expect(screen.getByRole('heading',{name:'Corel'})).toBeTruthy();
- expect(document.querySelectorAll('.project-image')).toHaveLength(18);
- expect(document.querySelectorAll('.compact-card')).toHaveLength(15);
+ expect(document.querySelectorAll('.project-image')).toHaveLength(16);
+ expect(document.querySelectorAll('.compact-card')).toHaveLength(14);
  expect(document.querySelectorAll('.compact-card img')).toHaveLength(0);
  expect(screen.getByRole('link',{name:'Explore all projects'}).getAttribute('href')).toBe('#work');
  const archive=screen.getByRole('region',{name:'Behind the interfaces.'});

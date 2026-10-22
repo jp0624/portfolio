@@ -114,3 +114,7 @@ select{color-scheme:light}select option,select optgroup{background:#f3f2ee;color
 @media(max-width:900px){.archive-gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:480px){.archive-gallery-grid{grid-template-columns:1fr}.archive-preview{aspect-ratio:1.2}.archive-gallery{margin-top:32px}}
 @media(prefers-reduced-motion:reduce){.archive-gallery-card a:hover img{transform:none}}
+
+.design-cover.brand-cover{padding:0}.design-cover.brand-echo{background:linear-gradient(180deg,#383838,#080808)}.design-cover.brand-evivids{background:#0712a5 url('/design/evivids-background.webp') center/cover}.design-cover.brand-dayt{background:linear-gradient(0deg,#8f1313,#ff0055)}.design-cover.brand-lechat{background:#fff!important}.design-cover.brand-echo img{padding:35px;width:100%;height:100%}.design-cover.brand-evivids img,.design-cover.brand-dayt img{padding:28px;max-height:100%;object-fit:contain}.design-cover.brand-lechat img{padding:25px}
+
+.design-cover.brand-evivids img{padding:40px 45px 45px}

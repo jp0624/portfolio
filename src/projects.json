@@ -521,69 +521,41 @@
   },
   {
     "id": "js-helpers",
-    "title": "JavaScript Field Guide",
+    "title": "Dev Helpers",
     "category": "Developer tools",
-    "description": "A browsable collection of JavaScript learning examples, organized through JSON content and React components.",
+    "description": "A searchable code companion with 100 new JavaScript examples, 150 Python examples and 24 preserved original snippets. Includes categories, saved examples, copy and downloads.",
     "skills": [
       "React",
       "TypeScript",
-      "Vite",
-      "SCSS"
+      "JavaScript",
+      "Python",
+      "Developer tools"
     ],
     "languages": [
       "TypeScript",
-      "SCSS",
-      "HTML"
+      "JavaScript",
+      "Python",
+      "CSS"
     ],
     "live": "https://js-helpers.vercel.app/",
     "status": "Learning tool",
     "repo": "https://github.com/jp0624/js-helpers",
     "sourceFiles": 157,
-    "reviewedAt": "2026-10-19",
+    "reviewedAt": "2026-10-22",
     "evidence": [
       "https://github.com/jp0624/js-helpers/tree/main"
     ],
-    "image": "screenshots/js-helpers-working.jpg",
-    "imageNote": "Live website snapshot",
+    "image": "screenshots/js-helpers-dark-2026-10-22.jpg",
+    "imageNote": "Live website snapshot · Dark theme",
     "featured": false,
-    "liveNote": "",
-    "alternateLive": ""
-  },
-  {
-    "id": "echo",
-    "title": "Echo Byte · Brand Study",
-    "category": "Creative web",
-    "description": "A compact React brand presentation featuring a custom SVG wordmark.",
-    "skills": [
-      "React",
-      "TypeScript",
-      "SVG",
-      "CSS"
-    ],
-    "languages": [
-      "TypeScript",
-      "CSS",
-      "HTML"
-    ],
-    "live": "https://www.echobite.ca/",
-    "status": "Prototype",
-    "repo": "https://github.com/jp0624/echo",
-    "sourceFiles": 22,
-    "reviewedAt": "2026-10-19",
-    "evidence": [
-      "https://github.com/jp0624/echo/tree/main"
-    ],
-    "image": "screenshots/echo-v2.jpg",
-    "imageNote": "Live website snapshot",
-    "featured": false,
-    "liveNote": "",
+    "liveNote": "All 250 new examples executed successfully; original React fragments remain available in the archive.",
     "alternateLive": ""
   },
   {
     "id": "phone-case",
     "title": "Case Shop",
     "category": "Creative web",
-    "description": "A Next.js phone-case storefront landing page exploring responsive product presentation and reusable visual components.",
+    "description": "A custom phone-case design studio with image upload, crop and rotation controls, colour palettes, text, pattern presets and downloadable PNG previews.",
     "skills": [
       "Next.js",
       "React",
@@ -598,14 +570,14 @@
     "status": "Prototype",
     "repo": "https://github.com/jp0624/phone-case",
     "sourceFiles": 33,
-    "reviewedAt": "2026-10-19",
+    "reviewedAt": "2026-10-22",
     "evidence": [
       "https://github.com/jp0624/phone-case/tree/main"
     ],
-    "image": "screenshots/phone-case-v2.jpg",
-    "imageNote": "Live website snapshot",
+    "image": "screenshots/phone-case-dark-2026-10-22.jpg",
+    "imageNote": "Live website snapshot · Dark theme",
     "featured": false,
-    "liveNote": "",
+    "liveNote": "Concept previews only; no checkout or physical orders.",
     "alternateLive": ""
   },
   {
@@ -912,60 +884,6 @@
     ],
     "image": "screenshots/local-events-backend.svg",
     "imageNote": "Technical project cover",
-    "featured": false,
-    "liveNote": "",
-    "alternateLive": ""
-  },
-  {
-    "id": "evivids",
-    "title": "eVivids · Digital Practice",
-    "category": "Creative web",
-    "description": "A React and TypeScript web presence with a multistep contact interface. Alongside this site, my eVivids role spans technical leadership and digital product delivery.",
-    "skills": [
-      "React",
-      "TypeScript",
-      "EmailJS",
-      "SCSS"
-    ],
-    "languages": [
-      "TypeScript",
-      "SCSS"
-    ],
-    "live": "https://www.evivids.com/",
-    "status": "Prototype",
-    "repo": "",
-    "sourceFiles": 0,
-    "reviewedAt": "2026-10-19",
-    "evidence": [],
-    "image": "screenshots/evivids-v2.jpg",
-    "imageNote": "Live website snapshot",
-    "featured": false,
-    "liveNote": "",
-    "alternateLive": ""
-  },
-  {
-    "id": "dayt",
-    "title": "DAYT · Brand Presence",
-    "category": "Creative web",
-    "description": "A compact React and TypeScript brand landing page with a bold gradient and distinctive identity treatment.",
-    "skills": [
-      "React",
-      "TypeScript",
-      "Vite",
-      "Brand presentation"
-    ],
-    "languages": [
-      "TypeScript",
-      "CSS"
-    ],
-    "live": "https://www.dayt.ca/",
-    "status": "Prototype",
-    "repo": "",
-    "sourceFiles": 0,
-    "reviewedAt": "2026-10-19",
-    "evidence": [],
-    "image": "screenshots/dayt-v2.jpg",
-    "imageNote": "Live website snapshot",
     "featured": false,
     "liveNote": "",
     "alternateLive": ""
