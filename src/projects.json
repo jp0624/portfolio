@@ -62,6 +62,37 @@
     "alternateLive": ""
   },
   {
+    "id": "agent-bench",
+    "title": "Agent Bench · Evaluation Studio",
+    "category": "Developer tools",
+    "description": "A coding-task evaluation studio with 12 inspectable tasks, measured reference-agent runs, assertion-level failure analysis, portable reports and regression comparisons.",
+    "skills": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Evaluation systems",
+      "API design"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "CSS"
+    ],
+    "live": "https://jp-agent-bench.vercel.app/",
+    "status": "Application",
+    "repo": "https://github.com/jp0624/agent-bench",
+    "sourceFiles": 19,
+    "reviewedAt": "2026-10-22",
+    "evidence": [
+      "https://github.com/jp0624/agent-bench/tree/main"
+    ],
+    "image": "screenshots/agent-bench-dark-2026-10-22.jpg",
+    "imageNote": "Live website snapshot · Dark theme",
+    "featured": true,
+    "liveNote": "Runs fixed reference implementations with measured assertions. Imports external records; no live LLM provider is called.",
+    "alternateLive": ""
+  },
+  {
     "id": "pearson",
     "title": "Toronto Pearson · Careers",
     "category": "Business systems",
