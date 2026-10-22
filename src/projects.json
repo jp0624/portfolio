@@ -545,8 +545,8 @@
     "evidence": [
       "https://github.com/jp0624/js-helpers/tree/main"
     ],
-    "image": "screenshots/js-helpers-dark-2026-10-22.jpg",
-    "imageNote": "Live website snapshot · Dark theme",
+    "image": "screenshots/js-helpers-light-orange-2026-10-22.jpg",
+    "imageNote": "Live website snapshot · Light theme",
     "featured": false,
     "liveNote": "All 250 new examples executed successfully; original React fragments remain available in the archive.",
     "alternateLive": ""
