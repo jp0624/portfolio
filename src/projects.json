@@ -93,6 +93,37 @@
     "alternateLive": ""
   },
   {
+    "id": "monster-mail",
+    "title": "Monster Mail · Delivery Adventure",
+    "category": "Creative web",
+    "description": "A Vue delivery adventure with nine parcels across three monster neighbourhoods, clue-based addresses, seal matching, shortest-path route planning, keyboard movement and persistent best scores.",
+    "skills": [
+      "Vue 3",
+      "JavaScript",
+      "Vite",
+      "Pathfinding",
+      "Web Audio"
+    ],
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "live": "https://jp-monster-mail.vercel.app/",
+    "status": "Original game",
+    "repo": "https://github.com/jp0624/monster-mail",
+    "sourceFiles": 10,
+    "reviewedAt": "2026-10-22",
+    "evidence": [
+      "https://github.com/jp0624/monster-mail/tree/main"
+    ],
+    "image": "screenshots/monster-mail-2026-10-22.jpg",
+    "imageNote": "Live website snapshot · Postal adventure",
+    "featured": true,
+    "liveNote": "",
+    "alternateLive": ""
+  },
+  {
     "id": "pearson",
     "title": "Toronto Pearson · Careers",
     "category": "Business systems",
