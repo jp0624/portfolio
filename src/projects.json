@@ -890,7 +890,7 @@
   },
   {
     "id": "availability",
-    "title": "Availability API",
+    "title": "Meeting Availability",
     "category": "Backend & infrastructure",
     "description": "A responsive scheduling demo with an Express availability API, validated time slots, browser-persisted reservations and cancellation.",
     "skills": [
@@ -910,8 +910,8 @@
     "evidence": [
       "https://github.com/jp0624/availability/tree/main"
     ],
-    "image": "screenshots/availability-dark-2026-10-22.jpg",
-    "imageNote": "Live website snapshot · Dark theme",
+    "image": "screenshots/availability-mustard-2026-10-22.jpg",
+    "imageNote": "Live website snapshot · Mustard dark theme",
     "featured": false,
     "liveNote": "Demo reservations are stored in this browser; no shared database or real appointments.",
     "alternateLive": ""
