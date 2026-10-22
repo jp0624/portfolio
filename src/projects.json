@@ -736,6 +736,37 @@
     "alternateLive": ""
   },
   {
+    "id": "pocket-planet",
+    "title": "Pocket Planet · Build a Little World",
+    "category": "Simulation & 3D",
+    "description": "A rotating Canvas world builder with editable spherical terrain, forests, connected rivers, reactive creatures, three ecosystem missions, unlimited free build, undo/redo and saved worlds.",
+    "skills": [
+      "Vue 3",
+      "Canvas",
+      "3D projection",
+      "JavaScript",
+      "Vite"
+    ],
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "live": "https://jp-pocket-planet.vercel.app/",
+    "status": "Original game",
+    "repo": "https://github.com/jp0624/pocket-planet",
+    "sourceFiles": 10,
+    "reviewedAt": "2026-10-22",
+    "evidence": [
+      "https://github.com/jp0624/pocket-planet/tree/main"
+    ],
+    "image": "screenshots/pocket-planet-2026-10-22.jpg",
+    "imageNote": "Live website snapshot · Worldkeeper theme",
+    "featured": true,
+    "liveNote": "Fictional ecosystem rules for play, not a scientific climate model.",
+    "alternateLive": ""
+  },
+  {
     "id": "gpt-prompts",
     "title": "GPT Prompts · Foundation",
     "category": "Developer tools",
