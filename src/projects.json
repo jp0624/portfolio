@@ -457,6 +457,37 @@
     "alternateLive": ""
   },
   {
+    "id": "shadow-theatre",
+    "title": "Shadow Theatre \u00b7 Puppet Stories",
+    "category": "Creative web",
+    "description": "A colourful paper-puppet studio with editable shape-built characters, articulated poses, movable light and perspective shadows. Record stage motion, scene changes and captions, scrub playback, and save custom performances locally.",
+    "skills": [
+      "Vue 3",
+      "Canvas",
+      "Projection geometry",
+      "Web Audio",
+      "Vite"
+    ],
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "live": "https://jp-shadow-theatre.vercel.app/",
+    "status": "Original game",
+    "repo": "https://github.com/jp0624/shadow-theatre",
+    "sourceFiles": 10,
+    "reviewedAt": "2026-10-22",
+    "evidence": [
+      "https://github.com/jp0624/shadow-theatre/tree/main"
+    ],
+    "image": "screenshots/shadow-theatre-2026-10-22.jpg",
+    "imageNote": "Live website snapshot \u00b7 Paper jungle theatre",
+    "featured": true,
+    "liveNote": "Performance recording captures stage movement, light, scenery and captions, without microphone access.",
+    "alternateLive": ""
+  },
+  {
     "id": "vue-crm",
     "title": "Le-Chat \u00b7 CRM",
     "category": "Product apps",
