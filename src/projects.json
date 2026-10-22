@@ -90,7 +90,7 @@
   },
   {
     "id": "realestate",
-    "title": "Le-Chat · Property Search",
+    "title": "Realty Property Search",
     "category": "Product apps",
     "description": "A Toronto property discovery proof of concept combining map markers, listing cards and property comments.",
     "skills": [
@@ -150,7 +150,7 @@
   },
   {
     "id": "le-chat",
-    "title": "Le-Chat · Agent Website",
+    "title": "Real Estate - Agent Website",
     "category": "Creative web",
     "description": "A real estate website proof of concept with property carousels, search controls and branded agent presentation.",
     "skills": [
@@ -917,3 +917,4 @@
     "alternateLive": ""
   }
 ]
+
