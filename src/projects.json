@@ -93,6 +93,37 @@
     "alternateLive": ""
   },
   {
+    "id": "signal-room",
+    "title": "Signal Room · Incident Command",
+    "category": "Business systems",
+    "description": "An Angular incident-response workspace with eight connected services, scenario replay, commander assignment, gated recovery steps and an exportable operator audit trail.",
+    "skills": [
+      "Angular",
+      "TypeScript",
+      "Tailwind CSS",
+      "Incident management",
+      "State modelling"
+    ],
+    "languages": [
+      "TypeScript",
+      "HTML",
+      "CSS"
+    ],
+    "live": "https://jp-signal-room.vercel.app/",
+    "status": "Application",
+    "repo": "https://github.com/jp0624/signal-room",
+    "sourceFiles": 22,
+    "reviewedAt": "2026-10-22",
+    "evidence": [
+      "https://github.com/jp0624/signal-room/tree/main"
+    ],
+    "image": "screenshots/signal-room-dark-2026-10-22.jpg",
+    "imageNote": "Live website snapshot · Dark theme",
+    "featured": true,
+    "liveNote": "Browser-local incident simulation with synthetic telemetry. Records local decisions and exports reports; no live infrastructure or external notifications.",
+    "alternateLive": ""
+  },
+  {
     "id": "pearson",
     "title": "Toronto Pearson · Careers",
     "category": "Business systems",
