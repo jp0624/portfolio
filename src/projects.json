@@ -977,5 +977,36 @@
     "featured": false,
     "liveNote": "Demo meeting details and reservations are stored in this browser; times use Toronto/Eastern (EST/EDT). No shared database or real appointments.",
     "alternateLive": ""
+  },
+  {
+    "id": "cloud-critters",
+    "title": "Cloud Critters · Weather Playground",
+    "category": "Creative web",
+    "description": "An original illustrated weather playground where children mix sunshine, wind, rain and snow, meet three reactive creatures, solve six missions and collect locally saved discoveries.",
+    "skills": [
+      "JavaScript",
+      "Vite",
+      "SVG",
+      "Web Audio",
+      "Responsive CSS"
+    ],
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "live": "https://jp-cloud-critters.vercel.app/",
+    "status": "Original project",
+    "repo": "https://github.com/jp0624/cloud-critters",
+    "sourceFiles": 11,
+    "reviewedAt": "2026-10-22",
+    "evidence": [
+      "https://github.com/jp0624/cloud-critters/tree/main"
+    ],
+    "image": "screenshots/cloud-critters-2026-10-22.jpg",
+    "imageNote": "Live website snapshot · Original illustrated theme",
+    "featured": true,
+    "liveNote": "",
+    "alternateLive": ""
   }
 ]
