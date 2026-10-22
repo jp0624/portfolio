@@ -62,34 +62,35 @@
     "alternateLive": ""
   },
   {
-    "id": "agent-bench",
-    "title": "Agent Bench · Evaluation Studio",
-    "category": "Developer tools",
-    "description": "A coding-task evaluation studio with 12 inspectable tasks, measured reference-agent runs, assertion-level failure analysis, portable reports and regression comparisons.",
+    "id": "showscenes",
+    "title": "ShowScenes · Cinema Discovery",
+    "category": "Product apps",
+    "description": "A movie and TV discovery application with TMDB integration, search, media detail views, recommendations and persistent favorites.",
     "skills": [
-      "Next.js",
+      "React",
       "TypeScript",
-      "Tailwind CSS",
-      "Evaluation systems",
-      "API design"
+      "React Router",
+      "TMDB API",
+      "Tailwind CSS"
     ],
     "languages": [
       "TypeScript",
       "JavaScript",
+      "HTML",
       "CSS"
     ],
-    "live": "https://jp-agent-bench.vercel.app/",
+    "live": "https://movie-app-nu-virid.vercel.app/",
     "status": "Application",
-    "repo": "https://github.com/jp0624/agent-bench",
-    "sourceFiles": 19,
+    "repo": "https://github.com/jp0624/showscenes",
+    "sourceFiles": 84,
     "reviewedAt": "2026-10-22",
     "evidence": [
-      "https://github.com/jp0624/agent-bench/tree/main"
+      "https://github.com/jp0624/showscenes/tree/main"
     ],
-    "image": "screenshots/agent-bench-dark-2026-10-22.jpg",
+    "image": "screenshots/showscenes-dark-2026-10-22.jpg",
     "imageNote": "Live website snapshot · Dark theme",
     "featured": true,
-    "liveNote": "Runs fixed reference implementations with measured assertions. Imports external records; no live LLM provider is called.",
+    "liveNote": "",
     "alternateLive": ""
   },
   {
@@ -429,35 +430,34 @@
     "alternateLive": ""
   },
   {
-    "id": "showscenes",
-    "title": "ShowScenes · Cinema Discovery",
-    "category": "Product apps",
-    "description": "A movie and TV discovery application with TMDB integration, search, media detail views, recommendations and persistent favorites.",
+    "id": "agent-bench",
+    "title": "Agent Bench · Evaluation Studio",
+    "category": "Developer tools",
+    "description": "A coding-task evaluation studio with 12 inspectable tasks, measured reference-agent runs, assertion-level failure analysis, portable reports and regression comparisons.",
     "skills": [
-      "React",
+      "Next.js",
       "TypeScript",
-      "React Router",
-      "TMDB API",
-      "Tailwind CSS"
+      "Tailwind CSS",
+      "Evaluation systems",
+      "API design"
     ],
     "languages": [
       "TypeScript",
       "JavaScript",
-      "HTML",
       "CSS"
     ],
-    "live": "https://movie-app-nu-virid.vercel.app/",
+    "live": "https://jp-agent-bench.vercel.app/",
     "status": "Application",
-    "repo": "https://github.com/jp0624/showscenes",
-    "sourceFiles": 84,
+    "repo": "https://github.com/jp0624/agent-bench",
+    "sourceFiles": 19,
     "reviewedAt": "2026-10-22",
     "evidence": [
-      "https://github.com/jp0624/showscenes/tree/main"
+      "https://github.com/jp0624/agent-bench/tree/main"
     ],
-    "image": "screenshots/showscenes-dark-2026-10-22.jpg",
+    "image": "screenshots/agent-bench-dark-2026-10-22.jpg",
     "imageNote": "Live website snapshot · Dark theme",
     "featured": true,
-    "liveNote": "",
+    "liveNote": "Runs fixed reference implementations with measured assertions. Imports external records; no live LLM provider is called.",
     "alternateLive": ""
   },
   {
