@@ -49,3 +49,7 @@ The three project entries use dated filenames to avoid stale cached thumbnails. 
 ## 2014 portfolio gallery
 
 `public/archive/2014-page-01.webp` through `2014-page-41.webp` are complete page renders of John's original 41-page portfolio, from https://jp-clients.s3.amazonaws.com/_docs/portfolio_12-02-14-opt.pdf (the destination of the existing 2014 archive link). Rendered at 918 × 1188 and optimized to WebP; original page compositions and project imagery are preserved. Labels describe the visible brands or grouped work. The gallery distinguishes historical portfolio pages from current live-site screenshots and links to the original PDF page. No new imagery was generated for these previews.
+
+## Theme-specific digital section artwork · 2026-10-22
+
+Hero, About and Contact now each use their own light/dark WebP pair in `public/images/*-digital-{light,dark}.webp`, generated with the built-in image-generation tool and optimized locally. These replace the shared editorial-systems background in those three sections. The TechnicalScene reference artwork and all project screenshots are preserved. See ARTWORK.md for the scene briefs and palettes.

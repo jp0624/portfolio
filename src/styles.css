@@ -20,15 +20,15 @@ dialog{position:fixed;inset:0;margin:auto;width:min(830px,calc(100vw - 32px));he
 main{max-width:none;border:0}
 main>section:not(.new-hero):not(.technical-scene):not(.about):not(.contact){max-width:1440px;margin-inline:auto}
 .section-inner{width:100%;max-width:1440px;margin-inline:auto;padding-inline:5%;position:relative;z-index:1}
-.section-art{position:relative;isolation:isolate;background-image:linear-gradient(90deg,#f3f2eef5 0%,#f3f2eedb 48%,#f3f2ee66 100%),url('/images/editorial-systems.webp');background-size:cover;background-position:center}
+.section-art{position:relative;isolation:isolate;background-image:linear-gradient(90deg,#f3f2eeed 0%,#f3f2eec9 48%,#f3f2ee44 100%),url('/images/hero-digital-light.webp');background-size:cover;background-position:center}
 .section-art::before{content:'';position:absolute;inset:0;background:inherit;z-index:-1;pointer-events:none}
-.about{display:block;padding:90px 0;background-color:#e5e9eb;background-image:linear-gradient(90deg,#e5e9ebf5,#e5e9ebdc 60%,#e5e9ebaa),url('/images/editorial-systems.webp');background-position:center 62%}
+.about{display:block;padding:90px 0;background-color:#e5e9eb;background-image:linear-gradient(90deg,#e5e9ebef,#e5e9ebdd 60%,#e5e9eb99),url('/images/about-digital-light.webp');background-position:center 62%}
 .about-content{display:grid;grid-template-columns:1.2fr 1fr;gap:13%}
-.contact{padding:85px 0 95px;background-color:#202b3d;background-image:linear-gradient(90deg,#182337f7,#202b3de8 50%,#202b3d90),url('/images/editorial-systems.webp');background-position:center 75%}
+.contact{padding:85px 0 95px;background-color:#f3f2ee;color:var(--green);background-image:linear-gradient(90deg,#f3f2eef2,#f3f2eec9 50%,#f3f2ee33),url('/images/contact-digital-light.webp');background-position:center 75%}
 .explore-all{background:#345fc2;color:white;border:1px solid #345fc2;box-shadow:0 8px 24px #345fc22b;font-weight:650;padding:14px 22px;transition:background .2s,transform .2s}
 .explore-all:hover{background:#264a9b;transform:translateY(-2px)}
-[data-theme=dark] .new-hero{background-image:linear-gradient(90deg,#14191ef5,#14191ee3 50%,#14191e99),url('/images/editorial-systems.webp')}
-[data-theme=dark] .about{background-image:linear-gradient(90deg,#1b2229f5,#1b2229eb 55%,#1b2229bb),url('/images/editorial-systems.webp')}
+[data-theme=dark] .new-hero{background-image:linear-gradient(90deg,#14191eef,#14191ed9 50%,#14191e55),url('/images/hero-digital-dark.webp')}
+[data-theme=dark] .about{background-image:linear-gradient(90deg,#1b2229ef,#1b2229d9 55%,#1b222999),url('/images/about-digital-dark.webp')}
 [data-theme=dark] .explore-all{background:#a7bfe8;border-color:#a7bfe8;color:#152037;box-shadow:0 8px 28px #a7bfe821}
 [data-theme=dark] .explore-all:hover{background:#c5d6f3}
 .project-archive{margin-top:80px;padding-top:48px;border-top:1px solid var(--line)}
@@ -118,3 +118,6 @@ select{color-scheme:light}select option,select optgroup{background:#f3f2ee;color
 .design-cover.brand-cover{padding:0}.design-cover.brand-echo{background:linear-gradient(180deg,#383838,#080808)}.design-cover.brand-evivids{background:#0712a5 url('/design/evivids-background.webp') center/cover}.design-cover.brand-dayt{background:linear-gradient(0deg,#8f1313,#ff0055)}.design-cover.brand-lechat{background:#fff!important}.design-cover.brand-echo img{padding:35px;width:100%;height:100%}.design-cover.brand-evivids img,.design-cover.brand-dayt img{padding:28px;max-height:100%;object-fit:contain}.design-cover.brand-lechat img{padding:25px}
 
 .design-cover.brand-evivids img{padding:40px 45px 45px}
+
+/* Dedicated digital artwork for each section and colour theme. */
+.contact .eyebrow{color:var(--muted)}.contact em{color:#536f9b}[data-theme=dark] .contact{background-color:#182337;color:#e8e9e7;background-image:linear-gradient(90deg,#182337ef,#182337c9 50%,#18233733),url('/images/contact-digital-dark.webp')}[data-theme=dark] .contact em{color:#b4c4e0}.section-art::before{background-color:transparent;background-repeat:no-repeat}@media(max-width:560px){.section-art{background-position:62% center}}
