@@ -93,32 +93,32 @@
     "alternateLive": ""
   },
   {
-    "id": "monster-mail",
-    "title": "Monster Mail \u00b7 Delivery Adventure",
+    "id": "beat-bugs",
+    "title": "Beat Bugs \u00b7 Backyard Orchestra",
     "category": "Creative web",
-    "description": "A Vue delivery adventure with nine parcels across three monster neighbourhoods, clue-based addresses, seal matching, shortest-path route planning, keyboard movement and persistent best scores.",
+    "description": "A React rhythm game with five synthesized insect instruments, a 16-step looping sequencer, tempo and mute/solo controls, three rhythm quests, and locally saved compositions.",
     "skills": [
-      "Vue 3",
+      "React",
       "JavaScript",
-      "Vite",
-      "Pathfinding",
-      "Web Audio"
+      "Web Audio",
+      "SVG",
+      "Vite"
     ],
     "languages": [
       "JavaScript",
       "HTML",
       "CSS"
     ],
-    "live": "https://jp-monster-mail.vercel.app/",
+    "live": "https://jp-beat-bugs.vercel.app/",
     "status": "Original game",
-    "repo": "https://github.com/jp0624/monster-mail",
+    "repo": "https://github.com/jp0624/beat-bugs",
     "sourceFiles": 10,
     "reviewedAt": "2026-10-22",
     "evidence": [
-      "https://github.com/jp0624/monster-mail/tree/main"
+      "https://github.com/jp0624/beat-bugs/tree/main"
     ],
-    "image": "screenshots/monster-mail-2026-10-22.jpg",
-    "imageNote": "Live website snapshot \u00b7 Postal adventure",
+    "image": "screenshots/beat-bugs-2026-10-22.jpg",
+    "imageNote": "Live website snapshot \u00b7 Midnight garden",
     "featured": true,
     "liveNote": "",
     "alternateLive": ""
@@ -583,32 +583,32 @@
     "alternateLive": ""
   },
   {
-    "id": "beat-bugs",
-    "title": "Beat Bugs \u00b7 Backyard Orchestra",
+    "id": "monster-mail",
+    "title": "Monster Mail \u00b7 Delivery Adventure",
     "category": "Creative web",
-    "description": "A React rhythm game with five synthesized insect instruments, a 16-step looping sequencer, tempo and mute/solo controls, three rhythm quests, and locally saved compositions.",
+    "description": "A Vue delivery adventure with nine parcels across three monster neighbourhoods, clue-based addresses, seal matching, shortest-path route planning, keyboard movement and persistent best scores.",
     "skills": [
-      "React",
+      "Vue 3",
       "JavaScript",
-      "Web Audio",
-      "SVG",
-      "Vite"
+      "Vite",
+      "Pathfinding",
+      "Web Audio"
     ],
     "languages": [
       "JavaScript",
       "HTML",
       "CSS"
     ],
-    "live": "https://jp-beat-bugs.vercel.app/",
+    "live": "https://jp-monster-mail.vercel.app/",
     "status": "Original game",
-    "repo": "https://github.com/jp0624/beat-bugs",
+    "repo": "https://github.com/jp0624/monster-mail",
     "sourceFiles": 10,
     "reviewedAt": "2026-10-22",
     "evidence": [
-      "https://github.com/jp0624/beat-bugs/tree/main"
+      "https://github.com/jp0624/monster-mail/tree/main"
     ],
-    "image": "screenshots/beat-bugs-2026-10-22.jpg",
-    "imageNote": "Live website snapshot \u00b7 Midnight garden",
+    "image": "screenshots/monster-mail-2026-10-22.jpg",
+    "imageNote": "Live website snapshot \u00b7 Postal adventure",
     "featured": true,
     "liveNote": "",
     "alternateLive": ""
@@ -915,9 +915,9 @@
       "https://github.com/jp0624/after-hours-dodgeball/tree/main"
     ],
     "image": "screenshots/after-hours-dodgeball-2026-10-22.jpg",
-    "imageNote": "Live website snapshot \u00b7 Gameplay / Compatibility 3D renderer",
+    "imageNote": "Live website snapshot \u00b7 Home screen",
     "featured": true,
-    "liveNote": "Single-player 5v5 AI simulation. WebGL has an automatic SVG 3D fallback; screenshot shows the compatibility renderer.",
+    "liveNote": "Single-player 5v5 AI simulation with right-mouse charge/release throws. WebGL has an automatic SVG 3D fallback.",
     "alternateLive": ""
   },
   {
