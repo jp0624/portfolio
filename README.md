@@ -53,7 +53,20 @@ Google Fonts are optional enhancements; system fonts provide fallbacks.
 
 The production site uses GA4 web stream **Portfolio**, Measurement ID `G-QBW5J5TN4J` (Stream ID `2192444369`). `src/analytics.ts` loads Google's asynchronous tag once, outside React's render lifecycle. Tracking runs only in production builds on `portfolio-johnparker.vercel.app`; localhost and Vercel preview URLs do not contribute traffic.
 
-Google's configuration records the initial page view. The portfolio also sends `section_navigation` (section), `project_details_open` (project title), and `project_link_click` (project title, source/live-app type and destination domain). These are interaction events rather than synthetic page views for anchor navigation. Search-field text is never included in custom events. The configured page location excludes query parameters and fragments. Google signals and advertising personalization signals are disabled.
+Google's configuration records the initial page view. All enabled buttons and links are tracked through one delegated click listener, including mouse, touch and keyboard activation. Each click sends one custom event:
+
+- `section_navigation`: header/mobile navigation, hero section links, skip link and back-to-top.
+- `project_details_open`: showcase and compact project detail triggers.
+- `project_link_click`: live, alternate-live and source links on cards and inside project dialogs.
+- `filter_change`: project/archive category buttons and language/sort selects.
+- `button_click`: theme switch, mobile menu controls, modal close, clear search, reset filters and other buttons.
+- `link_click`: design cards, original archive pages, social/contact links and other links.
+
+Click events include a public control label and interface area. Project events include the public project title; link events include only destination domains, not query strings, email addresses or file IDs. Filter events include only the fixed category, language or sort choice. Search-field text is never included. Capture-phase delegation records modal and menu controls before React removes them; it does not delay navigation.
+
+`scroll_depth` reports numeric `percent_scrolled` values of **25, 50, 75 and 100**, each once per page load. It measures the current scrollable document, including filtered content, and requires a scroll event; a page that fits entirely in the viewport does not emit all milestones. Returning upward, resizing and repeated bottom visits do not duplicate milestones. Scroll reads are throttled with requestAnimationFrame and remain available with reduced motion. GA4's optional built-in 90% `scroll` event is separate.
+
+Section interactions remain events rather than synthetic page views. The configured initial page location excludes query parameters and fragments. Google signals and advertising personalization signals are disabled.
 
 Use GA4 Realtime to check incoming visits and events. Standard reports can take time to populate; browser tracking protection, blockers and visitor preferences can prevent collection. The public Measurement ID is not a secret and requires no Vercel environment variable. No Analytics account credentials are stored in this repository.
 
