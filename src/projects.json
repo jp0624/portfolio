@@ -464,7 +464,7 @@
     "id": "shadow-theatre",
     "title": "Shadow Theatre · Puppet Stories",
     "category": "Creative web",
-    "description": "A full-screen secret-agency puppet studio with dimensional illustrated characters, movable gadgets, cinematic sets, silhouette shadows and saved performances.",
+    "description": "A full-screen agency puppet studio with five cinematic sets, illustrated agents and gadgets, a brass spotlight, editable enamel puppet pieces and saved performances.",
     "skills": [
       "Vue 3",
       "Canvas",
@@ -485,7 +485,7 @@
     "evidence": [
       "https://github.com/jp0624/shadow-theatre/tree/main"
     ],
-    "image": "screenshots/shadow-matching-cast-2026-10-23.jpg",
+    "image": "screenshots/shadow-complete-theme-2026-10-23.jpg",
     "imageNote": "Live website snapshot · Paper jungle theatre",
     "featured": true,
     "liveNote": "Move up to 12 actors and props, build custom puppets, change the light, and record, replay or save a story on this device.",
