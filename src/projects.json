@@ -987,7 +987,7 @@
     "id": "docker-next-firebase-auth",
     "title": "Authentication Starter",
     "category": "Backend & infrastructure",
-    "description": "A responsive Next.js and Firebase authentication starter with account forms, password recovery, editable profiles and an account-free demo workspace.",
+    "description": "A blue-and-copper Next.js account starter with working Firebase email accounts, persistent display-name profiles, recovery and an isolated account-free demo.",
     "skills": [
       "Next.js",
       "Firebase Auth",
@@ -999,17 +999,17 @@
       "CSS"
     ],
     "live": "https://docker-next-firebase-auth.vercel.app/",
-    "status": "Interactive starter",
+    "status": "Interactive app",
     "repo": "https://github.com/jp0624/docker-next-firebase-auth",
     "sourceFiles": 55,
     "reviewedAt": "2026-10-23",
     "evidence": [
       "https://github.com/jp0624/docker-next-firebase-auth/tree/main"
     ],
-    "image": "screenshots/docker-next-firebase-auth-v3.jpg",
+    "image": "screenshots/auth-blue-copper-2026-10-23.jpg",
     "imageNote": "Live website snapshot",
     "featured": false,
-    "liveNote": "Explore the account-free demo. Real Firebase account flows require configured providers and deployed profile rules.",
+    "liveNote": "Email registration, sign-in and display-name profiles use Firebase Authentication directly; no Firestore profile setup is required.",
     "alternateLive": ""
   },
   {
