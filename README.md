@@ -47,7 +47,15 @@ This app uses anchor navigation, so no SPA route rewrite is needed. `base: './'`
 
 `npm run build` performs strict TypeScript checking and builds the production assets. `npm test` checks catalogue integrity, snapshot availability, combined searching/filtering and non-mutating sorting. These are automated checks; a full browser accessibility and responsive review is still recommended before launch. External demos, Firebase availability, old archives, Drive and Figma permissions can change independently of this portfolio.
 
-Google Fonts are optional enhancements; system fonts provide fallbacks. No analytics or tracking is included.
+Google Fonts are optional enhancements; system fonts provide fallbacks.
+
+## Google Analytics
+
+The production site uses GA4 web stream **Portfolio**, Measurement ID `G-QBW5J5TN4J` (Stream ID `2192444369`). `src/analytics.ts` loads Google's asynchronous tag once, outside React's render lifecycle. Tracking runs only in production builds on `portfolio-johnparker.vercel.app`; localhost and Vercel preview URLs do not contribute traffic.
+
+Google's configuration records the initial page view. The portfolio also sends `section_navigation` (section), `project_details_open` (project title), and `project_link_click` (project title, source/live-app type and destination domain). These are interaction events rather than synthetic page views for anchor navigation. Search-field text is never included in custom events. The configured page location excludes query parameters and fragments. Google signals and advertising personalization signals are disabled.
+
+Use GA4 Realtime to check incoming visits and events. Standard reports can take time to populate; browser tracking protection, blockers and visitor preferences can prevent collection. The public Measurement ID is not a secret and requires no Vercel environment variable. No Analytics account credentials are stored in this repository.
 
 ## Profile and visual refresh
 
