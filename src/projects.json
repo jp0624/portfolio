@@ -65,7 +65,7 @@
     "id": "showscenes",
     "title": "ShowScenes · Cinema Discovery",
     "category": "Product apps",
-    "description": "A movie and TV discovery application with TMDB integration, search, media detail views, recommendations and persistent favorites.",
+    "description": "A cinematic movie and TV discovery app with TMDB search, cast and season views, navigable image galleries, trailers and persistent favorites.",
     "skills": [
       "React",
       "TypeScript",
@@ -83,12 +83,12 @@
     "status": "Application",
     "repo": "https://github.com/jp0624/showscenes",
     "sourceFiles": 84,
-    "reviewedAt": "2026-10-22",
+    "reviewedAt": "2026-10-23",
     "evidence": [
       "https://github.com/jp0624/showscenes/tree/main"
     ],
-    "image": "screenshots/showscenes-dark-2026-10-22.jpg",
-    "imageNote": "Live website snapshot · Dark theme",
+    "image": "screenshots/showscenes-cinematic-2026-10-23.jpg",
+    "imageNote": "Live website snapshot · Cinematic dark/red theme",
     "featured": true,
     "liveNote": "",
     "alternateLive": ""
