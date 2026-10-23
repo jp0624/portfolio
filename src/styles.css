@@ -147,3 +147,22 @@ section[id]{scroll-margin-top:12px}
 @keyframes drawer-in{from{transform:translateX(100%)}to{transform:translateX(0)}}
 @media(max-width:900px){:root{--nav-offset:86px}.header .desktop-nav{display:none}.menu-toggle{display:flex}.header-inner{padding-block:16px}.header .navigation-drawer nav a[href='#design']{display:flex}}
 @media(prefers-reduced-motion:reduce){.navigation-drawer[open]{animation:none}.scroll-progress{display:block}}
+
+/* Hero contact actions: labelled, high-contrast and comfortable to tap. */
+.hero-connect{margin-top:30px;padding-top:22px;border-top:1px solid var(--line)}
+.hero-connect>.eyebrow{margin:0 0 13px;font-size:10px;letter-spacing:1.8px;color:var(--muted)}
+.hero-connect-links{display:flex;flex-wrap:wrap;gap:10px}
+.hero-connect-links a{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:14px 18px;border-radius:7px;font-size:15px;font-weight:650;line-height:1.3;transition:background .18s ease,border-color .18s ease,transform .18s ease}
+.hero-connect-links svg{flex-shrink:0}
+.hero-contact-email{background:#253b6e;color:#fff;border:1px solid #253b6e;box-shadow:0 5px 20px #253b6e1a}
+.hero-contact-social{background:#f3f2eecc;border:1px solid #aab1bb;color:var(--green)}
+.hero-connect-links a:hover{transform:translateY(-2px)}
+.hero-contact-email:hover{background:#314d8b}
+.hero-contact-social:hover{background:#e2e7ef;border-color:#657da5}
+[data-theme=dark] .hero-contact-email{background:#b4c8ef;border-color:#b4c8ef;color:#12213d;box-shadow:0 5px 24px #0003}
+[data-theme=dark] .hero-contact-email:hover{background:#cbdaf5}
+[data-theme=dark] .hero-contact-social{background:#202b3de6;border-color:#60718a;color:#f0f3f8}
+[data-theme=dark] .hero-contact-social:hover{background:#2a3a52;border-color:#b4c8ef}
+.hero-connect-links a:focus-visible{outline:3px solid #5d8eff;outline-offset:4px}
+@media(max-width:560px){.hero-connect-links .hero-contact-email{flex-basis:100%;font-size:17px}.hero-contact-social{flex:1}.hero-connect{margin-top:26px}}
+@media(prefers-reduced-motion:reduce){.hero-connect-links a{transition:none}.hero-connect-links a:hover{transform:none}}
