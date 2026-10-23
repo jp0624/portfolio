@@ -805,7 +805,7 @@
     "id": "pocket-planet",
     "title": "Pocket Planet · Build a Little World",
     "category": "Simulation & 3D",
-    "description": "A rotating Canvas world builder with editable spherical terrain, forests, connected rivers, reactive creatures, three ecosystem missions, unlimited free build, undo/redo and saved worlds.",
+    "description": "Build a rotating little world against a full-screen illustrated cosmos, with layered ecosystem readings, guided missions, free building and locally saved progress.",
     "skills": [
       "Vue 3",
       "Canvas",
@@ -826,7 +826,7 @@
     "evidence": [
       "https://github.com/jp0624/pocket-planet/tree/main"
     ],
-    "image": "screenshots/pocket-planet-2026-10-22.jpg",
+    "image": "screenshots/pocket-cosmos-2026-10-23.jpg",
     "imageNote": "Live website snapshot · Worldkeeper theme",
     "featured": true,
     "liveNote": "Fictional ecosystem rules for play, not a scientific climate model.",
