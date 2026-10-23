@@ -159,7 +159,7 @@
     "id": "realestate",
     "title": "Realty Property Search",
     "category": "Product apps",
-    "description": "A Toronto property discovery proof of concept combining map markers, listing cards and property comments.",
+    "description": "A Toronto property discovery experience with an animated neighbourhood hero, interactive map, saved homes and detailed photo galleries.",
     "skills": [
       "React",
       "Firebase",
@@ -179,7 +179,7 @@
     "evidence": [
       "https://github.com/jp0624/realestate/tree/main"
     ],
-    "image": "screenshots/realestate-dark-red-2026-10-22.jpg",
+    "image": "screenshots/realty-neighbourhood-2026-10-23.jpg",
     "imageNote": "Live website snapshot · Dark/red theme",
     "featured": true,
     "liveNote": "",
