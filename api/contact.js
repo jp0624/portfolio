@@ -29,6 +29,28 @@ export default async function contact(req, res) {
         || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return res.status(400).end();
     const destination = process.env.CONTACT_RECIPIENT;
     if (!destination) return res.status(503).end();
+    const resendKey = process.env.RESEND_API_KEY;
+    if (resendKey) {
+      const delivery = await fetch('https://api.resend.com/emails', {
+        method: 'POST',
+        headers: { Authorization: `Bearer ${resendKey}`, 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          from: 'John Parker Portfolio <portfolio@contact.evivids.com>',
+          to: [destination],
+          reply_to: email,
+          subject: 'Portfolio contact',
+          text: `Name: ${name.trim()}\nEmail: ${email}\n\n${message.trim()}`,
+        }),
+        signal: AbortSignal.timeout(10000),
+      });
+      if (!delivery.ok) {
+        console.warn('Resend declined portfolio contact delivery', delivery.status);
+        return res.status(503).end();
+      }
+      const result = await delivery.json();
+      if (typeof result.id !== 'string' || !result.id) return res.status(503).end();
+      return res.status(202).json({ accepted: true });
+    }
     const delivery = await fetch('https://formsubmit.co/ajax/' + encodeURIComponent(destination), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', Accept: 'application/json', Referer: site + '/', Origin: site },
