@@ -16,6 +16,7 @@ async function requestContact(body: object) {
 
 export function ContactDialog({dialogRef}: {dialogRef: RefObject<HTMLDialogElement | null>}) {
   const [sending, setSending] = useState(false);
+  const [sent, setSent] = useState(false);
   const [notice, setNotice] = useState('');
   const [phone, setPhone] = useState('');
   const [phoneBusy, setPhoneBusy] = useState(false);
@@ -25,6 +26,7 @@ export function ContactDialog({dialogRef}: {dialogRef: RefObject<HTMLDialogEleme
   async function send(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (sending) return;
+    const opened = session.current;
     const form = event.currentTarget;
     const fields = new FormData(form);
     setSending(true);
@@ -32,9 +34,10 @@ export function ContactDialog({dialogRef}: {dialogRef: RefObject<HTMLDialogEleme
     try {
       const result = await requestContact({action: 'message', name: fields.get('name'), email: fields.get('email'), message: fields.get('message')});
       if (result.accepted !== true) throw new Error();
-      form.reset();
-      setNotice('Thanks. Your message was accepted for delivery.');
+      if (opened !== session.current) return;
+      setSent(true);
     } catch (error) {
+      if (opened !== session.current) return;
       const reason = error instanceof Error ? error.message : '';
       if (reason === 'verification_failed') {
         setNotice('The spam check couldn’t verify this request. Copy your draft before reloading and trying again, or use phone or LinkedIn.');
@@ -65,19 +68,21 @@ export function ContactDialog({dialogRef}: {dialogRef: RefObject<HTMLDialogEleme
 
   return <dialog id="contact-dialog" ref={dialogRef} aria-labelledby="contact-title" onClose={() => {
     session.current++;
+    setSent(false);
+    setNotice('');
     setPhone('');
     setPhoneBusy(false);
     setPhoneError(false);
   }}>
     <button type="button" className="close" aria-label="Close contact form" onClick={() => dialogRef.current?.close()}><X/></button>
     <h2 id="contact-title">Get in touch</h2>
-    <form onSubmit={send}>
+    {!sent && <form onSubmit={send}>
       <label>Your name<input autoFocus required name="name" autoComplete="name" maxLength={100}/></label>
       <label>Your email<input required type="email" name="email" autoComplete="email" maxLength={254}/></label>
       <label>Message<textarea required name="message" rows={4} maxLength={4000}/></label>
       <button className="primary" disabled={sending}>{sending ? 'Sending…' : 'Send message'}</button>
-      <p role="status">{notice}</p>
-    </form>
+    </form>}
+    <p role="status">{sent ? 'Thanks. Your message was accepted for delivery.' : notice}</p>
     <div className="contact-options">
       {phone ? <a href={'tel:+' + (phone.replace(/\D/g, '').length === 10 ? '1' : '') + phone.replace(/\D/g, '')}>{phone}</a>
         : <button type="button" disabled={phoneBusy} onClick={revealPhone}>{phoneBusy ? 'Checking…' : 'Show phone number'}</button>}
