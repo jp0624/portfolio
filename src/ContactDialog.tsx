@@ -7,7 +7,10 @@ async function requestContact(body: object) {
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify(body),
   });
-  if (!response.ok) throw new Error('Contact request failed');
+  if (!response.ok) {
+    const detail = await response.json().catch(() => null);
+    throw new Error(detail?.reason === 'awaiting_activation' ? 'awaiting_activation' : 'Contact request failed');
+  }
   return response.json();
 }
 
@@ -31,8 +34,10 @@ export function ContactDialog({dialogRef}: {dialogRef: RefObject<HTMLDialogEleme
       if (result.accepted !== true) throw new Error();
       form.reset();
       setNotice('Thanks. Your message was accepted for delivery.');
-    } catch {
-      setNotice('Your message couldn’t be confirmed. Your draft is here. You can also reach me on LinkedIn.');
+    } catch (error) {
+      setNotice(error instanceof Error && error.message === 'awaiting_activation'
+        ? 'Email is awaiting activation. Please use the phone or LinkedIn option below.'
+        : 'Your message couldn’t be confirmed. Your draft is here. You can also reach me on LinkedIn.');
     } finally {
       setSending(false);
     }

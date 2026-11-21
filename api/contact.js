@@ -36,7 +36,11 @@ export default async function contact(req, res) {
       signal: AbortSignal.timeout(10000),
     });
     const result = await delivery.json();
-    if (!delivery.ok || ![true, 'true'].includes(result.success) || /activat|confirm/i.test(result.message ?? '')) {
+    if (/activat|confirm/i.test(result.message ?? '')) {
+      return res.status(503).json({ reason: 'awaiting_activation' });
+    }
+    if (!delivery.ok || ![true, 'true'].includes(result.success)) {
+      console.warn('Contact delivery was declined', delivery.status);
       return res.status(503).end();
     }
     return res.status(202).json({ accepted: true });
