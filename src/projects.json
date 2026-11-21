@@ -280,7 +280,7 @@
     "id": "robots-vue-vite",
     "title": "Robbie’s Present Delivery System",
     "category": "Simulation & 3D",
-    "description": "Send a fleet of robots out from the depot with a sequence of moves. Play the route at an adjustable speed, step backward or forward, or run it to completion. The delivery map shows gift counts and blocked robots, while the report tracks deliveries, houses reached, and fleet coordinates.",
+    "description": "Build a delivery route with directional buttons, typed commands, or pasted arrows. The route editor counts moves as you go and lets you remove the last move, clear the route, or load an example. Play the route at an adjustable speed or step through it to see gift counts, blocked robots, and fleet positions on the map. The dashboard features a new Robbie mascot and matching browser icon.",
     "skills": [
       "Vue 3",
       "TypeScript",
@@ -299,12 +299,12 @@
     "sourceFiles": 28,
     "reviewedAt": "2026-11-20",
     "evidence": [
-      "https://github.com/jp0624/robots-vue-vite/tree/main"
+      "https://github.com/jp0624/robots-vue-vite/commit/8ae62f8b708762227d7a32c19ac26ed91ca88718"
     ],
     "image": "screenshots/robbie-delivery-overview.jpg",
-    "imageNote": "Live website snapshot · Completed delivery route",
+    "imageNote": "Live website snapshot · Robbie and the route editor",
     "detailImage": "screenshots/robbie-delivery-collision.jpg",
-    "detailImageAlt": "A blocked robot highlighted on the delivery map and in the fleet list",
+    "detailImageAlt": "The route editor and a blocked robot highlighted on the map and in the fleet list",
     "featured": true,
     "liveNote": "",
     "alternateLive": ""
