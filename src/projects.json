@@ -278,13 +278,13 @@
   },
   {
     "id": "robots-vue-vite",
-    "title": "Robbie’s Delivery Simulation",
+    "title": "Robbie’s Present Delivery System",
     "category": "Simulation & 3D",
-    "description": "A step-by-step robot delivery simulation with an expanding grid, collision indicators and live delivery statistics.",
+    "description": "Send a fleet of robots out from the depot with a sequence of moves. Play the route at an adjustable speed, step backward or forward, or run it to completion. The delivery map shows gift counts and blocked robots, while the report tracks deliveries, houses reached, and fleet coordinates.",
     "skills": [
       "Vue 3",
       "TypeScript",
-      "Simulation logic",
+      "Simulation state and undo",
       "Tailwind CSS"
     ],
     "languages": [
@@ -297,12 +297,14 @@
     "status": "Simulation",
     "repo": "https://github.com/jp0624/robots-vue-vite",
     "sourceFiles": 28,
-    "reviewedAt": "2026-10-19",
+    "reviewedAt": "2026-11-20",
     "evidence": [
       "https://github.com/jp0624/robots-vue-vite/tree/main"
     ],
-    "image": "screenshots/robots-vue-vite.jpg",
-    "imageNote": "Live website snapshot",
+    "image": "screenshots/robbie-delivery-overview.jpg",
+    "imageNote": "Live website snapshot · Completed delivery route",
+    "detailImage": "screenshots/robbie-delivery-collision.jpg",
+    "detailImageAlt": "A blocked robot highlighted on the delivery map and in the fleet list",
     "featured": true,
     "liveNote": "",
     "alternateLive": ""

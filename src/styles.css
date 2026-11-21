@@ -166,3 +166,7 @@ section[id]{scroll-margin-top:12px}
 .hero-connect-links a:focus-visible{outline:3px solid #5d8eff;outline-offset:4px}
 @media(max-width:560px){.hero-connect-links .hero-contact-email{flex-basis:100%;font-size:17px}.hero-contact-social{flex:1}.hero-connect{margin-top:26px}}
 @media(prefers-reduced-motion:reduce){.hero-connect-links a{transition:none}.hero-connect-links a:hover{transform:none}}
+
+.project-detail-figure{margin:1.25rem 0}
+.project-detail-figure img{display:block;width:100%;height:auto;border-radius:12px}
+.project-detail-figure figcaption{margin-top:.5rem;font-size:.85rem;color:var(--muted)}
