@@ -9,7 +9,7 @@ async function requestContact(body: object) {
   });
   if (!response.ok) {
     const detail = await response.json().catch(() => null);
-    throw new Error(detail?.reason === 'awaiting_activation' ? 'awaiting_activation' : 'Contact request failed');
+    throw new Error(detail?.reason ?? 'Contact request failed');
   }
   return response.json();
 }
@@ -35,9 +35,14 @@ export function ContactDialog({dialogRef}: {dialogRef: RefObject<HTMLDialogEleme
       form.reset();
       setNotice('Thanks. Your message was accepted for delivery.');
     } catch (error) {
-      setNotice(error instanceof Error && error.message === 'awaiting_activation'
-        ? 'Email is awaiting activation. Please use the phone or LinkedIn option below.'
-        : 'Your message couldn’t be confirmed. Your draft is here. You can also reach me on LinkedIn.');
+      const reason = error instanceof Error ? error.message : '';
+      if (reason === 'verification_failed') {
+        setNotice('The spam check couldn’t verify this request. Copy your draft before reloading and trying again, or use phone or LinkedIn.');
+      } else if (reason === 'awaiting_activation') {
+        setNotice('Email delivery is awaiting setup. Please use phone or LinkedIn below.');
+      } else {
+        setNotice('The contact form is temporarily unable to send. Your draft is still here. You can reach me by phone or LinkedIn below.');
+      }
     } finally {
       setSending(false);
     }

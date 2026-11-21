@@ -11,14 +11,14 @@ export default async function contact(req, res) {
     res.setHeader('Allow', 'POST');
     return res.status(405).end();
   }
-  if (req.headers.origin !== site) return res.status(403).end();
+  if (req.headers.origin !== site) return res.status(403).json({ reason: 'invalid_origin' });
   if (!req.headers['content-type']?.startsWith('application/json')) return res.status(415).end();
   try {
     const body = req.body;
     if (!body || !['phone', 'message'].includes(body.action)) return res.status(400).end();
     const verification = await checkBotId({ developmentOptions: { isDevelopment: false }, advancedOptions: { checkLevel: 'basic' } });
     if (!verification.isHuman || verification.isVerifiedBot || verification.isBot || verification.bypassed) {
-      return res.status(403).end();
+      return res.status(403).json({ reason: 'verification_failed' });
     }
     if (body.action === 'phone') {
       if (!process.env.CONTACT_PHONE) return res.status(503).end();
@@ -44,7 +44,9 @@ export default async function contact(req, res) {
       return res.status(503).end();
     }
     return res.status(202).json({ accepted: true });
-  } catch {
+  } catch (error) {
+    // Keep contact details and message contents out of runtime logs.
+    console.warn('Contact service error', error?.name, error?.cause?.code ?? error?.code ?? '');
     return res.status(503).end();
   }
 }
