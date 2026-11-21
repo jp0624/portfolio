@@ -3,7 +3,7 @@
     "id": "sinkingship",
     "title": "Sinking Ship Entertainment",
     "category": "Creative web",
-    "description": "Led and built interactive web experiences at Sinking Ship Entertainment. This corporate site combines PixiJS, HTML5 canvas and advanced CSS to bring the studio’s world to life.",
+    "description": "Led and built interactive web experiences at Sinking Ship Entertainment. The desktop site uses PixiJS and HTML5 canvas for its animated ocean scenes. On phones and tablets, visitors can scroll through the original artwork, expand series and crew profiles, and browse the press archive by year.",
     "skills": [
       "PixiJS",
       "JavaScript",
@@ -18,13 +18,15 @@
     "live": "https://sinkingship.vercel.app/",
     "status": "Client work",
     "repo": "https://github.com/jp0624/sinkingship",
-    "sourceFiles": 878,
-    "reviewedAt": "2026-10-19",
+    "sourceFiles": 757,
+    "reviewedAt": "2026-11-21",
     "evidence": [
       "https://github.com/jp0624/sinkingship/tree/main"
     ],
     "image": "screenshots/sinkingship.jpg",
     "imageNote": "Live website snapshot",
+    "detailImage": "screenshots/sinkingship-mobile.jpg",
+    "detailImageAlt": "The Sinking Ship mobile archive at phone width, with the studio ship, section navigation and expandable series.",
     "featured": true,
     "liveNote": "",
     "alternateLive": ""
