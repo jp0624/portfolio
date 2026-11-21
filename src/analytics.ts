@@ -23,7 +23,7 @@ export function initializeAnalytics(){
  document.addEventListener('click',event=>{
   if(!(event.target instanceof Element))return;
   const control=event.target.closest('a,button');
-  if(!control||control.matches(':disabled,[aria-disabled="true"]'))return;
+  if(!control||control.closest('#contact-dialog')||control.matches(':disabled,[aria-disabled="true"]'))return;
   const area=control.closest('dialog')?.id==='mobile-navigation'?'mobile_menu'
    :control.closest('.detail')?'project_details'
    :control.closest('header')?'header'

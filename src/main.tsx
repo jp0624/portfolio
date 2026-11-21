@@ -1,6 +1,8 @@
+import {initBotId} from 'botid/client/core';
 import React from 'react';
 import {createRoot} from 'react-dom/client';
 import {App} from './App';
 import {initializeAnalytics} from './analytics';
+if (import.meta.env.PROD) initBotId({ protect: [{ path: '/api/contact', method: 'POST' }] });
 initializeAnalytics();
 createRoot(document.getElementById('root')!).render(<React.StrictMode><App/></React.StrictMode>);
