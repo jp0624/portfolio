@@ -64,7 +64,7 @@ A real-time intersection simulation combining moving vehicles, traffic signals, 
 
 ## ShowScenes · Cinema Discovery
 
-A movie and TV discovery application with TMDB integration, search, media detail views, recommendations and persistent favorites.
+Movie and TV discovery with daily and weekly trending charts, regional streaming filters, film collections, cast filmographies and trailers. A parallax spotlight leads into a browser-saved watchlist, favorites, watched history and ratings.
 
 - Repository: https://github.com/jp0624/showscenes
 - Category: Product apps

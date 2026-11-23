@@ -65,12 +65,13 @@
     "id": "showscenes",
     "title": "ShowScenes · Cinema Discovery",
     "category": "Product apps",
-    "description": "A cinematic movie and TV discovery app with TMDB search, cast and season views, navigable image galleries, trailers and persistent favorites.",
+    "description": "Browse daily and weekly movie and TV charts, explore cast filmographies and film collections, or filter by genre, runtime and streaming service. A parallax spotlight opens directly into trailers and title details. Watchlists, favorites and personal ratings are saved in the browser.",
     "skills": [
       "React",
       "TypeScript",
       "React Router",
       "TMDB API",
+      "Framer Motion",
       "Tailwind CSS"
     ],
     "languages": [
@@ -83,12 +84,14 @@
     "status": "Application",
     "repo": "https://github.com/jp0624/showscenes",
     "sourceFiles": 84,
-    "reviewedAt": "2026-10-23",
+    "reviewedAt": "2026-11-23",
     "evidence": [
       "https://github.com/jp0624/showscenes/tree/main"
     ],
-    "image": "screenshots/showscenes-cinematic-2026-10-23.jpg",
-    "imageNote": "Live website snapshot · Cinematic dark/red theme",
+    "image": "screenshots/showscenes-spotlight.jpg",
+    "detailImage": "screenshots/showscenes-discover.jpg",
+    "detailImageAlt": "ShowScenes Discover showing science-fiction movies rated 7 or higher, with Canadian streaming filters.",
+    "imageNote": "Live website snapshot · The Odyssey in the redesigned cinematic spotlight",
     "featured": true,
     "liveNote": "",
     "alternateLive": ""
