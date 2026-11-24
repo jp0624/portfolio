@@ -183,3 +183,7 @@ section[id]{scroll-margin-top:12px}
 #contact-dialog .contact-options { display:flex; gap:1rem; align-items:center; flex-wrap:wrap; border-top:1px solid var(--line); margin-top:1.3rem; padding-top:.9rem; }
 #contact-dialog .contact-options :is(button,a) { text-decoration:underline; text-underline-offset:.2rem; }
 body:has(#contact-dialog[open]) { overflow:hidden; }
+
+@media (max-width: 767px) {
+  .hero-layout > .hero-connect { margin-top: 0; }
+}
