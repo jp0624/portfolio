@@ -1,5 +1,40 @@
 [
   {
+    "id": "showscenes",
+    "title": "ShowScenes · Cinema Discovery",
+    "category": "Product apps",
+    "description": "Browse daily and weekly movie and TV charts, explore cast filmographies and film collections, or filter by genre, runtime and streaming service. A parallax spotlight opens directly into trailers and title details. Watchlists, favorites and personal ratings are saved in the browser.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "React Router",
+      "TMDB API",
+      "Framer Motion",
+      "Tailwind CSS"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "live": "https://www.showscenes.ca/",
+    "status": "Application",
+    "repo": "https://github.com/jp0624/showscenes",
+    "sourceFiles": 84,
+    "reviewedAt": "2026-11-23",
+    "evidence": [
+      "https://github.com/jp0624/showscenes/tree/main"
+    ],
+    "image": "screenshots/showscenes-spotlight.jpg",
+    "detailImage": "screenshots/showscenes-discover.jpg",
+    "detailImageAlt": "ShowScenes Discover showing science-fiction movies rated 7 or higher, with Canadian streaming filters.",
+    "imageNote": "Live website snapshot · The Odyssey in the redesigned cinematic spotlight",
+    "featured": true,
+    "liveNote": "",
+    "alternateLive": ""
+  },
+  {
     "id": "sinkingship",
     "title": "Sinking Ship Entertainment",
     "category": "Creative web",
@@ -57,41 +92,6 @@
     ],
     "image": "screenshots/notes-dashboard.jpg",
     "imageNote": "Live website snapshot",
-    "featured": true,
-    "liveNote": "",
-    "alternateLive": ""
-  },
-  {
-    "id": "showscenes",
-    "title": "ShowScenes · Cinema Discovery",
-    "category": "Product apps",
-    "description": "Browse daily and weekly movie and TV charts, explore cast filmographies and film collections, or filter by genre, runtime and streaming service. A parallax spotlight opens directly into trailers and title details. Watchlists, favorites and personal ratings are saved in the browser.",
-    "skills": [
-      "React",
-      "TypeScript",
-      "React Router",
-      "TMDB API",
-      "Framer Motion",
-      "Tailwind CSS"
-    ],
-    "languages": [
-      "TypeScript",
-      "JavaScript",
-      "HTML",
-      "CSS"
-    ],
-    "live": "https://www.showscenes.ca/",
-    "status": "Application",
-    "repo": "https://github.com/jp0624/showscenes",
-    "sourceFiles": 84,
-    "reviewedAt": "2026-11-23",
-    "evidence": [
-      "https://github.com/jp0624/showscenes/tree/main"
-    ],
-    "image": "screenshots/showscenes-spotlight.jpg",
-    "detailImage": "screenshots/showscenes-discover.jpg",
-    "detailImageAlt": "ShowScenes Discover showing science-fiction movies rated 7 or higher, with Canadian streaming filters.",
-    "imageNote": "Live website snapshot · The Odyssey in the redesigned cinematic spotlight",
     "featured": true,
     "liveNote": "",
     "alternateLive": ""
