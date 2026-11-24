@@ -20,7 +20,8 @@ export function initializeAnalytics(){
  script.src=`https://www.googletagmanager.com/gtag/js?id=${MEASUREMENT_ID}`;
  document.head.appendChild(script);
  // Capture before React changes or removes a clicked control (for example, modal close).
- document.addEventListener('click',event=>{
+ function reportClick(event:MouseEvent){
+  if(event.type==='auxclick' && event.button!==1)return;
   if(!(event.target instanceof Element))return;
   const control=event.target.closest('a,button');
   if(!control||control.closest('#contact-dialog')||control.matches(':disabled,[aria-disabled="true"]'))return;
@@ -31,10 +32,11 @@ export function initializeAnalytics(){
    :control.closest('.new-hero')?'hero'
    :control.closest('section[id]')?.id||'page';
   const label=(control.getAttribute('aria-label')||control.textContent||'').replace(/\s+/g,' ').trim().slice(0,100);
-  const context={control_label:label,ui_area:area};
+  const name=control.closest<HTMLElement>('[data-content-name]')?.dataset.contentName;
+  const context={control_label:label,ui_area:area,...(name && {content_name:name})};
   const link=control instanceof HTMLAnchorElement?control:null;
   const card=control.closest('.card,.compact-card,.detail');
-  const title=card?.querySelector('.detail-body h2,h3,h4')?.textContent?.trim();
+  const title=card?.getAttribute('data-content-name') || card?.querySelector('.detail-body h2,h3,h4')?.textContent?.trim();
   if(link?.getAttribute('href')?.startsWith('#')){
    const section=link.getAttribute('href')!.slice(1)||'top';
    if(['top','work','about','experience','skills','design','contact'].includes(section)){
@@ -64,7 +66,9 @@ export function initializeAnalytics(){
    const destination=new URL(link.href);
    analytics.gtag?.('event','link_click',{...context,link_domain:destination.hostname||destination.protocol.replace(':','')});
   }else analytics.gtag?.('event','button_click',context);
- },{capture:true,passive:true});
+ }
+ document.addEventListener('click',reportClick,{capture:true,passive:true});
+ document.addEventListener('auxclick',reportClick,{capture:true,passive:true});
  document.addEventListener('change',event=>{
   if(!(event.target instanceof HTMLSelectElement))return;
   const select=event.target;

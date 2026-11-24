@@ -13,7 +13,7 @@ test('production analytics initializes once and covers buttons, links, modal act
  <label><span class="sr-only">Filter by language</span><select><option>TypeScript</option></select></label>
  <label><span class="sr-only">Sort projects</span><select><option>A–Z</option></select></label>
  <input value="private search text"><button aria-label="Clear search">×</button><button>Reset filters</button>
- <article class="card"><h3><button>Example project</button></h3><a href="https://github.com/jp0624/example">Source</a></article></section>
+ <article class="card" data-content-name="Example project"><h3><button>Example project</button></h3><a href="https://github.com/jp0624/example">Source</a></article></section>
  <section id="design"><div role="group" aria-label="Archive categories"><button>Brand identities<span>10</span></button></div>
  <a href="https://example.com/file.pdf?secret=hidden#page=38" aria-label="View archive page 38">View original</a></section>
  <dialog><div class="detail"><button aria-label="Close project details">×</button><div class="detail-body"><h2>Example project</h2><a href="https://app.example.com/?secret=hidden">View live app</a><a href="https://github.com/jp0624/example">Explore source</a></div></div></dialog>
@@ -34,7 +34,7 @@ test('production analytics initializes once and covers buttons, links, modal act
   for(const control of controls)(control.matches('select')?change:click)({target:control} as unknown as Event);
   const events=production.dataLayer.slice(2).map(args=>Array.from(args));
   expect(events).toHaveLength(controls.length);
-  expect(events).toContainEqual(['event','project_details_open',expect.objectContaining({project_title:'Example project'})]);
+  expect(events).toContainEqual(['event','project_details_open',expect.objectContaining({project_title:'Example project',content_name:'Example project'})]);
   expect(events).toContainEqual(['event','project_link_click',expect.objectContaining({ui_area:'project_details',link_type:'live_app',link_domain:'app.example.com'})]);
   expect(events).toContainEqual(['event','project_link_click',expect.objectContaining({ui_area:'project_details',link_type:'source'})]);
   expect(events).toContainEqual(['event','button_click',{control_label:'Close project details',ui_area:'project_details'}]);
