@@ -37,6 +37,37 @@
     "alternateLive": ""
   },
   {
+    "id": "fulltime-press",
+    "title": "Fulltime Press · Sports Magazine",
+    "category": "Creative web",
+    "description": "An independent sports magazine with 82 stories across six sports. A cinematic featured-story carousel leads into a filterable archive with original sports imagery and a keyboard-accessible article reader.",
+    "skills": [
+      "Editorial design",
+      "JavaScript",
+      "Responsive CSS",
+      "Accessible interactions",
+      "AI image generation"
+    ],
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "live": "https://fulltime-press.vercel.app/",
+    "status": "Application",
+    "repo": "",
+    "sourceFiles": 0,
+    "reviewedAt": "2026-11-25",
+    "evidence": [
+      "https://fulltime-press.vercel.app/"
+    ],
+    "image": "screenshots/fulltime-press-home.webp",
+    "imageNote": "Live website snapshot · Fulltime Press featured-story carousel",
+    "featured": true,
+    "liveNote": "Private source repository.",
+    "alternateLive": ""
+  },
+  {
     "id": "sinkingship",
     "title": "Sinking Ship Entertainment",
     "category": "Creative web",
