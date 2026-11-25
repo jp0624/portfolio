@@ -3,14 +3,16 @@
     "id": "showscenes",
     "title": "ShowScenes · Cinema Discovery",
     "category": "Product apps",
-    "description": "Browse daily and weekly movie and TV charts, explore cast filmographies and film collections, or filter by genre, runtime and streaming service. A parallax spotlight opens directly into trailers and title details. Watchlists, favorites and personal ratings are saved in the browser.",
+    "description": "Find where a movie or series is streaming, watch its trailer, or follow a cast member’s career through photos and a filmography timeline. Guests can save titles and star ratings locally. Verified accounts sync watchlists, favorites and ratings across devices.",
     "skills": [
       "React",
       "TypeScript",
       "React Router",
       "TMDB API",
       "Framer Motion",
-      "Tailwind CSS"
+      "Tailwind CSS",
+      "Firebase",
+      "Cloud Firestore"
     ],
     "languages": [
       "TypeScript",
@@ -20,18 +22,18 @@
     ],
     "live": "https://www.showscenes.ca/",
     "status": "Application",
-    "repo": "https://github.com/jp0624/showscenes",
+    "repo": "",
     "sourceFiles": 84,
     "reviewedAt": "2026-11-23",
     "evidence": [
-      "https://github.com/jp0624/showscenes/tree/main"
+      "https://www.showscenes.ca/"
     ],
     "image": "screenshots/showscenes-spotlight.jpg",
     "detailImage": "screenshots/showscenes-discover.jpg",
     "detailImageAlt": "ShowScenes Discover showing science-fiction movies rated 7 or higher, with Canadian streaming filters.",
     "imageNote": "Live website snapshot · The Odyssey in the redesigned cinematic spotlight",
     "featured": true,
-    "liveNote": "",
+    "liveNote": "Private source repository.",
     "alternateLive": ""
   },
   {

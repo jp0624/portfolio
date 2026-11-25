@@ -64,12 +64,13 @@ A real-time intersection simulation combining moving vehicles, traffic signals, 
 
 ## ShowScenes · Cinema Discovery
 
-Movie and TV discovery with daily and weekly trending charts, regional streaming filters, film collections, cast filmographies and trailers. A parallax spotlight leads into a browser-saved watchlist, favorites, watched history and ratings.
+Find where a movie or series is streaming, watch its trailer, or follow a cast member’s career through photos and a filmography timeline. Guests can save titles and star ratings locally. Verified accounts sync watchlists, favorites and ratings across devices.
 
-- Repository: https://github.com/jp0624/showscenes
+- Repository: Private
+- Live site: https://www.showscenes.ca/
 - Category: Product apps
 - Languages: TypeScript, JavaScript, HTML, CSS
-- Skills: React, TypeScript, React Router, TMDB API, Tailwind CSS
+- Skills: React, TypeScript, React Router, TMDB API, Framer Motion, Tailwind CSS, Firebase, Cloud Firestore
 - Status: Application
 
 ## Odd Squad
