@@ -67,6 +67,38 @@
     "alternateLive": ""
   },
   {
+    "id": "draft-buzzer",
+    "title": "Draft Buzzer · Fantasy Sports Clubhouse",
+    "category": "Product apps",
+    "description": "Compare how the same stat line scores under different league rules, from half-PPR football to hit-weighted hockey. The illustrated clubhouse brings NFL, NBA, MLB and NHL schedules together with private league invitations, timed round-robin drafts and roster scoring.",
+    "skills": [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Cloud Firestore",
+      "Sports API integration"
+    ],
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "live": "https://draft-buzzer.vercel.app/",
+    "status": "Application",
+    "repo": "",
+    "sourceFiles": 0,
+    "reviewedAt": "2026-11-25",
+    "evidence": [
+      "https://draft-buzzer.vercel.app/"
+    ],
+    "image": "screenshots/draft-buzzer-home.webp",
+    "imageNote": "Live website snapshot · Illustrated Draft Buzzer clubhouse and league playbook",
+    "featured": true,
+    "liveNote": "Private source repository.",
+    "alternateLive": ""
+  },
+  {
     "id": "fulltime-press",
     "title": "Fulltime Press · Sports Magazine",
     "category": "Creative web",
