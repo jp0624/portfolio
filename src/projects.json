@@ -67,6 +67,36 @@
     "alternateLive": ""
   },
   {
+    "id": "evivids",
+    "title": "eVivids Studio",
+    "category": "Creative web",
+    "description": "The Toronto studio’s website pairs six service guides with examples of shipped work. Visitors can browse the project archive, see how the studio approaches a brief, and send a project enquiry.",
+    "skills": [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Resend"
+    ],
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "live": "https://www.evivids.com/",
+    "status": "Studio website",
+    "repo": "",
+    "sourceFiles": 0,
+    "reviewedAt": "2026-11-25",
+    "evidence": [
+      "https://www.evivids.com/"
+    ],
+    "image": "screenshots/evivids-home.webp",
+    "imageNote": "Live website snapshot · eVivids studio homepage",
+    "featured": true,
+    "liveNote": "Private source repository.",
+    "alternateLive": ""
+  },
+  {
     "id": "draft-buzzer",
     "title": "Draft Buzzer · Fantasy Sports Clubhouse",
     "category": "Product apps",
