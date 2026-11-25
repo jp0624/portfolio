@@ -499,6 +499,36 @@
     "alternateLive": ""
   },
   {
+    "id": "play-zone",
+    "title": "Play Zone · A Game Center for Kids",
+    "category": "Creative web",
+    "description": "Six paper-puppet games turn spelling, geography, ancient Egypt, engineering and storytelling into hands-on play. Build a marble run in Clockwork Critters, direct a film in Firefly Film Studio, or explore four more illustrated stages.",
+    "skills": [
+      "Game design",
+      "SVG illustration",
+      "Accessible interactions",
+      "CSS animation",
+      "Local progress tracking"
+    ],
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "live": "https://play-zone-mu.vercel.app/",
+    "status": "Original game",
+    "repo": "",
+    "sourceFiles": 0,
+    "reviewedAt": "2026-11-25",
+    "evidence": [],
+    "image": "screenshots/play-zone-cover.svg",
+    "imageNote": "Illustrated project cover",
+    "featured": true,
+    "presentation": "illustrated",
+    "liveNote": "Play 66 levels with touch and keyboard controls, saved stars, and paper-star celebrations that respect reduced-motion settings.",
+    "alternateLive": ""
+  },
+  {
     "id": "vue-crm",
     "title": "Le-Chat · CRM",
     "category": "Product apps",
