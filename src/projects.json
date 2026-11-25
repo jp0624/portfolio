@@ -67,33 +67,32 @@
     "alternateLive": ""
   },
   {
-    "id": "notes-dashboard",
-    "title": "Fieldnotes",
-    "category": "Product apps",
-    "description": "A polished notes workspace with API-backed CRUD, optimistic updates and rollback, searchable categories, image uploads and persistent themes.",
+    "id": "fulltime-press",
+    "title": "Fulltime Press · Sports Magazine",
+    "category": "Creative web",
+    "description": "An independent sports magazine with 82 stories across six sports. A cinematic featured-story carousel leads into a filterable archive with original sports imagery and a keyboard-accessible article reader.",
     "skills": [
-      "React",
-      "TypeScript",
-      "Tailwind CSS",
-      "MSW",
-      "Vitest"
+      "Editorial design",
+      "JavaScript",
+      "Responsive CSS",
+      "Accessible interactions",
+      "AI image generation"
     ],
     "languages": [
-      "TypeScript",
-      "HTML",
       "JavaScript",
+      "HTML",
       "CSS"
     ],
-    "live": "https://notes-dashboard-int.vercel.app/",
-    "status": "Assessment",
-    "repo": "https://github.com/jp0624/notes-dashboard",
-    "sourceFiles": 36,
-    "reviewedAt": "2026-10-19",
+    "live": "https://fulltime-press.vercel.app/",
+    "status": "Application",
+    "repo": "https://github.com/jp0624/fulltime-press",
+    "sourceFiles": 0,
+    "reviewedAt": "2026-11-25",
     "evidence": [
-      "https://github.com/jp0624/notes-dashboard/tree/main"
+      "https://fulltime-press.vercel.app/"
     ],
-    "image": "screenshots/notes-dashboard.jpg",
-    "imageNote": "Live website snapshot",
+    "image": "screenshots/fulltime-press-home.webp",
+    "imageNote": "Live website snapshot · Fulltime Press featured-story carousel",
     "featured": true,
     "liveNote": "",
     "alternateLive": ""
@@ -130,32 +129,33 @@
     "alternateLive": ""
   },
   {
-    "id": "fulltime-press",
-    "title": "Fulltime Press · Sports Magazine",
-    "category": "Creative web",
-    "description": "An independent sports magazine with 82 stories across six sports. A cinematic featured-story carousel leads into a filterable archive with original sports imagery and a keyboard-accessible article reader.",
+    "id": "notes-dashboard",
+    "title": "Fieldnotes",
+    "category": "Product apps",
+    "description": "A polished notes workspace with API-backed CRUD, optimistic updates and rollback, searchable categories, image uploads and persistent themes.",
     "skills": [
-      "Editorial design",
-      "JavaScript",
-      "Responsive CSS",
-      "Accessible interactions",
-      "AI image generation"
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "MSW",
+      "Vitest"
     ],
     "languages": [
-      "JavaScript",
+      "TypeScript",
       "HTML",
+      "JavaScript",
       "CSS"
     ],
-    "live": "https://fulltime-press.vercel.app/",
-    "status": "Application",
-    "repo": "https://github.com/jp0624/fulltime-press",
-    "sourceFiles": 0,
-    "reviewedAt": "2026-11-25",
+    "live": "https://notes-dashboard-int.vercel.app/",
+    "status": "Assessment",
+    "repo": "https://github.com/jp0624/notes-dashboard",
+    "sourceFiles": 36,
+    "reviewedAt": "2026-10-19",
     "evidence": [
-      "https://fulltime-press.vercel.app/"
+      "https://github.com/jp0624/notes-dashboard/tree/main"
     ],
-    "image": "screenshots/fulltime-press-home.webp",
-    "imageNote": "Live website snapshot · Fulltime Press featured-story carousel",
+    "image": "screenshots/notes-dashboard.jpg",
+    "imageNote": "Live website snapshot",
     "featured": true,
     "liveNote": "",
     "alternateLive": ""
