@@ -148,7 +148,7 @@
     ],
     "live": "https://fulltime-press.vercel.app/",
     "status": "Application",
-    "repo": "",
+    "repo": "https://github.com/jp0624/fulltime-press",
     "sourceFiles": 0,
     "reviewedAt": "2026-11-25",
     "evidence": [
@@ -157,7 +157,7 @@
     "image": "screenshots/fulltime-press-home.webp",
     "imageNote": "Live website snapshot · Fulltime Press featured-story carousel",
     "featured": true,
-    "liveNote": "Private source repository.",
+    "liveNote": "",
     "alternateLive": ""
   },
   {
