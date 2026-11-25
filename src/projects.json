@@ -84,13 +84,13 @@
       "HTML",
       "CSS"
     ],
-    "live": "https://draft-buzzer.vercel.app/",
+    "live": "https://draftbuzzer.com/",
     "status": "Application",
     "repo": "",
     "sourceFiles": 0,
     "reviewedAt": "2026-11-25",
     "evidence": [
-      "https://draft-buzzer.vercel.app/"
+      "https://draftbuzzer.com/"
     ],
     "image": "screenshots/draft-buzzer-home.webp",
     "imageNote": "Live website snapshot · Illustrated Draft Buzzer clubhouse and league playbook",
