@@ -70,12 +70,16 @@
     "id": "evivids",
     "title": "eVivids Studio",
     "category": "Creative web",
-    "description": "The Toronto studio’s website pairs eight service guides with examples of shipped work. Visitors can browse the project archive, see how the studio approaches a brief, and send a project enquiry.",
+    "description": "The Toronto studio pairs nine service guides with live projects, from brand identity to browser games. A client gallery and design archive sit alongside the studio’s delivery process. Visitors can send a project brief and choose a reply by phone or email.",
     "skills": [
-      "Next.js",
+      "Next.js App Router",
       "React",
       "Tailwind CSS",
-      "Resend"
+      "Responsive navigation",
+      "Technical SEO & structured data",
+      "GA4 event tracking",
+      "Resend",
+      "Vercel BotID"
     ],
     "languages": [
       "JavaScript",
@@ -86,9 +90,12 @@
     "status": "Studio website",
     "repo": "",
     "sourceFiles": 0,
-    "reviewedAt": "2026-11-25",
+    "reviewedAt": "2026-11-26",
     "evidence": [
-      "https://www.evivids.com/"
+      "https://www.evivids.com/",
+      "https://www.evivids.com/services",
+      "https://www.evivids.com/studio#clients",
+      "https://www.evivids.com/contact"
     ],
     "image": "screenshots/evivids-home.webp",
     "imageNote": "Live website snapshot · eVivids studio homepage",
