@@ -30,8 +30,8 @@
     ],
     "image": "screenshots/showscenes-spotlight.jpg",
     "detailImage": "screenshots/showscenes-discover.jpg",
-    "detailImageAlt": "ShowScenes Discover showing science-fiction movies rated 7 or higher, with Canadian streaming filters.",
-    "imageNote": "Live website snapshot · The Odyssey in the redesigned cinematic spotlight",
+    "detailImageAlt": "ShowScenes Discover with movie filters and a grid of popular titles.",
+    "imageNote": "Live website snapshot · Avengers: Doomsday in the ShowScenes spotlight",
     "featured": true,
     "liveNote": "Private source repository.",
     "alternateLive": ""
@@ -70,7 +70,7 @@
     "id": "evivids",
     "title": "eVivids Studio",
     "category": "Creative web",
-    "description": "The Toronto studio’s website pairs six service guides with examples of shipped work. Visitors can browse the project archive, see how the studio approaches a brief, and send a project enquiry.",
+    "description": "The Toronto studio’s website pairs eight service guides with examples of shipped work. Visitors can browse the project archive, see how the studio approaches a brief, and send a project enquiry.",
     "skills": [
       "Next.js",
       "React",
